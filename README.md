@@ -13,5 +13,3 @@ Australian Government Department of Social Services — Benefit and Payment Reci
   - C02 sequential choropleth
   - C07 bivariate choropleth
   - C12 proportional-symbol map
-- Main data source: ABS 2021 Census
-- Second source: DSS June 2026 JobSeeker Payment data
