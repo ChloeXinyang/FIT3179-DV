@@ -1,0 +1,229 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Marimekko chart of Australian household size and family/non-family household type.",
+  "width": 760,
+  "height": 430,
+  "padding": {
+    "left": 65,
+    "right": 20,
+    "top": 10,
+    "bottom": 140
+  },
+  "autosize": {
+    "type": "none",
+    "contains": "padding"
+  },
+  "data": [
+    {
+      "name": "table",
+      "url": "data/c10_household_size.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "width_share_of_households": "number",
+          "share_within_size_components": "number",
+          "count": "number",
+          "x0": "number",
+          "x1": "number",
+          "y0": "number",
+          "y1": "number",
+          "xmid": "number"
+        }
+      }
+    },
+    {
+      "name": "sizes",
+      "url": "data/c10_size_labels.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "published_size_total": "number",
+          "width_share_of_households": "number",
+          "x0": "number",
+          "x1": "number",
+          "xmid": "number",
+          "label_y1": "number",
+          "label_y2": "number",
+          "label1_font": "number",
+          "label2_font": "number"
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": [
+        0,
+        100
+      ],
+      "range": "width"
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": [
+        0,
+        100
+      ],
+      "range": "height"
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": [
+        "Family household",
+        "Non-family household"
+      ],
+      "range": [
+        "#4E79A7",
+        "#D9A441"
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "orient": "left",
+      "scale": "y",
+      "title": "Share within household size (%)",
+      "values": [
+        0,
+        25,
+        50,
+        75,
+        100
+      ],
+      "grid": true,
+      "gridColor": "#eef1f5",
+      "labelExpr": "datum.value + '%'",
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    {
+      "orient": "bottom",
+      "scale": "x",
+      "title": null,
+      "labels": false,
+      "ticks": false,
+      "domain": false
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "orient": "bottom",
+      "title": null,
+      "direction": "horizontal",
+      "symbolType": "square",
+      "labelFontSize": 11,
+      "symbolSize": 130,
+      "offset": 48
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {
+        "data": "table"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "x",
+            "field": "x0"
+          },
+          "x2": {
+            "scale": "x",
+            "field": "x1"
+          },
+          "y": {
+            "scale": "y",
+            "field": "y1"
+          },
+          "y2": {
+            "scale": "y",
+            "field": "y0"
+          },
+          "fill": {
+            "scale": "color",
+            "field": "household_type"
+          },
+          "stroke": {
+            "value": "white"
+          },
+          "strokeWidth": {
+            "value": 2
+          },
+          "tooltip": {
+            "signal": "{'Household size': datum.household_size, 'Household type': datum.household_type, 'Households': format(datum.count, ','), 'Share within size': format(datum.share_within_size_components, '.1f') + '%', 'Share of all households': format(datum.width_share_of_households, '.1f') + '%'}"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "sizes"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "x",
+            "field": "xmid"
+          },
+          "y": {
+            "signal": "height + datum.label_y1"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "top"
+          },
+          "fontSize": {
+            "field": "label1_font"
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "text": {
+            "field": "label1"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "sizes"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "x",
+            "field": "xmid"
+          },
+          "y": {
+            "signal": "height + datum.label_y2"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "top"
+          },
+          "fontSize": {
+            "field": "label2_font"
+          },
+          "fill": {
+            "value": "#667085"
+          },
+          "text": {
+            "field": "label2"
+          }
+        }
+      }
+    }
+  ]
+}

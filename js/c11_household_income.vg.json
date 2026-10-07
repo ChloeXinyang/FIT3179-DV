@@ -1,0 +1,118 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Household income profiles for family and non-family households, 2021 Australian Census.",
+  "width": 760,
+  "height": 420,
+  "data": {
+    "url": "data/c11_household_income.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "count": "number",
+        "share_valid_income": "number"
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "point": {
+          "filled": true,
+          "size": 90
+        }
+      },
+      "encoding": {
+        "x": {
+          "field": "income_band",
+          "type": "ordinal",
+          "sort": [
+            "<$800",
+            "$800-1,499",
+            "$1,500-2,499",
+            "$2,500-3,499",
+            "$3,500+"
+          ],
+          "title": "Weekly household income",
+          "axis": {
+            "labelAngle": 0,
+            "labelFontSize": 11,
+            "titleFontSize": 13
+          }
+        },
+        "y": {
+          "field": "share_valid_income",
+          "type": "quantitative",
+          "title": "Share within household type (%)",
+          "scale": {
+            "domain": [
+              0,
+              50
+            ]
+          },
+          "axis": {
+            "labelExpr": "datum.label + '%'",
+            "gridColor": "#edf0f4",
+            "titleFontSize": 13
+          }
+        },
+        "color": {
+          "field": "household_type",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": [
+              "Family household",
+              "Non-family household"
+            ],
+            "range": [
+              "#4E79A7",
+              "#D9A441"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "symbolSize": 100,
+            "labelFontSize": 11
+          }
+        },
+        "tooltip": [
+          {
+            "field": "household_type",
+            "type": "nominal",
+            "title": "Household type"
+          },
+          {
+            "field": "income_band",
+            "type": "ordinal",
+            "title": "Weekly income"
+          },
+          {
+            "field": "share_valid_income",
+            "type": "quantitative",
+            "title": "Share (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "count",
+            "type": "quantitative",
+            "title": "Households",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "domainColor": "#cfd5dd",
+      "tickColor": "#cfd5dd"
+    }
+  }
+}

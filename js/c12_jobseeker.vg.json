@@ -1,0 +1,221 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Optimised proportional-symbol map of JobSeeker Payment recipients by 2021 SA2, June 2026.",
+  "width": 820,
+  "height": 560,
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [
+      -18,
+      -36
+    ],
+    "rotate": [
+      -132,
+      0,
+      0
+    ],
+    "center": [
+      0,
+      -27
+    ],
+    "scale": 850
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/c12_geometry_keys.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "sa2_code": "string"
+          }
+        }
+      },
+      "transform": [
+        {
+          "lookup": "sa2_code",
+          "from": {
+            "data": {
+              "url": "data/sa2_2021_vega.geojson",
+              "format": {
+                "type": "json",
+                "property": "features"
+              }
+            },
+            "key": "id",
+            "fields": [
+              "geometry"
+            ]
+          },
+          "as": [
+            "geo"
+          ]
+        },
+        {
+          "filter": "isValid(datum.geo)"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f4f5f6",
+        "stroke": "#e3e6e9",
+        "strokeWidth": 1.0
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/c12_state_keys.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "state_code": "string"
+          }
+        }
+      },
+      "transform": [
+        {
+          "lookup": "state_code",
+          "from": {
+            "data": {
+              "url": "data/states_2021_vega.geojson",
+              "format": {
+                "type": "json",
+                "property": "features"
+              }
+            },
+            "key": "properties.id",
+            "fields": [
+              "geometry"
+            ]
+          },
+          "as": [
+            "geo"
+          ]
+        },
+        {
+          "filter": "isValid(datum.geo)"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fillOpacity": 0,
+        "stroke": "#aeb5db",
+        "strokeWidth": 1.0
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/c12_jobseeker.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "longitude": "number",
+            "latitude": "number",
+            "jobseeker_payment": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.jobseeker_payment > 0"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "filled": true,
+        "opacity": 0.2,
+        "stroke": "#9f4c48",
+        "strokeWidth": 0.25
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "jobseeker_payment",
+          "type": "quantitative",
+          "title": "JobSeeker recipients",
+          "scale": {
+            "type": "sqrt",
+            "domain": [
+              0,
+              2395
+            ],
+            "range": [
+              5,
+              300
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "values": [
+              250,
+              500,
+              1000,
+              2000
+            ],
+            "titleFontSize": 12,
+            "labelFontSize": 11,
+            "symbolFillColor": "#C85A54",
+            "symbolStrokeColor": "#9f4c48",
+            "symbolOpacity": 0.5
+          }
+        },
+        "color": {
+          "value": "#C85A54"
+        },
+        "tooltip": [
+          {
+            "field": "sa2_name",
+            "type": "nominal",
+            "title": "SA2"
+          },
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "jobseeker_payment",
+            "type": "quantitative",
+            "title": "JobSeeker recipients",
+            "format": ","
+          },
+          {
+            "field": "date",
+            "type": "nominal",
+            "title": "Period"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "white",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "padding": 8
+    }
+  }
+}

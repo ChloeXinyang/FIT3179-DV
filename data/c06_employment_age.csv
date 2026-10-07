@@ -1,0 +1,46 @@
+age_group,status_group,count,share
+15-19,Full-time employed,110874,7.61
+15-19,Not in labour force,655117,44.95
+15-19,Other / not stated,154413,10.6
+15-19,Part-time employed,429188,29.45
+15-19,Unemployed,107805,7.4
+20-24,Full-time employed,504829,31.97
+20-24,Not in labour force,287566,18.21
+20-24,Other / not stated,209577,13.27
+20-24,Part-time employed,475843,30.14
+20-24,Unemployed,101175,6.41
+25-34,Full-time employed,1751781,48.33
+25-34,Not in labour force,521704,14.39
+25-34,Other / not stated,475337,13.11
+25-34,Part-time employed,738134,20.37
+25-34,Unemployed,137485,3.79
+35-44,Full-time employed,1756236,50.36
+35-44,Not in labour force,498939,14.31
+35-44,Other / not stated,379636,10.89
+35-44,Part-time employed,749065,21.48
+35-44,Unemployed,103687,2.97
+45-54,Full-time employed,1644983,50.67
+45-54,Not in labour force,522191,16.09
+45-54,Other / not stated,316419,9.75
+45-54,Part-time employed,667871,20.57
+45-54,Unemployed,94927,2.92
+55-64,Full-time employed,1089636,36.21
+55-64,Not in labour force,938167,31.17
+55-64,Other / not stated,292068,9.7
+55-64,Part-time employed,606484,20.15
+55-64,Unemployed,83247,2.77
+65-74,Full-time employed,215597,8.77
+65-74,Not in labour force,1797509,73.11
+65-74,Other / not stated,176591,7.18
+65-74,Part-time employed,252272,10.26
+65-74,Unemployed,16615,0.68
+75-84,Full-time employed,19205,1.4
+75-84,Not in labour force,1202923,87.53
+75-84,Other / not stated,111300,8.1
+75-84,Part-time employed,40154,2.92
+75-84,Unemployed,748,0.05
+85+,Full-time employed,881,0.16
+85+,Not in labour force,463286,85.79
+85+,Other / not stated,73183,13.55
+85+,Part-time employed,2621,0.49
+85+,Unemployed,49,0.01

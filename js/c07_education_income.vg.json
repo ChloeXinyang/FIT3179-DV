@@ -1,0 +1,191 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bivariate choropleth of Bachelor degree or higher share and median weekly household income by SA2, 2021 Census.",
+  "width": 820,
+  "height": 560,
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [
+      -18,
+      -36
+    ],
+    "rotate": [
+      -132,
+      0,
+      0
+    ],
+    "center": [
+      0,
+      -27
+    ],
+    "scale": 850
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/c07_geometry_keys.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "sa2_code": "string"
+          }
+        }
+      },
+      "transform": [
+        {
+          "lookup": "sa2_code",
+          "from": {
+            "data": {
+              "url": "data/sa2_2021_vega.geojson",
+              "format": {
+                "type": "json",
+                "property": "features"
+              }
+            },
+            "key": "id",
+            "fields": [
+              "geometry"
+            ]
+          },
+          "as": [
+            "geo"
+          ]
+        },
+        {
+          "filter": "isValid(datum.geo)"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#eeeeee",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/c07_education_income.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "sa2_code": "string",
+            "population": "number",
+            "bachelor_plus_share": "number",
+            "median_household_income_weekly": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "lookup": "sa2_code",
+          "from": {
+            "data": {
+              "url": "data/sa2_2021_vega.geojson",
+              "format": {
+                "type": "json",
+                "property": "features"
+              }
+            },
+            "key": "id",
+            "fields": [
+              "geometry"
+            ]
+          },
+          "as": [
+            "geo"
+          ]
+        },
+        {
+          "filter": "isValid(datum.geo)"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.12
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "bivariate_class",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Low education / Low income",
+              "Middle education / Low income",
+              "High education / Low income",
+              "Low education / Middle income",
+              "Middle education / Middle income",
+              "High education / Middle income",
+              "Low education / High income",
+              "Middle education / High income",
+              "High education / High income"
+            ],
+            "range": [
+              "#e8e8e8",
+              "#b0d5df",
+              "#64acbe",
+              "#e4acac",
+              "#ad9ea5",
+              "#627f8c",
+              "#c85a5a",
+              "#985356",
+              "#574249"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "sa2_name",
+            "type": "nominal",
+            "title": "SA2"
+          },
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "bachelor_plus_share",
+            "type": "quantitative",
+            "title": "Bachelor+ share (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "median_household_income_weekly",
+            "type": "quantitative",
+            "title": "Median weekly household income ($)",
+            "format": ",.0f"
+          },
+          {
+            "field": "education_level",
+            "type": "nominal",
+            "title": "Education tertile"
+          },
+          {
+            "field": "income_level",
+            "type": "nominal",
+            "title": "Income tertile"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "white",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    }
+  }
+}

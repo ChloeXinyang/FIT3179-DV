@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Country, Many Communities — FIT3179 DV2</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+<div class="page">
+
+<header class="hero">
+  <div class="kicker">FIT3179 Data Visualisation 2 · Australian Census: People and Communities</div>
+  <h1>One Country,<br>Many Communities</h1>
+  <p class="subtitle">How age, education, work, income and household structure differ across Australia.</p>
+  <p class="intro">
+    National averages can make Australia look uniform. The 2021 Census tells a more varied story:
+    communities differ sharply by age, qualifications, work, household income and household structure.
+    This page follows those differences from the national picture down to Statistical Area Level 2 (SA2),
+    then finishes with a more recent June 2026 administrative snapshot.
+  </p>
+  <div class="hero-grid">
+    <div class="hero-stat"><strong>77.6%</strong><span>of residents across the eight main states and territories live in NSW, Victoria or Queensland.</span></div>
+    <div class="hero-stat"><strong>12 views</strong><span>combine maps and non-map idioms to move from national structure to community-level differences.</span></div>
+    <div class="hero-stat"><strong>2 sources</strong><span>ABS Census 2021 provides the main profile; DSS June 2026 adds a more recent administrative snapshot.</span></div>
+  </div>
+</header>
+
+<section class="section" id="section-1">
+  <div class="section-head">
+    <div class="section-num">01 · Population & age</div>
+    <div>
+      <h2>A country of different ages</h2>
+      <p class="section-lead">Population is unevenly distributed, and the age profile of a community depends strongly on where it is.</p>
+    </div>
+  </div>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Population is concentrated in three large states</h3>
+      <p>Tile area represents population. NSW, Victoria and Queensland together account for 77.6% of residents across the eight main states and territories.</p>
+    </div>
+    <div id="c01" class="chart-shell"></div>
+    <p class="source">Source: Australian Bureau of Statistics, 2021 Census General Community Profile (G01), place of usual residence.</p>
+  </article>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Where are Australia's youngest and oldest communities?</h3>
+      <p>Median age is mapped by SA2. Lighter areas are younger; darker areas are older. Hover for local values.</p>
+    </div>
+    <div id="c02" class="chart-shell"></div>
+    <p class="chart-note">Grey areas have no valid resident median-age value.</p>
+    <p class="source">Source: ABS 2021 Census General Community Profile (G02); ASGS Edition 3 (2021) SA2 geography.</p>
+  </article>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Australia’s population bulges through the working-age years</h3>
+      <p>The largest five-year age group in 2021 was 30–34. At older ages, women increasingly outnumber men.</p>
+    </div>
+    <div id="c03" class="chart-shell"></div>
+    <p class="chart-note">Male values are mirrored only to create the population-pyramid layout; tooltip values remain positive counts.</p>
+    <p class="source">Source: ABS 2021 Census General Community Profile (G04), place of usual residence.</p>
+  </article>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Age profiles differ across states and territories</h3>
+      <p>Each cell is a share of that jurisdiction’s population, allowing fair comparison despite large differences in total population.</p>
+    </div>
+    <div id="c04" class="chart-shell"></div>
+    <div class="callout">The Northern Territory and ACT have especially large 25–44 shares, while Tasmania and South Australia have the highest 65+ shares.</div>
+    <p class="source">Source: ABS 2021 Census General Community Profile.</p>
+  </article>
+</section>
+
+<section class="section" id="section-2">
+  <div class="section-head">
+    <div class="section-num">02 · Education & work</div>
+    <div>
+      <h2>Education and work change through life</h2>
+      <p class="section-lead">Qualification profiles differ across generations, while participation in work changes sharply from youth through retirement ages.</p>
+    </div>
+  </div>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Qualification profiles shift noticeably across age groups</h3>
+      <p>Bachelor degrees are most prominent among 25–44-year-olds, while Certificate III/IV takes a larger share in several younger and older working-age groups.</p>
+    </div>
+    <div id="c05" class="chart-shell"></div>
+    <p class="chart-note">Percentages use the age-group totals in Census table G49 for highest non-school qualification. “Other / not stated” is retained because it becomes substantial at older ages.</p>
+    <p class="source">Source: ABS 2021 Census General Community Profile, Table G49.</p>
+  </article>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Work participation changes strongly across the life course</h3>
+      <p>Full-time employment accounts for about half of people aged 25–54 in this table, while being outside the labour force dominates after age 65.</p>
+    </div>
+    <div id="c06" class="chart-shell"></div>
+    <p class="chart-note">“Unemployed” and “Not in the labour force” are different Census categories. Bars are normalised to 100% within each age group.</p>
+    <p class="source">Source: ABS 2021 Census General Community Profile, Table G46.</p>
+  </article>
+</section>
+
+<section class="section" id="section-3">
+  <div class="section-head">
+    <div class="section-num">03 · Education & income</div>
+    <div>
+      <h2>Education and income vary across place</h2>
+      <p class="section-lead">The next three views move from geography to relationship and then to within-state distributions.</p>
+    </div>
+  </div>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Education and household income form distinct geographic patterns</h3>
+      <p>Each SA2 is placed into low, middle or high thirds on both Bachelor+ attainment and median weekly household income.</p>
+    </div>
+    <div id="c07" class="chart-shell"></div>
+    <div class="bivariate-key-wrap">
+      <div class="key-axis">Household income<br>High ↑<br><br>Low ↓</div>
+      <div class="bivariate-key"><div class="key-cell" style="background:#c85a5a"></div>
+<div class="key-cell" style="background:#985356"></div>
+<div class="key-cell" style="background:#574249"></div>
+<div class="key-cell" style="background:#e4acac"></div>
+<div class="key-cell" style="background:#ad9ea5"></div>
+<div class="key-cell" style="background:#627f8c"></div>
+<div class="key-cell" style="background:#e8e8e8"></div>
+<div class="key-cell" style="background:#b0d5df"></div>
+<div class="key-cell" style="background:#64acbe"></div></div>
+    </div>
+    <div class="key-x">Bachelor+ share: Low → Middle → High</div>
+    <p class="chart-note">Education tertiles: low ≤ 15.5%, middle 15.5–28.6%, high &gt; 28.6%. Income tertiles: low ≤ $1,459/week, middle $1,459–$2,017/week, high &gt; $2,017/week.</p>
+    <p class="source">Source: ABS 2021 Census General Community Profile, Tables G02 and G43.</p>
+  </article>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Degree-qualified communities tend to have higher household incomes</h3>
+      <p>Each point is one SA2 with at least 500 residents. The overall relationship is positive, but community-level association does not establish individual-level causation.</p>
+    </div>
+    <div id="c08" class="chart-shell"></div>
+    <p class="chart-note">The black line is a simple overall linear trend. Small-population SA2s are excluded to reduce instability.</p>
+    <p class="source">Source: ABS 2021 Census General Community Profile, Tables G02 and G43.</p>
+  </article>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Income varies within states as well as between them</h3>
+      <p>Each ridge summarises the distribution of SA2 median weekly household incomes inside one jurisdiction.</p>
+    </div>
+    <div id="c09" class="chart-shell"></div>
+    <p class="chart-note">Each SA2 contributes one observation. These are distributions of community median incomes, not the income distribution of individual residents.</p>
+    <p class="source">Source: ABS 2021 Census General Community Profile, Table G02.</p>
+  </article>
+</section>
+
+<section class="section" id="section-4">
+  <div class="section-head">
+    <div class="section-num">04 · Households</div>
+    <div>
+      <h2>Life inside Australian households</h2>
+      <p class="section-lead">Household size and household type are closely related, and family and non-family households occupy different parts of the income distribution.</p>
+    </div>
+  </div>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Household size changes the balance between family and non-family living</h3>
+      <p>Column width shows how common each household size is; vertical height shows the family/non-family split within that size.</p>
+    </div>
+    <div id="c10" class="chart-shell"></div>
+    <p class="chart-note">One- and two-person households together account for about 59.1% of households. Among two-person households, about 91.8% are family households.</p>
+    <p class="source">Source: ABS 2021 Census General Community Profile, Table G35.</p>
+  </article>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Family and non-family households occupy very different income ranges</h3>
+      <p>The two profiles are normalised separately, so the comparison is about income composition rather than absolute household counts.</p>
+    </div>
+    <div id="c11" class="chart-shell"></div>
+    <p class="chart-note">“Income partly/not stated” is excluded from plotted percentages.</p>
+    <p class="source">Source: ABS 2021 Census General Community Profile, Table G33.</p>
+  </article>
+</section>
+
+<section class="section" id="section-5">
+  <div class="section-head">
+    <div class="section-num">05 · Recent snapshot</div>
+    <div>
+      <h2>A more recent administrative view</h2>
+      <p class="section-lead">The Census provides the detailed community profile used above. DSS administrative data add a June 2026 view of JobSeeker Payment recipient counts.</p>
+    </div>
+  </div>
+
+  <article class="chart-block">
+    <div class="chart-head">
+      <h3>Where are larger JobSeeker recipient counts recorded?</h3>
+      <p>Circle area represents recipient count in each SA2. The map is intentionally a count view, not a population-adjusted rate.</p>
+    </div>
+    <div id="c12" class="chart-shell"></div>
+    <p class="chart-note">Symbols use SA2 representative points, not exact recipient locations. DSS JobSeeker counts are not the same concept as the 2021 Census unemployment rate.</p>
+    <p class="source">Source: Australian Government Department of Social Services, Benefit and Payment Recipient Demographics, June 2026; ABS ASGS Edition 3 (2021) geography.</p>
+  </article>
+</section>
+
+<section class="conclusion">
+  <h2>There is no single “average” Australian community</h2>
+  <p>
+    Age, qualifications, work, household income and household structure combine differently across places and life stages.
+    Breaking national averages down by geography reveals patterns that disappear in a single national number.
+    The 2021 Census remains the detailed foundation for this comparison, while the 2026 DSS snapshot provides a later,
+    differently defined administrative perspective.
+  </p>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <h4>Data sources</h4>
+      <p><a href="https://www.abs.gov.au/census/find-census-data/datapacks">Australian Bureau of Statistics — 2021 Census DataPacks</a></p>
+      <p><a href="https://data.gov.au/data/dataset/dss-payment-demographic-data">Australian Government Department of Social Services — Benefit and Payment Recipient Demographics</a></p>
+    </div>
+    <div>
+      <h4>Authorship & acknowledgement</h4>
+      <p>Author: Xinyang Jiang · October 2026</p>
+      <p>Generative AI was used to assist with data preparation, Vega/Vega-Lite code development, debugging and editorial refinement. Final design choices, interpretation and verification were reviewed by the author.</p>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<script>
+const charts = [
+  ['#c01','js/c01_state_population.vg.json'],
+  ['#c02','js/c02_median_age.vg.json'],
+  ['#c03','js/c03_population_pyramid.vg.json'],
+  ['#c04','js/c04_state_age_heatmap.vg.json'],
+  ['#c05','js/c05_qualification_age.vg.json'],
+  ['#c06','js/c06_employment_age.vg.json'],
+  ['#c07','js/c07_education_income.vg.json'],
+  ['#c08','js/c08_education_income.vg.json'],
+  ['#c09','js/c09_income_distribution.vg.json'],
+  ['#c10','js/c10_household_size.vg.json'],
+  ['#c11','js/c11_household_income.vg.json'],
+  ['#c12','js/c12_jobseeker.vg.json']
+];
+
+Promise.all(
+  charts.map(([selector, spec]) =>
+    vegaEmbed(selector, spec, {actions:false, renderer:'svg'})
+      .catch(err => {
+        console.error(spec, err);
+        const el = document.querySelector(selector);
+        if (el) el.innerHTML = '<pre style="white-space:pre-wrap;color:#a00">Chart failed to load: ' + spec + '\n' + String(err) + '</pre>';
+      })
+  )
+);
+</script>
+</body>
+</html>

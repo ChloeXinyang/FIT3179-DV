@@ -1,0 +1,133 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Ridgeline distributions of SA2 median weekly household income by state and territory, 2021 Census.",
+  "data": {
+    "url": "data/c09_income_distribution.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "population": "number",
+        "median_household_income_weekly": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "density": "median_household_income_weekly",
+      "groupby": [
+        "state_abbrev"
+      ],
+      "extent": [
+        500,
+        4000
+      ],
+      "steps": 100,
+      "as": [
+        "income",
+        "density"
+      ]
+    }
+  ],
+  "facet": {
+    "row": {
+      "field": "state_abbrev",
+      "type": "ordinal",
+      "sort": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "header": {
+        "title": null,
+        "labelAngle": 0,
+        "labelAlign": "right",
+        "labelFontSize": 12,
+        "labelFontWeight": "bold",
+        "labelPadding": 8
+      }
+    }
+  },
+  "spec": {
+    "width": 760,
+    "height": 56,
+    "layer": [
+      {
+        "mark": {
+          "type": "area",
+          "interpolate": "monotone",
+          "opacity": 0.82,
+          "color": "#5F86B3",
+          "stroke": "#345E8C",
+          "strokeWidth": 1.1,
+          "clip": true
+        },
+        "encoding": {
+          "x": {
+            "field": "income",
+            "type": "quantitative",
+            "title": "Median weekly household income of SA2 ($)",
+            "scale": {
+              "domain": [
+                500,
+                4000
+              ]
+            },
+            "axis": {
+              "format": "$,.0f",
+              "grid": true,
+              "gridColor": "#eef1f5",
+              "labelFontSize": 11,
+              "titleFontSize": 13
+            }
+          },
+          "y": {
+            "field": "density",
+            "type": "quantitative",
+            "axis": null,
+            "scale": {
+              "range": [
+                54,
+                4
+              ]
+            }
+          },
+          "tooltip": [
+            {
+              "field": "income",
+              "type": "quantitative",
+              "title": "Weekly household income ($)",
+              "format": ",.0f"
+            },
+            {
+              "field": "density",
+              "type": "quantitative",
+              "title": "Density",
+              "format": ".4f"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+  "spacing": -6,
+  "config": {
+    "background": "white",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "facet": {
+      "spacing": 0
+    }
+  }
+}

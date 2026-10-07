@@ -1,0 +1,11 @@
+income_band,household_type,count,share_within_household_type,share_of_all_households,valid_income_band,valid_total_by_type,share_valid_income
+<$800,Family household,742929,11.36,8.01,1,6039390,12.3
+<$800,Non-family household,1221072,44.69,13.16,1,2593141,47.09
+"$800-1,499",Family household,1188379,18.16,12.81,1,6039390,19.68
+"$800-1,499",Non-family household,653113,23.9,7.04,1,2593141,25.19
+"$1,500-2,499",Family household,1547515,23.65,16.68,1,6039390,25.62
+"$1,500-2,499",Non-family household,518736,18.98,5.59,1,2593141,20.0
+"$2,500-3,499",Family household,1152604,17.62,12.43,1,6039390,19.08
+"$2,500-3,499",Non-family household,91961,3.37,0.99,1,2593141,3.55
+"$3,500+",Family household,1407963,21.52,15.18,1,6039390,23.31
+"$3,500+",Non-family household,108259,3.96,1.17,1,2593141,4.17

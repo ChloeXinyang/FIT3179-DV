@@ -1,0 +1,249 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Employment and labour-force status by age group, 2021 Australian Census.",
+  "width": 760,
+  "height": 430,
+  "data": {
+    "url": "data/c06_employment_age.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.status_group === 'Full-time employed' ? 1 : datum.status_group === 'Not in labour force' ? 2 : datum.status_group === 'Other / not stated' ? 3 : datum.status_group === 'Part-time employed' ? 4 : 5",
+      "as": "status_rank"
+    },
+    {
+      "calculate": "datum.status_group === 'Full-time employed' ? datum.share : 0",
+      "as": "ft_part"
+    },
+    {
+      "calculate": "datum.status_group === 'Not in labour force' ? datum.share : 0",
+      "as": "nlf_part"
+    },
+    {
+      "calculate": "datum.status_group === 'Other / not stated' ? datum.share : 0",
+      "as": "other_part"
+    },
+    {
+      "calculate": "datum.status_group === 'Part-time employed' ? datum.share : 0",
+      "as": "pt_part"
+    },
+    {
+      "calculate": "datum.status_group === 'Unemployed' ? datum.share : 0",
+      "as": "unemp_part"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "ft_part",
+          "as": "ft_share"
+        },
+        {
+          "op": "sum",
+          "field": "nlf_part",
+          "as": "nlf_share"
+        },
+        {
+          "op": "sum",
+          "field": "other_part",
+          "as": "other_share"
+        },
+        {
+          "op": "sum",
+          "field": "pt_part",
+          "as": "pt_share"
+        },
+        {
+          "op": "sum",
+          "field": "unemp_part",
+          "as": "unemp_share"
+        }
+      ],
+      "groupby": [
+        "age_group"
+      ]
+    },
+    {
+      "calculate": "datum.status_group === 'Full-time employed' ? datum.ft_share/2 : datum.status_group === 'Not in labour force' ? datum.ft_share + datum.nlf_share/2 : datum.status_group === 'Other / not stated' ? datum.ft_share + datum.nlf_share + datum.other_share/2 : datum.status_group === 'Part-time employed' ? datum.ft_share + datum.nlf_share + datum.other_share + datum.pt_share/2 : datum.ft_share + datum.nlf_share + datum.other_share + datum.pt_share + datum.unemp_share/2",
+      "as": "xMid"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "bar"
+      },
+      "encoding": {
+        "y": {
+          "field": "age_group",
+          "type": "ordinal",
+          "sort": [
+            "15-19",
+            "20-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-64",
+            "65-74",
+            "75-84",
+            "85+"
+          ],
+          "title": "Age group",
+          "axis": {
+            "labelFontSize": 12,
+            "titleFontSize": 13,
+            "labelPadding": 6
+          }
+        },
+        "x": {
+          "field": "share",
+          "type": "quantitative",
+          "stack": "zero",
+          "title": "Share of age group (%)",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": {
+            "format": ".0f",
+            "labelExpr": "datum.label + '%'",
+            "labelFontSize": 11,
+            "titleFontSize": 13,
+            "grid": true,
+            "gridColor": "#edf0f4"
+          }
+        },
+        "color": {
+          "field": "status_group",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": [
+              "Full-time employed",
+              "Not in labour force",
+              "Other / not stated",
+              "Part-time employed",
+              "Unemployed"
+            ],
+            "range": [
+              "#4E79A7",
+              "#A7AAB2",
+              "#D0D2D8",
+              "#82A5C9",
+              "#D08A3E"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "columns": 3,
+            "labelFontSize": 11,
+            "symbolType": "square",
+            "symbolSize": 120
+          }
+        },
+        "order": {
+          "field": "status_rank",
+          "type": "quantitative",
+          "sort": "ascending"
+        },
+        "tooltip": [
+          {
+            "field": "age_group",
+            "type": "ordinal",
+            "title": "Age group"
+          },
+          {
+            "field": "status_group",
+            "type": "nominal",
+            "title": "Status"
+          },
+          {
+            "field": "share",
+            "type": "quantitative",
+            "title": "Share (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "count",
+            "type": "quantitative",
+            "title": "People",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.share >= 8"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontWeight": 600,
+        "align": "center",
+        "baseline": "middle"
+      },
+      "encoding": {
+        "y": {
+          "field": "age_group",
+          "type": "ordinal",
+          "sort": [
+            "15-19",
+            "20-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-64",
+            "65-74",
+            "75-84",
+            "85+"
+          ]
+        },
+        "x": {
+          "field": "xMid",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          }
+        },
+        "text": {
+          "field": "share",
+          "type": "quantitative",
+          "format": ".0f"
+        },
+        "color": {
+          "condition": [
+            {
+              "test": "datum.status_group === 'Other / not stated'",
+              "value": "#4b5563"
+            }
+          ],
+          "value": "white"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "domainColor": "#cfd5dd",
+      "tickColor": "#cfd5dd"
+    },
+    "legend": {
+      "padding": 8
+    }
+  }
+}

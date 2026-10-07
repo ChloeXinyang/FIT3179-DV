@@ -1,0 +1,134 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "C01 state and territory population treemap for FIT3179 DV2.",
+  "width": 900,
+  "height": 470,
+  "padding": 4,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": [
+    {
+      "name": "tree",
+      "url": "data/c01_state_population.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "population": "number",
+          "share": "number"
+        }
+      },
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum.parent ? datum.population : 0",
+          "as": "treemap_value"
+        },
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "treemap",
+          "field": "treemap_value",
+          "sort": {
+            "field": "population",
+            "order": "descending"
+          },
+          "round": true,
+          "method": "squarify",
+          "ratio": 1.2,
+          "size": [900, 470],
+          "paddingInner": 4,
+          "paddingOuter": 1
+        }
+      ]
+    },
+    {
+      "name": "states",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.depth === 1"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "stateColor",
+      "type": "ordinal",
+      "domain": ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT"],
+      "range": ["#4C78A8", "#C76D7E", "#54A24B", "#E58645", "#B05A91", "#72B7B2", "#E0B84F", "#9D9D9D"]
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "states"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "stateColor", "field": "state_abbrev"},
+          "stroke": {"value": "#ffffff"},
+          "strokeWidth": {"value": 2},
+          "cornerRadius": {"value": 3},
+          "tooltip": {
+            "signal": "datum.state + ': ' + format(datum.population, ',') + ' residents (' + format(datum.share, '.1f') + '%)'"
+          }
+        },
+        "update": {
+          "x": {"field": "x0"},
+          "y": {"field": "y0"},
+          "x2": {"field": "x1"},
+          "y2": {"field": "y1"},
+          "fillOpacity": {"value": 0.92}
+        },
+        "hover": {"fillOpacity": {"value": 1}}
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "states"},
+      "encode": {
+        "enter": {
+          "x": {"signal": "(datum.x0 + datum.x1) / 2"},
+          "y": {"signal": "(datum.y0 + datum.y1) / 2 - 9"},
+          "text": {"field": "state_abbrev"},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "font": {"value": "Arial"},
+          "fontWeight": {"value": "bold"},
+          "fontSize": {
+            "signal": "(datum.x1-datum.x0) > 150 && (datum.y1-datum.y0) > 100 ? 24 : ((datum.x1-datum.x0) > 70 && (datum.y1-datum.y0) > 45 ? 16 : 12)"
+          },
+          "fill": {"value": "#ffffff"}
+        },
+        "update": {
+          "opacity": {"signal": "(datum.x1-datum.x0) > 38 && (datum.y1-datum.y0) > 25 ? 1 : 0"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "states"},
+      "encode": {
+        "enter": {
+          "x": {"signal": "(datum.x0 + datum.x1) / 2"},
+          "y": {"signal": "(datum.y0 + datum.y1) / 2 + 14"},
+          "text": {"signal": "format(datum.share, '.1f') + '%'"},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "font": {"value": "Arial"},
+          "fontSize": {"value": 13},
+          "fill": {"value": "#ffffff"}
+        },
+        "update": {
+          "opacity": {"signal": "(datum.x1-datum.x0) > 65 && (datum.y1-datum.y0) > 48 ? 1 : 0"}
+        }
+      }
+    }
+  ]
+}

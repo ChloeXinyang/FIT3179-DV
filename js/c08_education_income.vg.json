@@ -1,0 +1,161 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "SA2 Bachelor degree or higher share versus median weekly household income, 2021 Census.",
+  "width": 760,
+  "height": 470,
+  "data": {
+    "url": "data/c08_education_income.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "population": "number",
+        "bachelor_plus_share": "number",
+        "median_household_income_weekly": "number",
+        "median_age": "number"
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 34,
+        "opacity": 0.52
+      },
+      "encoding": {
+        "x": {
+          "field": "bachelor_plus_share",
+          "type": "quantitative",
+          "title": "Residents aged 15+ with Bachelor degree or higher (%)",
+          "scale": {
+            "domain": [
+              0,
+              70
+            ]
+          },
+          "axis": {
+            "labelExpr": "datum.label + '%'",
+            "gridColor": "#edf0f4"
+          }
+        },
+        "y": {
+          "field": "median_household_income_weekly",
+          "type": "quantitative",
+          "title": "Median weekly household income ($)",
+          "scale": {
+            "domain": [
+              500,
+              4600
+            ]
+          },
+          "axis": {
+            "format": "$,.0f",
+            "gridColor": "#edf0f4"
+          }
+        },
+        "color": {
+          "field": "state_abbrev",
+          "type": "nominal",
+          "title": "State / territory",
+          "scale": {
+            "domain": [
+              "NSW",
+              "VIC",
+              "QLD",
+              "SA",
+              "WA",
+              "TAS",
+              "NT",
+              "ACT"
+            ],
+            "range": [
+              "#4E79A7",
+              "#E15759",
+              "#59A14F",
+              "#B07AA1",
+              "#F28E2B",
+              "#76B7B2",
+              "#EDC948",
+              "#9C755F"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "columns": 4,
+            "labelFontSize": 11,
+            "symbolSize": 90
+          }
+        },
+        "tooltip": [
+          {
+            "field": "sa2_name",
+            "type": "nominal",
+            "title": "SA2"
+          },
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "bachelor_plus_share",
+            "type": "quantitative",
+            "title": "Bachelor+ share (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "median_household_income_weekly",
+            "type": "quantitative",
+            "title": "Median weekly household income ($)",
+            "format": ",.0f"
+          },
+          {
+            "field": "population",
+            "type": "quantitative",
+            "title": "Population",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "median_household_income_weekly",
+          "on": "bachelor_plus_share",
+          "method": "linear"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "color": "#222222",
+        "strokeWidth": 2.3,
+        "opacity": 0.85
+      },
+      "encoding": {
+        "x": {
+          "field": "bachelor_plus_share",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "median_household_income_weekly",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 13,
+      "domainColor": "#cfd5dd",
+      "tickColor": "#cfd5dd"
+    }
+  }
+}

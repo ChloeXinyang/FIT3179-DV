@@ -1,0 +1,7 @@
+household_size,published_size_total,width_share_of_households,size_rank,x0,x1,xmid,label1,label2,label_y1,label_y2,label1_font,label2_font
+1,2370626,25.56,0,0.0,25.56,12.78,1 person,25.6% of households,18,38,12,10
+2,3109041,33.52,1,25.56,59.08,42.32,2 persons,33.5% of households,18,38,12,10
+3,1473772,15.89,2,59.08,74.97,67.025,3 persons,15.9% of households,18,38,12,10
+4,1430761,15.43,3,74.97,90.4,82.685,4 persons,15.4% of households,18,38,12,10
+5,588375,6.34,4,90.4,96.74000000000001,93.57000000000001,5 persons,6.3%,58,76,11,10
+6+,302396,3.26,5,96.74000000000001,100.00000000000001,98.37,6+ persons,3.3%,94,112,11,10

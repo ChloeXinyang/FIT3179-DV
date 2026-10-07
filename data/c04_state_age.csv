@@ -1,0 +1,41 @@
+state,state_abbrev,age_group,count,share_of_state_population
+New South Wales,NSW,0-14,1469913,18.21
+New South Wales,NSW,15-24,954032,11.82
+New South Wales,NSW,25-44,2245146,27.81
+New South Wales,NSW,45-64,1978730,24.51
+New South Wales,NSW,65+,1424236,17.64
+Victoria,VIC,0-14,1169443,17.98
+Victoria,VIC,15-24,773585,11.89
+Victoria,VIC,25-44,1894350,29.13
+Victoria,VIC,45-64,1573425,24.19
+Victoria,VIC,65+,1092643,16.8
+Queensland,QLD,0-14,964274,18.7
+Queensland,QLD,15-24,637151,12.36
+Queensland,QLD,25-44,1389667,26.95
+Queensland,QLD,45-64,1289299,25.01
+Queensland,QLD,65+,875556,16.98
+South Australia,SA,0-14,303142,17.02
+South Australia,SA,15-24,208316,11.69
+South Australia,SA,25-44,462000,25.93
+South Australia,SA,45-64,451710,25.36
+South Australia,SA,65+,356380,20.0
+Western Australia,WA,0-14,505785,19.01
+Western Australia,WA,15-24,312034,11.73
+Western Australia,WA,25-44,751803,28.26
+Western Australia,WA,45-64,661757,24.88
+Western Australia,WA,65+,428652,16.11
+Tasmania,TAS,0-14,92637,16.62
+Tasmania,TAS,15-24,61070,10.95
+Tasmania,TAS,25-44,142595,25.58
+Tasmania,TAS,45-64,144566,25.93
+Tasmania,TAS,65+,116573,20.91
+Northern Territory,NT,0-14,48871,21.01
+Northern Territory,NT,15-24,29978,12.89
+Northern Territory,NT,25-44,78717,33.84
+Northern Territory,NT,45-64,54139,23.27
+Northern Territory,NT,65+,20819,8.95
+Australian Capital Territory,ACT,0-14,82946,18.25
+Australian Capital Territory,ACT,15-24,60614,13.34
+Australian Capital Territory,ACT,25-44,147132,32.37
+Australian Capital Territory,ACT,45-64,101627,22.36
+Australian Capital Territory,ACT,65+,62184,13.68

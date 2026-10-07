@@ -1,0 +1,139 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Australia population pyramid, 2021 Census.",
+  "width": 780,
+  "height": 500,
+  "data": {
+    "url": "data/c03_age_sex.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "age_group",
+          "type": "ordinal",
+          "sort": [
+            "85+",
+            "80-84",
+            "75-79",
+            "70-74",
+            "65-69",
+            "60-64",
+            "55-59",
+            "50-54",
+            "45-49",
+            "40-44",
+            "35-39",
+            "30-34",
+            "25-29",
+            "20-24",
+            "15-19",
+            "10-14",
+            "5-9",
+            "0-4"
+          ],
+          "title": "Age group",
+          "axis": {
+            "labelFontSize": 12,
+            "titleFontSize": 13
+          }
+        },
+        "x": {
+          "field": "plot_value",
+          "type": "quantitative",
+          "title": "Population",
+          "scale": {
+            "domain": [
+              -1000000,
+              1000000
+            ]
+          },
+          "axis": {
+            "values": [
+              -1000000,
+              -750000,
+              -500000,
+              -250000,
+              0,
+              250000,
+              500000,
+              750000,
+              1000000
+            ],
+            "labelExpr": "datum.value === 0 ? '0' : format(abs(datum.value)/1000000, '.2~f') + 'm'",
+            "labelFontSize": 11,
+            "titleFontSize": 13
+          }
+        },
+        "color": {
+          "field": "sex",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": [
+              "Male",
+              "Female"
+            ],
+            "range": [
+              "#4477AA",
+              "#CC6677"
+            ]
+          },
+          "legend": {
+            "orient": "top",
+            "direction": "horizontal",
+            "symbolType": "square",
+            "labelFontSize": 12
+          }
+        },
+        "tooltip": [
+          {
+            "field": "age_group",
+            "type": "ordinal",
+            "title": "Age group"
+          },
+          {
+            "field": "sex",
+            "type": "nominal",
+            "title": "Sex"
+          },
+          {
+            "field": "count",
+            "type": "quantitative",
+            "title": "Population",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#707070",
+        "strokeWidth": 0.8
+      },
+      "encoding": {
+        "x": {
+          "datum": 0
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "gridColor": "#eeeeee",
+      "domain": false,
+      "tickColor": "#cccccc"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+id,parent,state,state_abbrev,population,share
+Australia,,Australia,AUS,25417883,100.0
+NSW,Australia,New South Wales,NSW,8072106,31.758
+VIC,Australia,Victoria,VIC,6503473,25.586
+QLD,Australia,Queensland,QLD,5156123,20.285
+SA,Australia,South Australia,SA,1781522,7.009
+WA,Australia,Western Australia,WA,2660038,10.465
+TAS,Australia,Tasmania,TAS,557531,2.193
+NT,Australia,Northern Territory,NT,232617,0.915
+ACT,Australia,Australian Capital Territory,ACT,454473,1.788

@@ -1,0 +1,170 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Highest non-school qualification profile by age group, 2021 Australian Census.",
+  "width": 760,
+  "height": 400,
+  "data": {
+    "url": "data/c05_qualification_age.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "cornerRadius": 2,
+        "stroke": "#ffffff",
+        "strokeWidth": 1.2
+      },
+      "encoding": {
+        "x": {
+          "field": "age_group",
+          "type": "ordinal",
+          "sort": [
+            "15-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-64",
+            "65-74",
+            "75-84",
+            "85+"
+          ],
+          "title": "Age group",
+          "axis": {
+            "labelAngle": 0,
+            "labelFontSize": 12,
+            "titleFontSize": 13,
+            "labelPadding": 7
+          }
+        },
+        "y": {
+          "field": "qualification_short",
+          "type": "nominal",
+          "sort": [
+            "Postgraduate",
+            "Grad Dip / Cert",
+            "Bachelor",
+            "Adv Dip / Diploma",
+            "Certificate III / IV",
+            "Certificate I / II / nfd",
+            "Other / not stated"
+          ],
+          "title": null,
+          "axis": {
+            "labelFontSize": 12,
+            "labelPadding": 7,
+            "labelLimit": 180,
+            "ticks": false,
+            "domain": false
+          }
+        },
+        "color": {
+          "field": "share",
+          "type": "quantitative",
+          "title": "Share within age group (%)",
+          "scale": {
+            "scheme": "blues",
+            "domain": [
+              0,
+              50
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 300,
+            "titleFontSize": 12,
+            "labelFontSize": 11
+          }
+        },
+        "tooltip": [
+          {
+            "field": "age_group",
+            "type": "ordinal",
+            "title": "Age group"
+          },
+          {
+            "field": "qualification",
+            "type": "nominal",
+            "title": "Highest non-school qualification"
+          },
+          {
+            "field": "share",
+            "type": "quantitative",
+            "title": "Share",
+            "format": ".1f"
+          },
+          {
+            "field": "count",
+            "type": "quantitative",
+            "title": "People",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontWeight": 600
+      },
+      "encoding": {
+        "x": {
+          "field": "age_group",
+          "type": "ordinal",
+          "sort": [
+            "15-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-64",
+            "65-74",
+            "75-84",
+            "85+"
+          ]
+        },
+        "y": {
+          "field": "qualification_short",
+          "type": "nominal",
+          "sort": [
+            "Postgraduate",
+            "Grad Dip / Cert",
+            "Bachelor",
+            "Adv Dip / Diploma",
+            "Certificate III / IV",
+            "Certificate I / II / nfd",
+            "Other / not stated"
+          ]
+        },
+        "text": {
+          "field": "share",
+          "type": "quantitative",
+          "format": ".1f"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.share >= 25",
+            "value": "white"
+          },
+          "value": "#263238"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "grid": false,
+      "domainColor": "#d6dbe3",
+      "tickColor": "#d6dbe3"
+    },
+    "legend": {
+      "padding": 8
+    }
+  }
+}

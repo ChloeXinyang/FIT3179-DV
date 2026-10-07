@@ -1,0 +1,2329 @@
+sa2_code,sa2_name,state_abbrev,state_name,population,median_household_income_weekly
+101021007,Braidwood,NSW,New South Wales,4343,1429
+101021008,Karabar,NSW,New South Wales,8517,1989
+101021009,Queanbeyan,NSW,New South Wales,11342,1703
+101021010,Queanbeyan - East,NSW,New South Wales,5085,1796
+101021012,Queanbeyan West - Jerrabomberra,NSW,New South Wales,12744,3014
+101021610,Googong,NSW,New South Wales,6224,3363
+101021611,Queanbeyan Surrounds,NSW,New South Wales,16539,2926
+101031013,Bombala,NSW,New South Wales,2454,1253
+101031014,Cooma,NSW,New South Wales,6761,1377
+101031015,Cooma Surrounds,NSW,New South Wales,3472,1596
+101031016,Jindabyne - Berridale,NSW,New South Wales,8035,1911
+101041017,Batemans Bay,NSW,New South Wales,8581,1120
+101041018,Batemans Bay - South,NSW,New South Wales,8938,1215
+101041019,Bega - Tathra,NSW,New South Wales,8872,1276
+101041020,Bega-Eden Hinterland,NSW,New South Wales,9557,1220
+101041021,Broulee - Tomakin,NSW,New South Wales,3792,1378
+101041023,Eden,NSW,New South Wales,3425,1013
+101041024,Eurobodalla Hinterland,NSW,New South Wales,3525,1290
+101041025,Merimbula - Tura Beach,NSW,New South Wales,11513,1235
+101041026,Moruya - Tuross Head,NSW,New South Wales,8600,1150
+101041027,Narooma - Bermagui,NSW,New South Wales,9888,1017
+101051539,Goulburn,NSW,New South Wales,24565,1418
+101051540,Goulburn Surrounds,NSW,New South Wales,13839,1516
+101061541,Yass,NSW,New South Wales,6763,1739
+101061542,Yass Surrounds,NSW,New South Wales,12713,2575
+101061543,Young,NSW,New South Wales,11004,1170
+101061544,Young Surrounds,NSW,New South Wales,7677,1169
+102011028,Avoca Beach - Copacabana,NSW,New South Wales,7513,2276
+102011029,Box Head - MacMasters Beach,NSW,New South Wales,11042,1775
+102011030,Calga - Kulnura,NSW,New South Wales,4716,1777
+102011031,Erina - Green Point,NSW,New South Wales,14758,1434
+102011032,Gosford - Springfield,NSW,New South Wales,21204,1460
+102011033,Kariong,NSW,New South Wales,6485,2200
+102011034,Kincumber - Picketts Valley,NSW,New South Wales,7615,1343
+102011035,Narara,NSW,New South Wales,7157,1950
+102011036,Niagara Park - Lisarow,NSW,New South Wales,8205,1987
+102011037,Point Clare - Koolewong,NSW,New South Wales,6571,1717
+102011038,Saratoga - Davistown,NSW,New South Wales,7160,1760
+102011039,Terrigal - North Avoca,NSW,New South Wales,14849,2130
+102011040,Umina - Booker Bay - Patonga,NSW,New South Wales,24697,1329
+102011041,Wamberal - Forresters Beach,NSW,New South Wales,10675,2188
+102011042,Woy Woy - Blackwall,NSW,New South Wales,14346,1261
+102011043,Wyoming,NSW,New South Wales,11423,1430
+102021044,Bateau Bay - Killarney Vale,NSW,New South Wales,22825,1515
+102021045,Blue Haven - San Remo,NSW,New South Wales,11290,1497
+102021046,Budgewoi - Buff Point - Halekulani,NSW,New South Wales,9728,1232
+102021047,Chittaway Bay - Tumbi Umbi,NSW,New South Wales,16006,1803
+102021048,Gorokan - Kanwal - Charmhaven,NSW,New South Wales,22362,1239
+102021049,Jilliby - Yarramalong,NSW,New South Wales,3420,2575
+102021050,Lake Munmorah - Mannering Park,NSW,New South Wales,10960,1079
+102021051,Ourimbah - Fountaindale,NSW,New South Wales,4928,2011
+102021052,Summerland Point - Gwandalan,NSW,New South Wales,6492,1413
+102021053,The Entrance,NSW,New South Wales,15839,1176
+102021054,Toukley - Norah Head,NSW,New South Wales,9909,1157
+102021055,Tuggerah - Kangy Angy,NSW,New South Wales,5229,1795
+102021056,Warnervale - Wadalba,NSW,New South Wales,20051,2022
+102021057,Wyong,NSW,New South Wales,9120,1214
+103011059,Bathurst - East,NSW,New South Wales,12330,1788
+103011060,Bathurst Surrounds,NSW,New South Wales,6909,1835
+103011061,Oberon,NSW,New South Wales,4834,1381
+103011612,Bathurst - South,NSW,New South Wales,10752,1198
+103011613,Bathurst - West,NSW,New South Wales,14313,1788
+103021062,Condobolin,NSW,New South Wales,6372,1208
+103021063,Cowra,NSW,New South Wales,9273,1078
+103021064,Cowra Surrounds,NSW,New South Wales,5716,1157
+103021065,Forbes,NSW,New South Wales,10020,1257
+103021066,Grenfell,NSW,New South Wales,3597,1043
+103021067,Parkes (NSW),NSW,New South Wales,10919,1389
+103021068,Parkes Surrounds,NSW,New South Wales,3262,1205
+103021069,West Wyalong,NSW,New South Wales,5525,1324
+103031070,Lithgow,NSW,New South Wales,12385,1088
+103031071,Lithgow Surrounds,NSW,New South Wales,8448,1393
+103031072,Mudgee,NSW,New South Wales,12563,1742
+103031073,Mudgee Surrounds - East,NSW,New South Wales,3398,890
+103031074,Mudgee Surrounds - West,NSW,New South Wales,11072,1414
+103041076,Blayney,NSW,New South Wales,7517,1548
+103041077,Orange,NSW,New South Wales,19023,1342
+103041078,Orange - North,NSW,New South Wales,22895,2002
+103041079,Orange Surrounds,NSW,New South Wales,11830,1799
+104011080,Grafton,NSW,New South Wales,19255,1125
+104011081,Grafton Surrounds,NSW,New South Wales,16875,1193
+104011082,Maclean - Yamba - Iluka,NSW,New South Wales,17533,1079
+104021083,Bellingen,NSW,New South Wales,6168,1317
+104021084,Coffs Harbour - North,NSW,New South Wales,18099,1257
+104021085,Coffs Harbour - South,NSW,New South Wales,11305,1219
+104021086,Coramba - Nana Glen - Bucca,NSW,New South Wales,3950,1676
+104021087,Dorrigo,NSW,New South Wales,3250,939
+104021088,Korora - Emerald Beach,NSW,New South Wales,10262,1883
+104021089,Sawtell - Boambee,NSW,New South Wales,20066,1352
+104021090,Urunga,NSW,New South Wales,4907,1178
+104021091,Woolgoolga - Arrawarra,NSW,New South Wales,14463,1346
+105011092,Bourke - Brewarrina,NSW,New South Wales,3428,1358
+105011093,Cobar,NSW,New South Wales,4129,1702
+105011094,Coonamble,NSW,New South Wales,3926,1261
+105011095,Nyngan - Warren,NSW,New South Wales,4591,1347
+105011096,Walgett - Lightning Ridge,NSW,New South Wales,5534,991
+105021097,Broken Hill,NSW,New South Wales,17588,1173
+105021098,Far West,NSW,New South Wales,2288,1103
+105031099,Coonabarabran,NSW,New South Wales,7921,1079
+105031100,Dubbo - East,NSW,New South Wales,10633,1679
+105031101,Dubbo - South,NSW,New South Wales,19628,1662
+105031102,Dubbo - West,NSW,New South Wales,10317,1626
+105031103,Dubbo Surrounds,NSW,New South Wales,5963,1952
+105031104,Gilgandra,NSW,New South Wales,4398,1151
+105031105,Narromine,NSW,New South Wales,6458,1319
+105031106,Wellington,NSW,New South Wales,8769,1153
+106011107,Branxton - Greta - Pokolbin,NSW,New South Wales,12770,2128
+106011108,Cessnock,NSW,New South Wales,23495,1258
+106011109,Cessnock Surrounds,NSW,New South Wales,9145,1814
+106011110,Dungog,NSW,New South Wales,9541,1485
+106011111,Kurri Kurri - Abermain,NSW,New South Wales,20631,1464
+106011112,Singleton,NSW,New South Wales,17018,1935
+106011113,Singleton Surrounds,NSW,New South Wales,5332,2034
+106021114,Maitland,NSW,New South Wales,8611,1756
+106021116,Maitland - North,NSW,New South Wales,8727,2285
+106021614,East Maitland - Metford,NSW,New South Wales,17981,1590
+106021615,Rutherford (North) - Aberglasslyn,NSW,New South Wales,17730,1835
+106021616,Rutherford (South) - Telarah,NSW,New South Wales,7976,1470
+106021617,Tenambit - East Maitland,NSW,New South Wales,10091,1426
+106021618,Thornton - Millers Forest,NSW,New South Wales,15899,2209
+106031119,Anna Bay,NSW,New South Wales,6449,1283
+106031120,Lemon Tree Passage - Tanilba Bay,NSW,New South Wales,6887,1111
+106031121,Nelson Bay Peninsula,NSW,New South Wales,21972,1267
+106031122,Raymond Terrace,NSW,New South Wales,14588,1272
+106031123,Seaham - Woodville,NSW,New South Wales,5693,2327
+106031124,Tea Gardens - Hawks Nest,NSW,New South Wales,5804,1036
+106031125,Williamtown - Medowie - Karuah,NSW,New South Wales,15020,1763
+106041126,Muswellbrook,NSW,New South Wales,12272,1603
+106041127,Muswellbrook Surrounds,NSW,New South Wales,4083,1741
+106041128,Scone,NSW,New South Wales,6035,1526
+106041129,Scone Surrounds,NSW,New South Wales,8194,1362
+107011131,Dapto - Avondale,NSW,New South Wales,24195,1445
+107011132,Horsley - Kembla Grange,NSW,New South Wales,12155,2286
+107011134,Unanderra - Mount Kembla,NSW,New South Wales,15280,1920
+107011545,Berkeley - Lake Heights - Cringila,NSW,New South Wales,14200,1251
+107011546,Port Kembla - Warrawong,NSW,New South Wales,9740,1108
+107011547,Windang - Primbee,NSW,New South Wales,4239,1036
+107031136,Albion Park - Macquarie Pass,NSW,New South Wales,19026,2088
+107031137,Albion Park Rail,NSW,New South Wales,6920,1411
+107031138,Kiama,NSW,New South Wales,8786,1589
+107031139,Kiama Downs - Minnamurra,NSW,New South Wales,6063,2053
+107031140,Kiama Hinterland - Gerringong,NSW,New South Wales,8136,1985
+107031141,Shellharbour - Flinders,NSW,New South Wales,19341,2127
+107031142,Shellharbour - Oak Flats,NSW,New South Wales,10590,1478
+107031143,Warilla,NSW,New South Wales,20397,1191
+107041144,Balgownie - Fairy Meadow,NSW,New South Wales,21519,1635
+107041145,Corrimal - Tarrawanna - Bellambi,NSW,New South Wales,16041,1431
+107041146,Figtree - Keiraville,NSW,New South Wales,22773,1938
+107041147,Helensburgh,NSW,New South Wales,9135,2542
+107041148,Thirroul - Austinmer - Coalcliff,NSW,New South Wales,11957,2423
+107041150,Woonona - Bulli - Russell Vale,NSW,New South Wales,20761,1968
+107041548,Wollongong - East,NSW,New South Wales,16020,1578
+107041549,Wollongong - West,NSW,New South Wales,16551,1595
+108011151,Bulahdelah - Stroud,NSW,New South Wales,5235,1189
+108011152,Forster,NSW,New South Wales,14709,1015
+108011153,Forster-Tuncurry Surrounds,NSW,New South Wales,6988,1142
+108011154,Tuncurry,NSW,New South Wales,6376,854
+108021155,Kempsey,NSW,New South Wales,15654,1081
+108021156,Kempsey Surrounds,NSW,New South Wales,9472,1160
+108021157,Macksville - Scotts Head,NSW,New South Wales,5189,998
+108021158,Nambucca Heads,NSW,New South Wales,7111,850
+108021159,Nambucca Heads Surrounds,NSW,New South Wales,8102,1111
+108021160,South West Rocks,NSW,New South Wales,5628,997
+108041162,Laurieton - Bonny Hills,NSW,New South Wales,18484,1089
+108041164,Port Macquarie - West,NSW,New South Wales,21147,1193
+108041165,Port Macquarie Surrounds,NSW,New South Wales,5301,1334
+108041166,Wauchope,NSW,New South Wales,12796,1355
+108041619,Port Macquarie - East,NSW,New South Wales,11764,1396
+108041620,Port Macquarie - South,NSW,New South Wales,17284,1385
+108051167,Gloucester,NSW,New South Wales,5310,1069
+108051168,Old Bar - Manning Point - Red Head,NSW,New South Wales,12476,1243
+108051169,Taree,NSW,New South Wales,21123,1021
+108051170,Taree Surrounds,NSW,New South Wales,13044,1069
+108051171,Wingham,NSW,New South Wales,5395,1105
+109011172,Albury - East,NSW,New South Wales,17831,1792
+109011173,Albury - North,NSW,New South Wales,10527,1330
+109011174,Albury - South,NSW,New South Wales,10519,1439
+109011175,Albury Surrounds,NSW,New South Wales,12507,1518
+109011176,Lavington,NSW,New South Wales,15665,1138
+109021177,Hay,NSW,New South Wales,2897,1236
+109021178,Wentworth - Buronga,NSW,New South Wales,6511,1386
+109021179,Wentworth-Balranald Region,NSW,New South Wales,3648,1404
+109031180,Corowa,NSW,New South Wales,5595,1130
+109031181,Corowa Surrounds,NSW,New South Wales,7262,1248
+109031182,Deniliquin,NSW,New South Wales,7038,1199
+109031183,Deniliquin Surrounds,NSW,New South Wales,6837,1208
+109031184,Moama,NSW,New South Wales,6930,1348
+109031185,Tocumwal - Finley - Jerilderie,NSW,New South Wales,9778,1146
+110011186,Armidale,NSW,New South Wales,23967,1432
+110011187,Armidale Surrounds - North,NSW,New South Wales,4527,1228
+110011188,Armidale Surrounds - South,NSW,New South Wales,5894,1402
+110011189,Walcha,NSW,New South Wales,3144,1211
+110021190,Glen Innes,NSW,New South Wales,8931,934
+110021191,Inverell,NSW,New South Wales,12057,1187
+110021192,Inverell Surrounds - East,NSW,New South Wales,5200,1057
+110021193,Inverell Surrounds - West,NSW,New South Wales,5734,1034
+110021194,Tenterfield,NSW,New South Wales,6810,885
+110031195,Moree,NSW,New South Wales,7845,1494
+110031196,Moree Surrounds,NSW,New South Wales,5356,1627
+110031197,Narrabri,NSW,New South Wales,6898,1558
+110031198,Narrabri Surrounds,NSW,New South Wales,4616,1434
+110041199,Gunnedah,NSW,New South Wales,9745,1535
+110041200,Gunnedah Surrounds,NSW,New South Wales,4369,1585
+110041201,Quirindi,NSW,New South Wales,7551,1165
+110041202,Tamworth - East,NSW,New South Wales,21360,1383
+110041203,Tamworth - North,NSW,New South Wales,16517,1513
+110041204,Tamworth - West,NSW,New South Wales,5998,1233
+110041205,Tamworth Surrounds,NSW,New South Wales,19038,1431
+111011206,Belmont - Bennetts Green,NSW,New South Wales,17864,1538
+111011207,Belmont South - Blacksmiths,NSW,New South Wales,5680,1240
+111011208,Charlestown - Dudley,NSW,New South Wales,25254,1808
+111011209,Glendale - Cardiff - Hillsborough,NSW,New South Wales,24588,1818
+111011210,Mount Hutton - Windale,NSW,New South Wales,9504,1221
+111011211,Redhead,NSW,New South Wales,3785,1598
+111011212,Swansea - Caves Beach,NSW,New South Wales,12559,1419
+111011213,Valentine - Eleebana,NSW,New South Wales,12568,2201
+111011214,Warners Bay - Boolaroo,NSW,New South Wales,14694,1648
+111021215,Bolton Point - Teralba,NSW,New South Wales,10135,1470
+111021216,Bonnells Bay - Silverwater,NSW,New South Wales,9691,1491
+111021217,Edgeworth - Cameron Park,NSW,New South Wales,16375,2033
+111021218,Morisset - Cooranbong,NSW,New South Wales,18129,1378
+111021219,Toronto - Awaba,NSW,New South Wales,13961,1400
+111021220,Wangi Wangi - Rathmines,NSW,New South Wales,9467,1553
+111021221,West Wallsend - Barnsley - Killingworth,NSW,New South Wales,7254,1769
+111031222,Adamstown - Kotara,NSW,New South Wales,16600,2071
+111031223,Beresfield - Hexham,NSW,New South Wales,8561,1237
+111031224,Hamilton - Broadmeadow,NSW,New South Wales,12772,1669
+111031225,Lambton - New Lambton,NSW,New South Wales,17343,1863
+111031226,Maryland - Fletcher - Minmi,NSW,New South Wales,16429,2170
+111031227,Mayfield - Warabrook,NSW,New South Wales,15526,1604
+111031228,Merewether - The Junction,NSW,New South Wales,14506,2277
+111031229,Newcastle - Cooks Hill,NSW,New South Wales,12805,1929
+111031231,Shortland - Jesmond,NSW,New South Wales,12593,1325
+111031232,Stockton - Fullerton Cove,NSW,New South Wales,8824,1419
+111031233,Wallsend - Elermore Vale,NSW,New South Wales,20958,1470
+111031234,Waratah - North Lambton,NSW,New South Wales,12883,1639
+111031235,Wickham - Carrington - Tighes Hill,NSW,New South Wales,9171,1915
+112011236,Ballina,NSW,New South Wales,18629,1150
+112011237,Ballina Surrounds,NSW,New South Wales,18327,1565
+112011238,Bangalow,NSW,New South Wales,6958,2106
+112011239,Brunswick Heads - Ocean Shores,NSW,New South Wales,9170,1462
+112011240,Byron Bay,NSW,New South Wales,10914,1748
+112011241,Evans Head,NSW,New South Wales,5643,1127
+112011242,Lennox Head - Skennars Head,NSW,New South Wales,9236,2035
+112011243,Mullumbimby,NSW,New South Wales,8896,1364
+112021244,Casino,NSW,New South Wales,12298,1093
+112021245,Casino Surrounds,NSW,New South Wales,7381,1147
+112021246,Goonellabah,NSW,New South Wales,13591,1325
+112021247,Kyogle,NSW,New South Wales,7611,1013
+112021248,Lismore,NSW,New South Wales,15229,1176
+112021249,Lismore Surrounds,NSW,New South Wales,15786,1478
+112031250,Kingscliff - Fingal Head,NSW,New South Wales,14818,1537
+112031251,Murwillumbah,NSW,New South Wales,9501,1154
+112031252,Murwillumbah Surrounds,NSW,New South Wales,10352,1387
+112031253,Pottsville,NSW,New South Wales,14086,1466
+112031254,Tweed Heads,NSW,New South Wales,20563,1182
+112031550,Banora Point,NSW,New South Wales,16320,1316
+112031551,Terranora - North Tumbulgum,NSW,New South Wales,3324,2100
+112031552,Tweed Heads South,NSW,New South Wales,8423,949
+113011256,Griffith (NSW),NSW,New South Wales,20569,1699
+113011257,Griffith Surrounds,NSW,New South Wales,12760,1630
+113011258,Leeton,NSW,New South Wales,10330,1427
+113011259,Narrandera,NSW,New South Wales,5905,1184
+113021260,Tumbarumba,NSW,New South Wales,3522,1332
+113021261,Tumut,NSW,New South Wales,6667,1244
+113021262,Tumut Surrounds,NSW,New South Wales,4744,1390
+113031263,Cootamundra,NSW,New South Wales,7705,1054
+113031264,Gundagai,NSW,New South Wales,3715,1351
+113031265,Junee,NSW,New South Wales,6351,1387
+113031266,Temora,NSW,New South Wales,6603,1168
+113031267,Wagga Wagga - East,NSW,New South Wales,16921,1699
+113031268,Wagga Wagga - North,NSW,New South Wales,5605,2042
+113031269,Wagga Wagga - South,NSW,New South Wales,22522,1609
+113031270,Wagga Wagga - West,NSW,New South Wales,11962,1279
+113031271,Wagga Wagga Surrounds,NSW,New South Wales,17788,1748
+114011272,Berry - Kangaroo Valley,NSW,New South Wales,9489,1429
+114011273,Callala Bay - Currarong,NSW,New South Wales,3642,1237
+114011274,Culburra Beach,NSW,New South Wales,5105,1195
+114011276,Huskisson - Vincentia,NSW,New South Wales,4844,1501
+114011277,North Nowra - Bomaderry,NSW,New South Wales,16098,1363
+114011278,Nowra,NSW,New South Wales,22584,1304
+114011279,St Georges Basin - Erowal Bay,NSW,New South Wales,15259,1098
+114011280,Sussex Inlet - Berrara,NSW,New South Wales,4694,909
+114011281,Tomerong - Wandandian - Woollamia,NSW,New South Wales,3708,1716
+114011282,Ulladulla,NSW,New South Wales,17026,1167
+114011283,Ulladulla Surrounds,NSW,New South Wales,5822,1144
+114021284,Bowral,NSW,New South Wales,13626,1650
+114021285,Hill Top - Colo Vale,NSW,New South Wales,6393,1937
+114021286,Mittagong,NSW,New South Wales,10931,1637
+114021287,Moss Vale - Berrima,NSW,New South Wales,10648,1552
+114021288,Robertson - Fitzroy Falls,NSW,New South Wales,3829,1914
+114021289,Southern Highlands,NSW,New South Wales,7250,1574
+115011290,Baulkham Hills - East,NSW,New South Wales,24726,2389
+115011291,Baulkham Hills (West) - Bella Vista,NSW,New South Wales,21683,2847
+115011294,Glenhaven,NSW,New South Wales,6361,2491
+115011296,West Pennant Hills,NSW,New South Wales,12683,3217
+115011553,Castle Hill - Central,NSW,New South Wales,7677,2361
+115011554,Castle Hill - East,NSW,New South Wales,5670,2014
+115011555,Castle Hill - North,NSW,New South Wales,12189,2721
+115011556,Castle Hill - South,NSW,New South Wales,10419,2482
+115011557,Castle Hill - West,NSW,New South Wales,5183,3361
+115011558,Cherrybrook,NSW,New South Wales,19082,2924
+115011621,Kellyville - East,NSW,New South Wales,17709,3051
+115011622,Kellyville - West,NSW,New South Wales,11375,2965
+115021297,Dural - Kenthurst - Wisemans Ferry,NSW,New South Wales,22479,2595
+115021298,Galston - Laughtondale,NSW,New South Wales,5436,2364
+115031299,Bilpin - Colo - St Albans,NSW,New South Wales,2846,1688
+115031300,Kurrajong Heights - Ebenezer,NSW,New South Wales,22161,2291
+115041301,Pitt Town - McGraths Hill,NSW,New South Wales,11414,2340
+115041623,Box Hill - Nelson,NSW,New South Wales,10287,2976
+115041624,North Kellyville,NSW,New South Wales,17401,3120
+115041625,Rouse Hill - Beaumont Hills,NSW,New South Wales,17581,3206
+116011303,Blacktown (East) - Kings Park,NSW,New South Wales,17032,1753
+116011304,Blacktown (North) - Marayong,NSW,New South Wales,20584,1771
+116011306,Doonside - Woodcroft,NSW,New South Wales,23384,2004
+116011307,Lalor Park - Kings Langley,NSW,New South Wales,25373,1971
+116011560,Blacktown - South,NSW,New South Wales,12646,1776
+116011561,Blacktown - West,NSW,New South Wales,17141,1857
+116011626,Seven Hills - Prospect,NSW,New South Wales,14866,1960
+116011627,Toongabbie - West,NSW,New South Wales,11578,2061
+116021309,Glenwood,NSW,New South Wales,15829,3068
+116021562,Acacia Gardens,NSW,New South Wales,3668,2796
+116021563,Quakers Hill,NSW,New South Wales,24670,2400
+116021628,Kellyville Ridge - The Ponds,NSW,New South Wales,21058,3164
+116021629,Marsden Park - Shanes Park,NSW,New South Wales,15524,2729
+116021630,Riverstone,NSW,New South Wales,13844,2272
+116021631,Schofields (West) - Colebee,NSW,New South Wales,10011,3140
+116021632,Schofields - East,NSW,New South Wales,25130,2682
+116021633,Stanhope Gardens - Parklea,NSW,New South Wales,13034,2860
+116031313,Bidwill - Hebersham - Emerton,NSW,New South Wales,18536,1216
+116031314,Glendenning - Dean Park,NSW,New South Wales,8374,2073
+116031315,Hassall Grove - Plumpton,NSW,New South Wales,21414,2112
+116031316,Lethbridge Park - Tregear,NSW,New South Wales,21551,1411
+116031317,Mount Druitt - Whalan,NSW,New South Wales,22918,1392
+116031319,Rooty Hill - Minchinbury,NSW,New South Wales,22826,2050
+117011320,Banksmeadow,NSW,New South Wales,508,2225
+117011321,Botany,NSW,New South Wales,12960,2373
+117011323,Pagewood - Hillsdale - Daceyville,NSW,New South Wales,14762,1808
+117011634,Eastlakes,NSW,New South Wales,8941,1411
+117011635,Mascot,NSW,New South Wales,21573,2253
+117021327,Petersham - Stanmore,NSW,New South Wales,19898,2303
+117021328,Sydenham - Tempe - St Peters,NSW,New South Wales,8278,2619
+117021636,Marrickville - North,NSW,New South Wales,12317,2358
+117021637,Marrickville - South,NSW,New South Wales,14283,2018
+117031329,Darlinghurst,NSW,New South Wales,10615,2279
+117031330,Erskineville - Alexandria,NSW,New South Wales,19126,2825
+117031331,Glebe - Forest Lodge,NSW,New South Wales,20262,2080
+117031333,Potts Point - Woolloomooloo,NSW,New South Wales,18187,2041
+117031336,Surry Hills,NSW,New South Wales,15828,2308
+117031638,Camperdown - Darlington,NSW,New South Wales,8332,2440
+117031639,Chippendale,NSW,New South Wales,7803,1606
+117031640,Newtown (NSW),NSW,New South Wales,14667,2325
+117031641,Pyrmont,NSW,New South Wales,12658,2422
+117031642,Redfern,NSW,New South Wales,13670,2116
+117031643,Rosebery - Beaconsfield,NSW,New South Wales,12290,2366
+117031644,Sydney (North) - Millers Point,NSW,New South Wales,8004,2457
+117031645,Sydney (South) - Haymarket,NSW,New South Wales,19935,2108
+117031646,Ultimo,NSW,New South Wales,7410,1805
+117031647,Waterloo,NSW,New South Wales,16379,2028
+117031648,Zetland,NSW,New South Wales,12622,2192
+118011339,Bondi - Tamarama - Bronte,NSW,New South Wales,19055,2951
+118011340,Bondi Beach - North Bondi,NSW,New South Wales,20705,3013
+118011341,Bondi Junction - Waverly,NSW,New South Wales,17720,2566
+118011344,Dover Heights,NSW,New South Wales,11122,2828
+118011345,Paddington - Moore Park,NSW,New South Wales,14793,2810
+118011346,Rose Bay - Vaucluse - Watsons Bay,NSW,New South Wales,11924,3469
+118011347,Woollahra,NSW,New South Wales,7454,3021
+118011649,Bellevue Hill,NSW,New South Wales,14429,3301
+118011650,Double Bay - Darling Point,NSW,New South Wales,9958,2921
+118021564,Kensington (NSW),NSW,New South Wales,11809,2117
+118021565,Kingsford,NSW,New South Wales,13605,1895
+118021566,Maroubra - North,NSW,New South Wales,9790,2415
+118021567,Maroubra - South,NSW,New South Wales,11084,1893
+118021568,Maroubra - West,NSW,New South Wales,9846,2148
+118021569,Randwick - North,NSW,New South Wales,16206,2403
+118021570,Randwick - South,NSW,New South Wales,12735,2450
+118021651,Coogee - Clovelly,NSW,New South Wales,19521,3092
+118021652,Malabar - La Perouse,NSW,New South Wales,10610,2215
+118021653,Matraville - Chifley,NSW,New South Wales,13412,2132
+118021654,South Coogee,NSW,New South Wales,5611,2105
+119011354,Bass Hill - Georges Hall,NSW,New South Wales,23855,1410
+119011355,Chullora,NSW,New South Wales,1469,2218
+119011356,Condell Park,NSW,New South Wales,12773,1627
+119011358,Padstow,NSW,New South Wales,17200,1899
+119011360,Revesby,NSW,New South Wales,17664,1932
+119011361,Yagoona - Birrong,NSW,New South Wales,22484,1453
+119011571,Bankstown - North,NSW,New South Wales,16981,1322
+119011572,Bankstown - South,NSW,New South Wales,18434,1355
+119011655,Greenacre - North,NSW,New South Wales,14637,1429
+119011656,Greenacre - South,NSW,New South Wales,13416,1467
+119011657,Panania (North) - Milperra,NSW,New South Wales,11340,2064
+119011658,Panania (South) - Picnic Point,NSW,New South Wales,15994,2166
+119021362,Belmore - Belfield,NSW,New South Wales,20332,1525
+119021366,Punchbowl,NSW,New South Wales,21544,1384
+119021367,Roselands,NSW,New South Wales,14577,1704
+119021573,Lakemba,NSW,New South Wales,17092,1227
+119021574,Wiley Park,NSW,New South Wales,10135,1248
+119021659,Campsie - North,NSW,New South Wales,11905,1491
+119021660,Campsie - South,NSW,New South Wales,9059,1377
+119021661,Canterbury - South,NSW,New South Wales,12220,1800
+119021662,Earlwood,NSW,New South Wales,17969,2163
+119021663,Kingsgrove - North,NSW,New South Wales,6261,1841
+119031370,Narwee - Beverly Hills,NSW,New South Wales,13791,1646
+119031371,Oatley - Hurstville Grove,NSW,New South Wales,12594,2438
+119031372,Peakhurst - Lugarno,NSW,New South Wales,20220,2091
+119031373,Riverwood,NSW,New South Wales,11606,1208
+119031374,South Hurstville - Blakehurst,NSW,New South Wales,25259,2097
+119031664,Hurstville - Central,NSW,New South Wales,12046,1717
+119031665,Hurstville - North,NSW,New South Wales,12109,1858
+119031666,Mortdale - Oatley,NSW,New South Wales,14715,2151
+119031667,Penshurst,NSW,New South Wales,9528,1689
+119041377,Kingsgrove (South) - Bardwell Park,NSW,New South Wales,12973,2027
+119041378,Kogarah,NSW,New South Wales,13051,1959
+119041379,Kogarah Bay - Carlton - Allawah,NSW,New South Wales,16200,1954
+119041380,Monterey - Brighton-le-Sands - Kyeemagh,NSW,New South Wales,13896,1647
+119041381,Rockdale - Banksia,NSW,New South Wales,19853,1910
+119041382,Sans Souci - Ramsgate,NSW,New South Wales,16659,1798
+119041668,Arncliffe - Bardwell Valley,NSW,New South Wales,16579,2067
+119041669,Bexley - North,NSW,New South Wales,10145,1949
+119041670,Bexley - South,NSW,New South Wales,15831,1798
+119041671,Wolli Creek,NSW,New South Wales,10731,2160
+120011383,Concord - Mortlake - Cabarita,NSW,New South Wales,23113,2388
+120011385,Drummoyne - Rodd Point,NSW,New South Wales,18366,2754
+120011386,Five Dock - Abbotsford,NSW,New South Wales,20933,2333
+120011672,Concord West - North Strathfield,NSW,New South Wales,12842,2385
+120011673,Rhodes,NSW,New South Wales,11453,2183
+120021387,Balmain,NSW,New South Wales,15579,3149
+120021389,Lilyfield - Rozelle,NSW,New South Wales,13824,3059
+120021674,Annandale (NSW),NSW,New South Wales,9464,2677
+120021675,Leichhardt,NSW,New South Wales,17532,2721
+120031392,Canterbury (North) - Ashbury,NSW,New South Wales,11999,2092
+120031393,Croydon Park - Enfield,NSW,New South Wales,17434,1844
+120031394,Dulwich Hill - Lewisham,NSW,New South Wales,17948,2162
+120031395,Haberfield - Summer Hill,NSW,New South Wales,13520,2377
+120031396,Homebush,NSW,New South Wales,20822,2037
+120031576,Strathfield South,NSW,New South Wales,3636,2045
+120031676,Ashfield - North,NSW,New South Wales,11456,1888
+120031677,Ashfield - South,NSW,New South Wales,12246,1918
+120031678,Burwood (NSW),NSW,New South Wales,15942,1662
+120031679,Croydon,NSW,New South Wales,10993,2121
+120031680,Strathfield - East,NSW,New South Wales,16420,2135
+120031681,Strathfield - West,NSW,New South Wales,9253,2726
+121011399,Chatswood (West) - Lane Cove North,NSW,New South Wales,21294,2415
+121011401,St Leonards - Naremburn,NSW,New South Wales,11903,2748
+121011682,Artarmon,NSW,New South Wales,9406,2420
+121011683,Castle Cove - Northbridge,NSW,New South Wales,13440,3987
+121011684,Chatswood - East,NSW,New South Wales,19601,2123
+121011685,Greenwich - Riverview,NSW,New South Wales,12928,3662
+121011686,Lane Cove,NSW,New South Wales,15888,2648
+121011687,Willoughby,NSW,New South Wales,12996,2880
+121021403,Asquith - Mount Colah,NSW,New South Wales,22057,2450
+121021404,Berowra - Brooklyn - Cowan,NSW,New South Wales,11790,2497
+121021406,Normanhurst - Thornleigh - Westleigh,NSW,New South Wales,19158,2781
+121021577,Hornsby - East,NSW,New South Wales,11943,1817
+121021578,Hornsby - West,NSW,New South Wales,10629,2180
+121021579,Wahroonga (West) - Waitara,NSW,New South Wales,11877,2155
+121031407,Gordon - Killara,NSW,New South Wales,22433,2640
+121031408,Lindfield - Roseville,NSW,New South Wales,24599,3125
+121031409,Pymble,NSW,New South Wales,17221,3414
+121031410,St Ives,NSW,New South Wales,21665,2965
+121031411,Turramurra,NSW,New South Wales,20251,2917
+121031412,Wahroonga (East) - Warrawee,NSW,New South Wales,18191,3233
+121041413,Cremorne - Cammeray,NSW,New South Wales,18905,2689
+121041414,Crows Nest - Waverton,NSW,New South Wales,17916,2615
+121041416,Neutral Bay - Kirribilli,NSW,New South Wales,17183,2364
+121041417,North Sydney - Lavender Bay,NSW,New South Wales,12441,2709
+121041688,Mosman - North,NSW,New South Wales,13763,2822
+121041689,Mosman - South,NSW,New South Wales,14565,2966
+122011418,Balgowlah - Clontarf - Seaforth,NSW,New South Wales,20732,3409
+122011419,Manly - Fairlight,NSW,New South Wales,22438,3185
+122021420,Avalon - Palm Beach,NSW,New South Wales,13052,2547
+122021421,Bayview - Elanora Heights,NSW,New South Wales,11243,2560
+122021422,Newport - Bilgola,NSW,New South Wales,13681,2607
+122021690,Mona Vale - Warriewood (North),NSW,New South Wales,14634,2277
+122021691,North Narrabeen - Warriewood (South),NSW,New South Wales,10874,2754
+122031424,Beacon Hill - Narraweena,NSW,New South Wales,14547,2445
+122031425,Cromer,NSW,New South Wales,8046,2379
+122031427,Forestville - Killarney Heights,NSW,New South Wales,13161,2794
+122031429,Freshwater - Brookvale,NSW,New South Wales,21828,2724
+122031430,Manly Vale - Allambie Heights,NSW,New South Wales,17550,2737
+122031432,Terrey Hills - Duffys Forest,NSW,New South Wales,3786,2899
+122031692,Belrose,NSW,New South Wales,8652,2601
+122031693,Collaroy - Collaroy Plateau,NSW,New South Wales,13980,2601
+122031694,Dee Why (South) - North Curl Curl,NSW,New South Wales,9116,2550
+122031695,Dee Why - North,NSW,New South Wales,17816,2069
+122031696,Frenchs Forest - Oxford Falls,NSW,New South Wales,17175,3142
+122031697,Narrabeen - Wheeler Heights,NSW,New South Wales,11241,1998
+123011433,Camden - Ellis Lane,NSW,New South Wales,13295,2053
+123011698,Currans Hill,NSW,New South Wales,6445,2170
+123011699,Elderslie - Narellan,NSW,New South Wales,14019,2189
+123011700,Harrington Park,NSW,New South Wales,11241,2913
+123011701,Mount Annan,NSW,New South Wales,19040,2395
+123011702,Spring Farm,NSW,New South Wales,9539,2403
+123021436,Bradbury - Wedderburn,NSW,New South Wales,20011,1551
+123021437,Campbelltown - Woodbine,NSW,New South Wales,22084,1547
+123021438,Claymore - Eagle Vale - Raby,NSW,New South Wales,20236,1794
+123021441,Leumeah - Minto Heights,NSW,New South Wales,16729,1596
+123021443,Minto - St Andrews,NSW,New South Wales,21335,1727
+123021444,Rosemeadow - Glen Alpine,NSW,New South Wales,21155,1663
+123021703,Denham Court - Bardia,NSW,New South Wales,14868,2437
+123021704,Glenfield,NSW,New South Wales,10536,2070
+123021705,Ingleburn,NSW,New South Wales,16720,1671
+123021706,Macquarie Fields,NSW,New South Wales,14198,1378
+123031445,Bargo,NSW,New South Wales,5934,1841
+123031446,Douglas Park - Appin,NSW,New South Wales,11112,2484
+123031447,Picton - Tahmoor - Buxton,NSW,New South Wales,18987,1886
+123031448,The Oaks - Oakdale,NSW,New South Wales,9808,2296
+124011449,Blackheath - Megalong Valley,NSW,New South Wales,5764,1317
+124011450,Blaxland - Warrimoo - Lapstone,NSW,New South Wales,18993,2294
+124011452,Katoomba - Leura,NSW,New South Wales,13348,1238
+124011453,Lawson - Hazelbrook - Linden,NSW,New South Wales,11445,1755
+124011454,Springwood - Winmalee,NSW,New South Wales,21964,2043
+124011455,Wentworth Falls,NSW,New South Wales,6428,1528
+124031457,Cambridge Park,NSW,New South Wales,16004,1806
+124031459,Emu Plains - Leonay,NSW,New South Wales,13914,2122
+124031460,Glenmore Park - Regentville,NSW,New South Wales,21002,2425
+124031461,Jamisontown - South Penrith,NSW,New South Wales,17326,1756
+124031462,Kingswood - Werrington,NSW,New South Wales,24625,1707
+124031463,Mulgoa - Luddenham - Orchard Hills,NSW,New South Wales,12040,2699
+124031464,Penrith,NSW,New South Wales,17966,1397
+124031465,Warragamba - Silverdale,NSW,New South Wales,6025,2330
+124031707,Cranebrook - Castlereagh,NSW,New South Wales,17029,2118
+124031708,Jordan Springs - Llandilo,NSW,New South Wales,13388,2446
+124041466,Richmond - Clarendon,NSW,New South Wales,15239,1587
+124041467,Windsor - Bligh Park,NSW,New South Wales,15264,1805
+124041468,Yarramundi - Londonderry,NSW,New South Wales,7504,2271
+124051469,Erskine Park,NSW,New South Wales,6486,2349
+124051470,St Clair,NSW,New South Wales,19942,2067
+124051580,Colyton - Oxley Park,NSW,New South Wales,13028,1562
+124051581,St Marys - North St Marys,NSW,New South Wales,17325,1395
+125011582,Auburn - Central,NSW,New South Wales,19487,1564
+125011583,Auburn - North,NSW,New South Wales,10592,1493
+125011584,Auburn - South,NSW,New South Wales,8860,1517
+125011585,Berala,NSW,New South Wales,8610,1540
+125011586,Lidcombe,NSW,New South Wales,21197,1886
+125011587,Regents Park,NSW,New South Wales,5138,1417
+125011709,Silverwater - Newington,NSW,New South Wales,9246,2272
+125011710,Wentworth Point - Sydney Olympic Park,NSW,New South Wales,20412,2002
+125021477,Ermington - Rydalmere,NSW,New South Wales,24641,1958
+125021478,Oatlands - Dundas Valley,NSW,New South Wales,18508,1838
+125021711,Carlingford - East,NSW,New South Wales,11622,2143
+125021712,Carlingford - West,NSW,New South Wales,19251,2101
+125031479,Chester Hill - Sefton,NSW,New South Wales,20842,1415
+125031480,Fairfield - East,NSW,New South Wales,15742,1187
+125031481,Granville - Clyde,NSW,New South Wales,23250,1585
+125031483,Guildford - South Granville,NSW,New South Wales,22386,1223
+125031484,Guildford West - Merrylands West,NSW,New South Wales,22929,1458
+125031713,Greystanes - South,NSW,New South Wales,16645,1928
+125031714,Merrylands - Holroyd,NSW,New South Wales,23806,1461
+125031715,Pemulwuy - Greystanes (North),NSW,New South Wales,10893,2339
+125031716,South Wentworthville,NSW,New South Wales,7305,1727
+125041489,North Parramatta,NSW,New South Wales,22878,1862
+125041490,North Rocks,NSW,New South Wales,8451,2399
+125041491,Northmead,NSW,New South Wales,20275,2075
+125041493,Toongabbie - Constitution Hill,NSW,New South Wales,22853,2012
+125041494,Winston Hills,NSW,New South Wales,11199,2421
+125041588,Pendle Hill - Girraween,NSW,New South Wales,13939,2057
+125041589,Wentworthville - Westmead,NSW,New South Wales,21568,2176
+125041717,Parramatta - North,NSW,New South Wales,12062,2149
+125041718,Parramatta - South,NSW,New South Wales,9867,1947
+125041719,Rosehill - Harris Park,NSW,New South Wales,9034,1757
+126011496,Pennant Hills - Cheltenham,NSW,New South Wales,21737,2784
+126011720,Epping (East) - North Epping,NSW,New South Wales,14404,2385
+126011721,Epping (NSW) - West,NSW,New South Wales,18690,2238
+126021498,Gladesville - Huntleys Point,NSW,New South Wales,15456,2315
+126021499,Hunters Hill - Woolwich,NSW,New South Wales,9844,3368
+126021500,Macquarie Park - Marsfield,NSW,New South Wales,23818,1924
+126021501,North Ryde - East Ryde,NSW,New South Wales,15622,2439
+126021503,West Ryde - Meadowbank,NSW,New South Wales,20102,2019
+126021590,Putney,NSW,New South Wales,4163,3056
+126021722,Denistone,NSW,New South Wales,6969,2563
+126021723,Eastwood,NSW,New South Wales,18974,1953
+126021724,Ryde - North,NSW,New South Wales,20291,1889
+126021725,Ryde - South,NSW,New South Wales,11972,2158
+127011504,Ashcroft - Busby - Miller,NSW,New South Wales,17962,1027
+127011505,Austral - Greendale,NSW,New South Wales,12533,2047
+127011593,Cecil Hills,NSW,New South Wales,6906,2409
+127011594,Green Valley,NSW,New South Wales,12919,1775
+127011595,Hinchinbrook,NSW,New South Wales,13038,2039
+127011596,Hoxton Park - Carnes Hill - Horningsea Park,NSW,New South Wales,13263,2248
+127011597,West Hoxton - Middleton Grange,NSW,New South Wales,17194,2412
+127011726,Cobbitty - Bringelly,NSW,New South Wales,4761,2273
+127011727,Gledswood Hills - Gregory Hills,NSW,New South Wales,14299,2551
+127011728,Leppington - Catherine Field,NSW,New South Wales,12559,2271
+127011729,Oran Park,NSW,New South Wales,17624,2349
+127021509,Bonnyrigg Heights - Bonnyrigg,NSW,New South Wales,17154,1571
+127021510,Bossley Park - Abbotsbury,NSW,New South Wales,19690,1739
+127021511,Cabramatta - Lansvale,NSW,New South Wales,24101,1216
+127021512,Cabramatta West - Mount Pritchard,NSW,New South Wales,18249,1440
+127021513,Canley Vale - Canley Heights,NSW,New South Wales,22261,1409
+127021514,Edensor Park,NSW,New South Wales,10279,1817
+127021515,Fairfield,NSW,New South Wales,18248,1087
+127021516,Fairfield - West,NSW,New South Wales,21249,1373
+127021517,Greenfield Park - Prairiewood,NSW,New South Wales,8855,1477
+127021518,Horsley Park - Kemps Creek,NSW,New South Wales,4344,2372
+127021519,Smithfield - Wetherill Park,NSW,New South Wales,19510,1370
+127021520,St Johns Park - Wakeley,NSW,New South Wales,11197,1560
+127031522,Casula,NSW,New South Wales,16584,1730
+127031523,Chipping Norton - Moorebank,NSW,New South Wales,20813,2120
+127031524,Holsworthy - Wattle Grove,NSW,New South Wales,21129,2463
+127031599,Lurnea - Cartwright,NSW,New South Wales,12670,1136
+127031601,Warwick Farm,NSW,New South Wales,5937,1120
+127031730,Edmondson Park,NSW,New South Wales,12080,2562
+127031731,Liverpool - East,NSW,New South Wales,17536,1345
+127031732,Liverpool - West,NSW,New South Wales,13737,1234
+127031733,Prestons,NSW,New South Wales,15692,2309
+128011529,Gymea - Grays Point,NSW,New South Wales,18156,2428
+128011530,Miranda - Yowie Bay,NSW,New South Wales,20705,2005
+128011531,Sylvania - Taren Point,NSW,New South Wales,16430,2017
+128011602,Caringbah,NSW,New South Wales,12858,1894
+128011603,Caringbah South,NSW,New South Wales,13015,2722
+128011604,Cronulla - Kurnell - Bundeena,NSW,New South Wales,24374,2105
+128011605,Lilli Pilli - Port Hacking - Dolans Bay,NSW,New South Wales,3369,3481
+128011606,Woolooware - Burraneer,NSW,New South Wales,8947,2569
+128021533,Heathcote - Waterfall,NSW,New South Wales,6673,2239
+128021534,Illawong - Alfords Point,NSW,New South Wales,10554,2830
+128021535,Menai - Lucas Heights - Woronora,NSW,New South Wales,20927,2692
+128021536,Oyster Bay - Como - Jannali,NSW,New South Wales,22063,2745
+128021538,Sutherland - Kirrawee,NSW,New South Wales,23238,2010
+128021607,Engadine,NSW,New South Wales,17356,2298
+128021608,Loftus - Yarrawarrah,NSW,New South Wales,7348,2538
+128021609,Woronora Heights,NSW,New South Wales,3539,3154
+201011001,Alfredton,VIC,Victoria,16835,1952
+201011002,Ballarat,VIC,Victoria,12131,1573
+201011005,Buninyong,VIC,Victoria,7261,1927
+201011006,Delacombe,VIC,Victoria,10661,1627
+201011007,Smythes Creek,VIC,Victoria,4230,2065
+201011008,Wendouree - Miners Rest,VIC,Victoria,15333,1191
+201011481,Ballarat East - Warrenheip,VIC,Victoria,9691,1209
+201011482,Ballarat North - Invermay,VIC,Victoria,14750,1644
+201011483,Canadian - Mount Clear,VIC,Victoria,12225,1396
+201011484,Sebastopol - Redan,VIC,Victoria,13086,1020
+201021009,Bacchus Marsh Surrounds,VIC,Victoria,6559,1731
+201021010,Creswick - Clunes,VIC,Victoria,8085,1238
+201021011,Daylesford,VIC,Victoria,9955,1343
+201021012,Gordon (Vic.),VIC,Victoria,6372,1813
+201031013,Avoca,VIC,Victoria,3532,985
+201031014,Beaufort,VIC,Victoria,4644,1193
+201031015,Golden Plains - North,VIC,Victoria,4894,1455
+201031016,Maryborough (Vic.),VIC,Victoria,8160,876
+201031017,Maryborough Surrounds,VIC,Victoria,5526,956
+202011018,Bendigo,VIC,Victoria,14929,1267
+202011019,California Gully - Eaglehawk,VIC,Victoria,12949,1223
+202011020,East Bendigo - Kennington,VIC,Victoria,13988,1408
+202011021,Flora Hill - Spring Gully,VIC,Victoria,9437,1465
+202011022,Kangaroo Flat - Golden Square,VIC,Victoria,21043,1238
+202011023,Maiden Gully,VIC,Victoria,5518,2203
+202011024,Strathfieldsaye,VIC,Victoria,10719,2217
+202011025,White Hills - Ascot,VIC,Victoria,14446,1689
+202021026,Bendigo Surrounds - South,VIC,Victoria,8344,2040
+202021027,Castlemaine,VIC,Victoria,11352,1200
+202021028,Castlemaine Surrounds,VIC,Victoria,9225,1317
+202021029,Heathcote,VIC,Victoria,5062,1115
+202021030,Kyneton,VIC,Victoria,10562,1695
+202021031,Woodend,VIC,Victoria,7949,2113
+202031032,Bendigo Surrounds - North,VIC,Victoria,4934,1454
+202031033,Loddon,VIC,Victoria,7289,1027
+203011034,Bannockburn,VIC,Victoria,7754,2159
+203011035,Golden Plains - South,VIC,Victoria,8111,1898
+203011036,Winchelsea,VIC,Victoria,6614,1845
+203021037,Belmont,VIC,Victoria,15017,1510
+203021039,Geelong,VIC,Victoria,13504,1542
+203021040,Geelong West - Hamlyn Heights,VIC,Victoria,21200,1719
+203021042,Highton,VIC,Victoria,24034,2111
+203021043,Lara,VIC,Victoria,20817,1966
+203021044,Leopold,VIC,Victoria,13272,1589
+203021045,Newcomb - Moolap,VIC,Victoria,15462,1161
+203021046,Newtown (Vic.),VIC,Victoria,10445,2092
+203021047,North Geelong - Bell Park,VIC,Victoria,15795,1386
+203021485,Charlemont,VIC,Victoria,10300,1988
+203021486,Corio - Lovely Banks,VIC,Victoria,18325,1230
+203021487,Grovedale - Mount Duneed,VIC,Victoria,24763,1779
+203021488,Norlane,VIC,Victoria,9051,926
+203031048,Clifton Springs,VIC,Victoria,16797,1424
+203031049,Lorne - Anglesea,VIC,Victoria,6234,1684
+203031051,Portarlington,VIC,Victoria,9536,1139
+203031052,Point Lonsdale - Queenscliff,VIC,Victoria,5519,1521
+203031053,Torquay,VIC,Victoria,24607,2281
+203031489,Barwon Heads - Armstrong Creek,VIC,Victoria,11333,2201
+203031490,Ocean Grove,VIC,Victoria,19394,1882
+204011054,Alexandra,VIC,Victoria,6828,1135
+204011055,Euroa,VIC,Victoria,6922,1133
+204011056,Kilmore - Broadford,VIC,Victoria,15563,1574
+204011057,Mansfield (Vic.),VIC,Victoria,10517,1331
+204011058,Nagambie,VIC,Victoria,4537,1293
+204011059,Seymour,VIC,Victoria,6569,1165
+204011060,Seymour Surrounds,VIC,Victoria,4645,1900
+204011062,Yea,VIC,Victoria,4182,1222
+204021063,Benalla,VIC,Victoria,10822,1142
+204021064,Benalla Surrounds,VIC,Victoria,3781,1363
+204021065,Rutherglen,VIC,Victoria,4047,1344
+204021066,Wangaratta,VIC,Victoria,19882,1242
+204021067,Wangaratta Surrounds,VIC,Victoria,9925,1501
+204031068,Beechworth,VIC,Victoria,4986,1434
+204031069,Bright - Mount Beauty,VIC,Victoria,8903,1397
+204031070,Chiltern - Indigo Valley,VIC,Victoria,3184,1493
+204031071,Myrtleford,VIC,Victoria,4745,1226
+204031072,Towong,VIC,Victoria,6196,1280
+204031073,West Wodonga,VIC,Victoria,15396,1470
+204031075,Yackandandah,VIC,Victoria,5221,1833
+204031491,Baranduda - Leneva,VIC,Victoria,12778,2143
+204031492,Wodonga,VIC,Victoria,15082,1214
+205011076,Drouin,VIC,Victoria,19773,1452
+205011077,Mount Baw Baw Region,VIC,Victoria,6585,1456
+205011078,Trafalgar (Vic.),VIC,Victoria,8368,1452
+205011079,Warragul,VIC,Victoria,23051,1590
+205021081,Bairnsdale,VIC,Victoria,15684,1194
+205021082,Bruthen - Omeo,VIC,Victoria,8290,1323
+205021084,Lakes Entrance,VIC,Victoria,11164,1014
+205021085,Orbost,VIC,Victoria,6727,926
+205021086,Paynesville,VIC,Victoria,6977,1071
+205031087,Foster,VIC,Victoria,9446,1110
+205031089,Korumburra,VIC,Victoria,9842,1384
+205031090,Leongatha,VIC,Victoria,11502,1315
+205031091,Phillip Island,VIC,Victoria,13799,1175
+205031093,Wonthaggi - Inverloch,VIC,Victoria,26792,1154
+205041094,Churchill,VIC,Victoria,11912,1409
+205041095,Moe - Newborough,VIC,Victoria,17291,1017
+205041096,Morwell,VIC,Victoria,14432,942
+205041098,Yallourn North - Glengarry,VIC,Victoria,4707,1656
+205041493,Traralgon - East,VIC,Victoria,12000,1386
+205041494,Traralgon - West,VIC,Victoria,16822,1635
+205051100,Longford - Loch Sport,VIC,Victoria,4915,1079
+205051101,Maffra,VIC,Victoria,14756,1324
+205051102,Rosedale,VIC,Victoria,4928,1487
+205051103,Sale,VIC,Victoria,15301,1331
+205051104,Yarram,VIC,Victoria,5605,1012
+206011106,Brunswick East,VIC,Victoria,12738,2087
+206011107,Brunswick West,VIC,Victoria,14318,1786
+206011109,Pascoe Vale South,VIC,Victoria,10390,2245
+206011495,Brunswick - North,VIC,Victoria,12890,2062
+206011496,Brunswick - South,VIC,Victoria,12983,2126
+206011497,Coburg - East,VIC,Victoria,12535,1944
+206011498,Coburg - West,VIC,Victoria,14031,2186
+206021110,Alphington - Fairfield,VIC,Victoria,8994,2112
+206021112,Thornbury,VIC,Victoria,18919,1978
+206021499,Northcote - East,VIC,Victoria,15068,2251
+206021500,Northcote - West,VIC,Victoria,10299,2318
+206031113,Ascot Vale,VIC,Victoria,15191,2192
+206031115,Flemington,VIC,Victoria,9065,1571
+206031116,Moonee Ponds,VIC,Victoria,16224,2111
+206031501,Essendon (West) - Aberfeldie,VIC,Victoria,16042,2195
+206031502,Essendon - East,VIC,Victoria,12191,2055
+206041117,Carlton,VIC,Victoria,16655,1289
+206041118,Docklands,VIC,Victoria,15493,1956
+206041119,East Melbourne,VIC,Victoria,4896,2345
+206041121,Kensington (Vic.),VIC,Victoria,10745,2216
+206041124,Parkville,VIC,Victoria,7297,1885
+206041125,South Yarra - West,VIC,Victoria,6423,2259
+206041503,Melbourne CBD - East,VIC,Victoria,9848,1511
+206041504,Melbourne CBD - North,VIC,Victoria,16870,1089
+206041505,Melbourne CBD - West,VIC,Victoria,15648,1446
+206041506,North Melbourne,VIC,Victoria,15637,1718
+206041508,Southbank (West) - South Wharf,VIC,Victoria,6463,2054
+206041509,Southbank - East,VIC,Victoria,16101,1880
+206041510,West Melbourne - Residential,VIC,Victoria,7446,1784
+206051128,Albert Park,VIC,Victoria,15825,2303
+206051129,Elwood,VIC,Victoria,14818,2093
+206051130,Port Melbourne,VIC,Victoria,16192,2347
+206051134,St Kilda East,VIC,Victoria,15813,1988
+206051511,Port Melbourne Industrial,VIC,Victoria,1907,2407
+206051512,South Melbourne,VIC,Victoria,11693,2103
+206051513,St Kilda - Central,VIC,Victoria,11857,1788
+206051514,St Kilda - West,VIC,Victoria,13858,1849
+206061135,Armadale,VIC,Victoria,9336,2207
+206061136,Prahran - Windsor,VIC,Victoria,19119,2098
+206061138,Toorak,VIC,Victoria,12953,2538
+206061515,South Yarra - North,VIC,Victoria,11192,2042
+206061516,South Yarra - South,VIC,Victoria,9939,2001
+206071139,Abbotsford,VIC,Victoria,9088,2197
+206071140,Carlton North - Princes Hill,VIC,Victoria,8186,2355
+206071141,Collingwood,VIC,Victoria,9179,2130
+206071142,Fitzroy,VIC,Victoria,10431,2194
+206071143,Fitzroy North,VIC,Victoria,12781,2300
+206071145,Clifton Hill - Alphington,VIC,Victoria,9855,2529
+206071517,Richmond (South) - Cremorne,VIC,Victoria,17671,2577
+206071518,Richmond - North,VIC,Victoria,13867,2009
+207011146,Ashburton (Vic.),VIC,Victoria,7952,2743
+207011147,Balwyn,VIC,Victoria,16163,2017
+207011148,Balwyn North,VIC,Victoria,21123,2350
+207011149,Camberwell,VIC,Victoria,21232,2472
+207011150,Glen Iris - East,VIC,Victoria,16829,2914
+207011152,Hawthorn East,VIC,Victoria,15684,2228
+207011154,Kew East,VIC,Victoria,6482,2485
+207011155,Surrey Hills (West) - Canterbury,VIC,Victoria,15944,2709
+207011519,Hawthorn - North,VIC,Victoria,9890,2300
+207011520,Hawthorn - South,VIC,Victoria,11957,2055
+207011521,Kew - South,VIC,Victoria,11601,2577
+207011522,Kew - West,VIC,Victoria,13039,2459
+207021156,Bulleen,VIC,Victoria,11289,1812
+207021157,Doncaster,VIC,Victoria,24814,1595
+207021159,Templestowe,VIC,Victoria,16966,2163
+207021160,Templestowe Lower,VIC,Victoria,14191,1919
+207021424,Doncaster East - North,VIC,Victoria,15672,1934
+207021425,Doncaster East - South,VIC,Victoria,15454,1656
+207031161,Blackburn,VIC,Victoria,22106,2050
+207031162,Blackburn South,VIC,Victoria,10939,1861
+207031163,Box Hill,VIC,Victoria,22841,1441
+207031164,Box Hill North,VIC,Victoria,18126,1920
+207031165,Burwood (Vic.),VIC,Victoria,12336,1564
+207031166,Burwood East,VIC,Victoria,10675,1610
+207031167,Surrey Hills (East) - Mont Albert,VIC,Victoria,10166,2388
+208011168,Beaumaris,VIC,Victoria,14021,2622
+208011169,Brighton (Vic.),VIC,Victoria,22758,2718
+208011170,Brighton East,VIC,Victoria,16540,2720
+208011171,Highett (West) - Cheltenham,VIC,Victoria,12439,2291
+208011172,Hampton,VIC,Victoria,18200,2415
+208011173,Sandringham - Black Rock,VIC,Victoria,17358,2356
+208021174,Bentleigh - McKinnon,VIC,Victoria,24896,2240
+208021176,Carnegie,VIC,Victoria,18534,1873
+208021177,Caulfield - North,VIC,Victoria,22362,2184
+208021178,Caulfield - South,VIC,Victoria,18075,2289
+208021179,Elsternwick,VIC,Victoria,11904,2171
+208021180,Hughesdale,VIC,Victoria,7563,2057
+208021181,Murrumbeena,VIC,Victoria,9369,2089
+208021182,Ormond - Glen Huntly,VIC,Victoria,13128,1978
+208021426,Bentleigh East - North,VIC,Victoria,16583,2250
+208021427,Bentleigh East - South,VIC,Victoria,14057,2173
+208031183,Aspendale Gardens - Waterways,VIC,Victoria,8853,2348
+208031185,Carrum - Patterson Lakes,VIC,Victoria,12032,1853
+208031186,Chelsea - Bonbeach,VIC,Victoria,15204,1718
+208031187,Chelsea Heights,VIC,Victoria,5393,1867
+208031188,Highett (East) - Cheltenham,VIC,Victoria,24085,1853
+208031189,Edithvale - Aspendale,VIC,Victoria,13563,2223
+208031190,Mentone,VIC,Victoria,13197,1889
+208031191,Moorabbin - Heatherton,VIC,Victoria,9116,2046
+208031193,Mordialloc - Parkdale,VIC,Victoria,21199,2090
+208041194,Malvern - Glen Iris,VIC,Victoria,20239,2364
+208041195,Malvern East,VIC,Victoria,21923,2386
+209011196,Bundoora - East,VIC,Victoria,9831,1705
+209011197,Greensborough,VIC,Victoria,20807,2078
+209011198,Heidelberg - Rosanna,VIC,Victoria,16039,2102
+209011199,Heidelberg West,VIC,Victoria,14852,1618
+209011200,Ivanhoe,VIC,Victoria,12458,2280
+209011201,Ivanhoe East - Eaglemont,VIC,Victoria,7740,2914
+209011202,Montmorency - Briar Hill,VIC,Victoria,16539,2068
+209011203,Viewbank - Yallambie,VIC,Victoria,18733,2025
+209011204,Watsonia,VIC,Victoria,9236,1961
+209021205,Kingsbury,VIC,Victoria,10408,1727
+209021428,Preston - East,VIC,Victoria,20711,1787
+209021429,Preston - West,VIC,Victoria,12696,1970
+209021523,Reservoir - North East,VIC,Victoria,14795,1544
+209021524,Reservoir - North West,VIC,Victoria,9801,1442
+209021525,Reservoir - South East,VIC,Victoria,12799,1401
+209021526,Reservoir - South West,VIC,Victoria,14090,1743
+209031209,Eltham,VIC,Victoria,23444,2464
+209031210,Hurstbridge,VIC,Victoria,3554,2168
+209031211,Kinglake,VIC,Victoria,4204,1809
+209031212,Panton Hill - St Andrews,VIC,Victoria,5091,2254
+209031213,Plenty - Yarrambat,VIC,Victoria,9454,2554
+209031214,Research - North Warrandyte,VIC,Victoria,6935,2831
+209031215,Wattle Glen - Diamond Creek,VIC,Victoria,14417,2496
+209041216,Bundoora - North,VIC,Victoria,7350,1833
+209041217,Bundoora - West,VIC,Victoria,6186,1423
+209041220,Mill Park - North,VIC,Victoria,17470,1798
+209041221,Mill Park - South,VIC,Victoria,11240,1647
+209041223,Thomastown,VIC,Victoria,19998,1225
+209041224,Wallan,VIC,Victoria,22627,2002
+209041225,Whittlesea,VIC,Victoria,10661,1855
+209041431,Epping - East,VIC,Victoria,13144,1675
+209041432,Epping - South,VIC,Victoria,8204,1443
+209041433,Epping (Vic.) - West,VIC,Victoria,12143,1848
+209041435,South Morang - North,VIC,Victoria,12595,2242
+209041436,South Morang - South,VIC,Victoria,12392,1899
+209041437,Wollert,VIC,Victoria,24407,1979
+209041527,Doreen - North,VIC,Victoria,16299,2173
+209041528,Doreen - South,VIC,Victoria,10471,2120
+209041529,Lalor - East,VIC,Victoria,9947,1224
+209041530,Lalor - West,VIC,Victoria,13513,1450
+209041531,Mernda - North,VIC,Victoria,11427,1897
+209041532,Mernda - South,VIC,Victoria,11940,2109
+210011226,Airport West,VIC,Victoria,8173,1761
+210011228,Keilor,VIC,Victoria,8548,1820
+210011230,Niddrie - Essendon West,VIC,Victoria,7460,2239
+210011231,Strathmore,VIC,Victoria,10031,2440
+210011533,Avondale Heights,VIC,Victoria,12388,1587
+210011534,Keilor East,VIC,Victoria,15073,1913
+210021232,Gisborne,VIC,Victoria,14222,2311
+210021233,Macedon,VIC,Victoria,3523,2457
+210021234,Riddells Creek,VIC,Victoria,4457,2156
+210021235,Romsey,VIC,Victoria,10765,2004
+210031236,Coburg North,VIC,Victoria,8425,1980
+210031237,Fawkner,VIC,Victoria,14002,1436
+210031439,Gowanbrae,VIC,Victoria,3111,2162
+210031440,Hadfield,VIC,Victoria,6241,1538
+210031535,Glenroy - East,VIC,Victoria,14783,1526
+210031536,Glenroy - West,VIC,Victoria,8857,1869
+210031537,Oak Park,VIC,Victoria,7898,2204
+210031538,Pascoe Vale,VIC,Victoria,17214,2003
+210041240,Sunbury,VIC,Victoria,13671,2106
+210041539,Diggers Rest,VIC,Victoria,5237,2009
+210041540,Sunbury - South,VIC,Victoria,14985,1727
+210041541,Sunbury - West,VIC,Victoria,11166,1987
+210051242,Broadmeadows,VIC,Victoria,13859,1172
+210051243,Campbellfield - Coolaroo,VIC,Victoria,16057,1104
+210051245,Gladstone Park - Westmeadows,VIC,Victoria,18024,1600
+210051246,Greenvale - Bulla,VIC,Victoria,22095,2250
+210051247,Meadow Heights,VIC,Victoria,14890,1274
+210051250,Tullamarine,VIC,Victoria,6576,1404
+210051441,Craigieburn - Central,VIC,Victoria,8099,1523
+210051442,Craigieburn - North,VIC,Victoria,12309,1958
+210051443,Craigieburn - South,VIC,Victoria,21673,1835
+210051445,Mickleham - Yuroke,VIC,Victoria,23374,1982
+210051542,Craigieburn - North West,VIC,Victoria,9842,1876
+210051543,Craigieburn - West,VIC,Victoria,12999,1752
+210051544,Roxburgh Park (South) - Somerton,VIC,Victoria,9479,1642
+210051545,Roxburgh Park - North,VIC,Victoria,14658,1619
+211011251,Bayswater,VIC,Victoria,12589,1610
+211011254,Knoxfield - Scoresby,VIC,Victoria,16601,1953
+211011255,Lysterfield,VIC,Victoria,6594,2756
+211011256,Rowville - Central,VIC,Victoria,15418,2083
+211011257,Rowville - North,VIC,Victoria,7905,2285
+211011258,Rowville - South,VIC,Victoria,10375,2363
+211011259,Wantirna,VIC,Victoria,14341,1883
+211011260,Wantirna South,VIC,Victoria,17942,1821
+211011446,Boronia,VIC,Victoria,23560,1609
+211011447,Ferntree Gully - North,VIC,Victoria,14145,1606
+211011448,Ferntree Gully (South) - Upper Ferntree Gully,VIC,Victoria,15334,1960
+211011449,The Basin,VIC,Victoria,4345,2049
+211021261,Donvale - Park Orchards,VIC,Victoria,16275,2284
+211021262,Warrandyte - Wonga Park,VIC,Victoria,10112,2779
+211031263,Bayswater North,VIC,Victoria,11871,1800
+211031265,Croydon Hills - Warranwood,VIC,Victoria,18059,2377
+211031266,Ringwood,VIC,Victoria,18715,1660
+211031267,Ringwood East,VIC,Victoria,21132,1945
+211031268,Ringwood North,VIC,Victoria,9654,2330
+211031450,Croydon - East,VIC,Victoria,16109,1566
+211031451,Croydon - West,VIC,Victoria,14139,1695
+211031452,Croydon South,VIC,Victoria,4898,1888
+211041269,Forest Hill,VIC,Victoria,10780,1658
+211041270,Mitcham (Vic.),VIC,Victoria,16795,2030
+211041271,Nunawading,VIC,Victoria,12413,1938
+211041272,Vermont,VIC,Victoria,10993,2042
+211041273,Vermont South,VIC,Victoria,11954,1944
+211051274,Belgrave - Selby,VIC,Victoria,10005,2253
+211051275,Chirnside Park,VIC,Victoria,11779,2084
+211051276,Healesville - Yarra Glen,VIC,Victoria,14065,1594
+211051277,Kilsyth,VIC,Victoria,9916,1654
+211051278,Lilydale - Coldstream,VIC,Victoria,19599,1784
+211051279,Monbulk - Silvan,VIC,Victoria,5816,1872
+211051280,Montrose,VIC,Victoria,6943,2094
+211051281,Mooroolbark,VIC,Victoria,23146,1992
+211051282,Mount Dandenong - Olinda,VIC,Victoria,9706,2102
+211051283,Mount Evelyn,VIC,Victoria,9799,2045
+211051284,Upwey - Tecoma,VIC,Victoria,9777,2148
+211051285,Wandin - Seville,VIC,Victoria,7902,2066
+211051286,Yarra Valley,VIC,Victoria,16799,1439
+212011289,Emerald - Cockatoo,VIC,Victoria,18633,2176
+212011546,Beaconsfield - Officer,VIC,Victoria,23632,2146
+212011547,Bunyip - Garfield,VIC,Victoria,9868,1897
+212011548,Koo Wee Rup,VIC,Victoria,10069,1823
+212011549,Pakenham - North East,VIC,Victoria,15441,1651
+212011550,Pakenham - North West,VIC,Victoria,7479,1887
+212011551,Pakenham - South East,VIC,Victoria,6439,1235
+212011552,Pakenham - South West,VIC,Victoria,26783,1803
+212021293,Berwick - North,VIC,Victoria,22963,1885
+212021295,Doveton,VIC,Victoria,11889,1262
+212021297,Hallam,VIC,Victoria,11472,1496
+212021299,Narre Warren North,VIC,Victoria,8241,2659
+212021453,Endeavour Hills - North,VIC,Victoria,12086,1823
+212021454,Endeavour Hills - South,VIC,Victoria,13360,1733
+212021455,Narre Warren - North East,VIC,Victoria,13504,1920
+212021456,Narre Warren - South West,VIC,Victoria,14758,1615
+212021553,Berwick - South East,VIC,Victoria,17760,2361
+212021554,Berwick - South West,VIC,Victoria,11254,2175
+212031300,Cranbourne,VIC,Victoria,21281,1477
+212031303,Cranbourne South,VIC,Victoria,17400,2228
+212031304,Cranbourne West,VIC,Victoria,21535,1903
+212031306,Lynbrook - Lyndhurst,VIC,Victoria,18027,2330
+212031308,Pearcedale - Tooradin,VIC,Victoria,8024,1895
+212031457,Narre Warren South - East,VIC,Victoria,13152,2352
+212031458,Narre Warren South - West,VIC,Victoria,16713,2011
+212031555,Clyde North - North,VIC,Victoria,10535,2288
+212031556,Clyde North - South,VIC,Victoria,14802,2193
+212031557,Cranbourne East - North,VIC,Victoria,23415,1931
+212031558,Cranbourne East - South,VIC,Victoria,12289,1958
+212031559,Cranbourne North - East,VIC,Victoria,12772,2184
+212031560,Cranbourne North - West,VIC,Victoria,11910,1686
+212031561,Hampton Park - East,VIC,Victoria,12715,1623
+212031562,Hampton Park - West,VIC,Victoria,13368,1462
+212041309,Clarinda - Oakleigh South,VIC,Victoria,11554,1659
+212041310,Clayton South,VIC,Victoria,13381,1630
+212041312,Dandenong North,VIC,Victoria,22526,1436
+212041313,Dingley Village,VIC,Victoria,10499,1981
+212041316,Noble Park North,VIC,Victoria,7456,1453
+212041317,Springvale,VIC,Victoria,22248,1401
+212041318,Springvale South,VIC,Victoria,12621,1505
+212041459,Noble Park - East,VIC,Victoria,12739,1359
+212041460,Noble Park - West,VIC,Victoria,19591,1399
+212041563,Dandenong - North,VIC,Victoria,21487,1208
+212041564,Dandenong - South,VIC,Victoria,9350,1288
+212041565,Keysborough - North,VIC,Victoria,15096,1525
+212041566,Keysborough - South,VIC,Victoria,15093,2493
+212051319,Ashwood - Chadstone,VIC,Victoria,19507,2011
+212051321,Glen Waverley - East,VIC,Victoria,21603,1949
+212051322,Glen Waverley - West,VIC,Victoria,21036,1890
+212051323,Mount Waverley - North,VIC,Victoria,16073,2049
+212051324,Mount Waverley - South,VIC,Victoria,19265,2079
+212051325,Mulgrave,VIC,Victoria,19889,1913
+212051326,Oakleigh - Huntingdale,VIC,Victoria,22928,1956
+212051327,Wheelers Hill,VIC,Victoria,20652,1818
+212051567,Clayton (North) - Notting Hill,VIC,Victoria,9829,1278
+212051568,Clayton - Central,VIC,Victoria,12052,1711
+213011328,Ardeer - Albion,VIC,Victoria,7502,1366
+213011329,Cairnlea,VIC,Victoria,10038,2062
+213011331,Delahey,VIC,Victoria,8077,1486
+213011332,Keilor Downs,VIC,Victoria,13082,1553
+213011333,Kings Park (Vic.),VIC,Victoria,13983,1246
+213011334,St Albans - North,VIC,Victoria,20581,1183
+213011335,St Albans - South,VIC,Victoria,17454,1232
+213011336,Sunshine,VIC,Victoria,9445,1566
+213011337,Sunshine North,VIC,Victoria,12047,1399
+213011338,Sunshine West,VIC,Victoria,18558,1416
+213011339,Sydenham,VIC,Victoria,11726,1820
+213011340,Taylors Lakes,VIC,Victoria,16910,2167
+213011569,Deer Park,VIC,Victoria,18004,1459
+213011570,Derrimut,VIC,Victoria,8653,2271
+213021341,Altona,VIC,Victoria,13556,1861
+213021342,Altona Meadows,VIC,Victoria,18479,1573
+213021343,Altona North,VIC,Victoria,14931,1740
+213021344,Newport,VIC,Victoria,18753,2555
+213021345,Seabrook,VIC,Victoria,4952,2042
+213021346,Williamstown,VIC,Victoria,15912,2382
+213031347,Braybrook,VIC,Victoria,19068,1686
+213031348,Footscray,VIC,Victoria,17131,1763
+213031349,Maribyrnong,VIC,Victoria,12573,2020
+213031350,Seddon - Kingsville,VIC,Victoria,9247,2364
+213031351,West Footscray - Tottenham,VIC,Victoria,11735,1988
+213031352,Yarraville,VIC,Victoria,15463,2483
+213041353,Bacchus Marsh,VIC,Victoria,24717,1807
+213041358,Melton West,VIC,Victoria,21208,1621
+213041359,Rockbank - Mount Cottrell,VIC,Victoria,17553,2123
+213041360,Taylors Hill,VIC,Victoria,19539,2315
+213041461,Burnside,VIC,Victoria,5800,1871
+213041462,Burnside Heights,VIC,Victoria,6377,2246
+213041463,Caroline Springs,VIC,Victoria,20365,2133
+213041571,Brookfield,VIC,Victoria,9829,1627
+213041572,Cobblebank - Strathtulloh,VIC,Victoria,7598,2056
+213041573,Eynesbury - Exford,VIC,Victoria,2990,2562
+213041574,Fraser Rise - Plumpton,VIC,Victoria,10098,2254
+213041575,Hillside,VIC,Victoria,16182,2212
+213041576,Kurunjang - Toolern Vale,VIC,Victoria,11632,1556
+213041577,Melton,VIC,Victoria,7886,1061
+213041578,Melton South - Weir Views,VIC,Victoria,16658,1363
+213051361,Hoppers Crossing - North,VIC,Victoria,18446,1705
+213051362,Hoppers Crossing - South,VIC,Victoria,18772,1470
+213051363,Laverton,VIC,Victoria,11459,2091
+213051368,Werribee - South,VIC,Victoria,16810,1802
+213051464,Point Cook - East,VIC,Victoria,19274,2381
+213051466,Point Cook - South,VIC,Victoria,19091,2522
+213051467,Werribee - East,VIC,Victoria,19010,1374
+213051468,Werribee - West,VIC,Victoria,22341,1995
+213051579,Manor Lakes - Quandong,VIC,Victoria,10616,2309
+213051580,Point Cook - North East,VIC,Victoria,14167,2185
+213051581,Point Cook - North West,VIC,Victoria,9565,2439
+213051582,Tarneit (West) - Mount Cottrell,VIC,Victoria,10132,2086
+213051583,Tarneit - Central,VIC,Victoria,28116,2164
+213051584,Tarneit - North,VIC,Victoria,7197,2198
+213051585,Tarneit - South,VIC,Victoria,11182,1885
+213051586,Truganina - North,VIC,Victoria,9340,2307
+213051587,Truganina - South East,VIC,Victoria,9596,2337
+213051588,Truganina - South West,VIC,Victoria,19065,1947
+213051589,Wyndham Vale - North,VIC,Victoria,9032,1862
+213051590,Wyndham Vale - South,VIC,Victoria,13546,1766
+214011370,Carrum Downs,VIC,Victoria,21976,1658
+214011371,Frankston,VIC,Victoria,23586,1383
+214011372,Frankston North,VIC,Victoria,19453,1313
+214011373,Frankston South,VIC,Victoria,18801,2038
+214011374,Langwarrin,VIC,Victoria,24939,1950
+214011375,Seaford (Vic.),VIC,Victoria,17215,1500
+214011376,Skye - Sandhurst,VIC,Victoria,13303,2224
+214021377,Dromana,VIC,Victoria,13366,1398
+214021378,Flinders,VIC,Victoria,5995,2197
+214021379,Hastings - Somers,VIC,Victoria,23970,1407
+214021381,Mount Eliza,VIC,Victoria,18734,2547
+214021382,Mount Martha,VIC,Victoria,19846,2097
+214021383,Point Nepean,VIC,Victoria,19811,1430
+214021384,Rosebud - McCrae,VIC,Victoria,22944,1155
+214021385,Somerville,VIC,Victoria,18522,1781
+214021591,Mornington - East,VIC,Victoria,15175,1502
+214021592,Mornington - West,VIC,Victoria,10581,1389
+215011386,Ararat,VIC,Victoria,8500,1216
+215011387,Ararat Surrounds,VIC,Victoria,3204,1384
+215011388,Horsham,VIC,Victoria,16985,1347
+215011389,Horsham Surrounds,VIC,Victoria,3471,1567
+215011390,Nhill Region,VIC,Victoria,6956,1179
+215011391,St Arnaud,VIC,Victoria,3453,993
+215011392,Stawell,VIC,Victoria,8504,1184
+215011393,West Wimmera,VIC,Victoria,2766,1176
+215011394,Yarriambiack,VIC,Victoria,6501,1099
+215021395,Irymple,VIC,Victoria,7700,1716
+215021396,Merbein,VIC,Victoria,4976,1338
+215021398,Mildura Surrounds,VIC,Victoria,3726,1239
+215021399,Red Cliffs,VIC,Victoria,6138,1346
+215021469,Mildura - North,VIC,Victoria,18027,1210
+215021470,Mildura - South,VIC,Victoria,16408,1407
+215031400,Buloke,VIC,Victoria,6184,1089
+215031401,Gannawarra,VIC,Victoria,6719,1114
+215031402,Kerang,VIC,Victoria,3960,1006
+215031403,Robinvale,VIC,Victoria,3740,1347
+215031404,Swan Hill,VIC,Victoria,11186,1390
+215031405,Swan Hill Surrounds,VIC,Victoria,6477,1373
+216011406,Echuca,VIC,Victoria,15636,1347
+216011407,Kyabram,VIC,Victoria,11121,1228
+216011408,Lockington - Gunbower,VIC,Victoria,3927,1428
+216011409,Rochester,VIC,Victoria,4016,1166
+216011410,Rushworth,VIC,Victoria,4193,1072
+216021411,Cobram,VIC,Victoria,6465,1057
+216021412,Moira,VIC,Victoria,2843,1361
+216021413,Numurkah,VIC,Victoria,12555,1243
+216021414,Yarrawonga,VIC,Victoria,8661,1149
+216031415,Mooroopna,VIC,Victoria,8312,1121
+216031416,Shepparton - North,VIC,Victoria,19928,1560
+216031418,Shepparton Surrounds - East,VIC,Victoria,4017,1628
+216031419,Shepparton Surrounds - West,VIC,Victoria,10346,1379
+216031593,Kialla,VIC,Victoria,9082,2001
+216031594,Shepparton - South East,VIC,Victoria,16520,1144
+217011420,Glenelg (Vic.),VIC,Victoria,8920,1234
+217011421,Hamilton (Vic.),VIC,Victoria,10346,1247
+217011422,Portland,VIC,Victoria,11230,1200
+217011423,Southern Grampians,VIC,Victoria,6301,1289
+217031471,Camperdown,VIC,Victoria,3491,1129
+217031472,Colac,VIC,Victoria,12756,1250
+217031473,Colac Surrounds,VIC,Victoria,5669,1441
+217031474,Corangamite - North,VIC,Victoria,5395,1183
+217031475,Corangamite - South,VIC,Victoria,7180,1406
+217031476,Otway,VIC,Victoria,4008,1167
+217041477,Moyne - East,VIC,Victoria,7018,1513
+217041478,Moyne - West,VIC,Victoria,10014,1522
+217041479,Warrnambool - North,VIC,Victoria,22405,1451
+217041480,Warrnambool - South,VIC,Victoria,13337,1380
+301011001,Alexandra Hills,QLD,Queensland,16574,1837
+301011002,Belmont - Gumdale,QLD,Queensland,7550,2588
+301011003,Birkdale,QLD,Queensland,15230,1944
+301011004,Capalaba,QLD,Queensland,18254,1738
+301011005,Thorneside,QLD,Queensland,3877,1488
+301011006,Wellington Point,QLD,Queensland,11893,2173
+301021007,Cleveland,QLD,Queensland,15851,1430
+301021008,Ormiston,QLD,Queensland,6379,1913
+301021009,Redland Bay,QLD,Queensland,17765,2074
+301021011,Sheldon - Mount Cotton,QLD,Queensland,8357,2637
+301021012,Thornlands,QLD,Queensland,19263,2218
+301021013,Victoria Point,QLD,Queensland,15140,1511
+301021550,North Stradbroke Island,QLD,Queensland,2156,1147
+301021551,Southern Moreton Bay Islands,QLD,Queensland,8481,761
+301031015,Manly - Lota,QLD,Queensland,7890,2051
+301031016,Manly West,QLD,Queensland,11860,2117
+301031017,Murarrie,QLD,Queensland,4775,2404
+301031018,Tingalpa,QLD,Queensland,8881,1983
+301031019,Wakerley,QLD,Queensland,9446,3006
+301031020,Wynnum,QLD,Queensland,14502,1882
+301031021,Wynnum West - Hemmant,QLD,Queensland,15681,1856
+302011022,Bald Hills,QLD,Queensland,7826,2018
+302011023,Bridgeman Downs,QLD,Queensland,10501,2846
+302011024,Carseldine,QLD,Queensland,9844,2012
+302011025,Everton Park,QLD,Queensland,10044,2024
+302011026,McDowall,QLD,Queensland,7918,2461
+302021027,Aspley,QLD,Queensland,12912,1838
+302021028,Chermside,QLD,Queensland,11426,1419
+302021029,Chermside West,QLD,Queensland,6611,2187
+302021030,Geebung,QLD,Queensland,4541,2164
+302021031,Kedron - Gordon Park,QLD,Queensland,14432,2142
+302021032,Stafford,QLD,Queensland,6917,1762
+302021033,Stafford Heights,QLD,Queensland,7153,2091
+302021034,Wavell Heights,QLD,Queensland,10344,2638
+302031035,Boondall,QLD,Queensland,9596,1887
+302031037,Eagle Farm - Pinkenba,QLD,Queensland,2076,2060
+302031038,Northgate - Virginia,QLD,Queensland,7068,2216
+302031039,Nudgee - Banyo,QLD,Queensland,10789,2307
+302031040,Nundah,QLD,Queensland,13305,1763
+302041041,Bracken Ridge,QLD,Queensland,17488,1972
+302041042,Brighton (Qld),QLD,Queensland,9664,1981
+302041043,Deagon,QLD,Queensland,3773,1605
+302041044,Sandgate - Shorncliffe,QLD,Queensland,6826,1908
+302041045,Taigum - Fitzgibbon,QLD,Queensland,14097,1568
+302041046,Zillmere,QLD,Queensland,9323,1426
+303011047,Camp Hill,QLD,Queensland,12145,3010
+303011048,Cannon Hill,QLD,Queensland,6930,2320
+303011049,Carina,QLD,Queensland,11826,2075
+303011050,Carina Heights,QLD,Queensland,6884,1993
+303011051,Carindale,QLD,Queensland,16504,2382
+303021052,Annerley,QLD,Queensland,11935,1831
+303021053,Coorparoo,QLD,Queensland,17810,2100
+303021054,Fairfield - Dutton Park,QLD,Queensland,5008,2055
+303021055,Greenslopes,QLD,Queensland,10524,1941
+303021056,Holland Park,QLD,Queensland,8895,2331
+303021057,Holland Park West,QLD,Queensland,6419,2196
+303021058,Woolloongabba,QLD,Queensland,8597,1864
+303021059,Yeronga,QLD,Queensland,10200,2102
+303031060,Eight Mile Plains,QLD,Queensland,15186,1942
+303031061,Macgregor (Qld),QLD,Queensland,5979,1752
+303031062,Mansfield (Qld),QLD,Queensland,8880,2060
+303031063,Mount Gravatt,QLD,Queensland,15873,2017
+303031064,Rochedale - Burbank,QLD,Queensland,11020,2614
+303031065,Upper Mount Gravatt,QLD,Queensland,10988,1664
+303031066,Wishart,QLD,Queensland,11444,2017
+303041067,Coopers Plains,QLD,Queensland,5704,1606
+303041068,Moorooka,QLD,Queensland,10825,1866
+303041069,Robertson,QLD,Queensland,4870,1664
+303041070,Salisbury - Nathan,QLD,Queensland,7562,2087
+303041071,Tarragindi,QLD,Queensland,10944,2928
+303051072,Algester,QLD,Queensland,9020,1716
+303051073,Calamvale - Stretton,QLD,Queensland,22845,1926
+303051074,Pallara - Willawong,QLD,Queensland,10220,2385
+303051075,Parkinson - Drewvale,QLD,Queensland,16095,2194
+303051076,Rocklea - Acacia Ridge,QLD,Queensland,9711,1350
+303061077,Kuraby,QLD,Queensland,9025,2079
+303061078,Runcorn,QLD,Queensland,14046,1742
+303061079,Sunnybank,QLD,Queensland,9033,1593
+303061080,Sunnybank Hills,QLD,Queensland,18085,1725
+304011081,Jindalee - Mount Ommaney,QLD,Queensland,7645,2360
+304011082,Middle Park - Jamboree Heights,QLD,Queensland,7086,2141
+304011083,Riverhills,QLD,Queensland,4121,2059
+304011084,Seventeen Mile Rocks - Sinnamon Park,QLD,Queensland,9716,2517
+304011085,Westlake,QLD,Queensland,4444,2706
+304021086,Bellbowrie - Moggill,QLD,Queensland,10528,2385
+304021087,Brookfield - Kenmore Hills,QLD,Queensland,7020,3239
+304021088,Chapel Hill,QLD,Queensland,10731,2957
+304021089,Fig Tree Pocket,QLD,Queensland,4345,3791
+304021090,Kenmore,QLD,Queensland,9438,2493
+304021091,Pinjarra Hills - Pullenvale,QLD,Queensland,5673,3388
+304031092,Chelmer - Graceville,QLD,Queensland,7849,3172
+304031093,Corinda,QLD,Queensland,5321,2168
+304031094,Indooroopilly,QLD,Queensland,13430,2070
+304031095,Sherwood,QLD,Queensland,6452,2073
+304031096,St Lucia,QLD,Queensland,12220,1761
+304031097,Taringa,QLD,Queensland,9020,1911
+304041098,Enoggera,QLD,Queensland,9042,1975
+304041100,Keperra,QLD,Queensland,7416,1633
+304041101,Mitchelton,QLD,Queensland,8909,2240
+304041103,The Gap,QLD,Queensland,17099,2572
+304041104,Upper Kedron - Ferny Grove,QLD,Queensland,11681,2585
+305011105,Brisbane City,QLD,Queensland,13310,1857
+305011106,Fortitude Valley,QLD,Queensland,9512,1670
+305011107,Highgate Hill,QLD,Queensland,6372,1935
+305011108,Kangaroo Point,QLD,Queensland,9761,2059
+305011109,New Farm,QLD,Queensland,12454,2069
+305011110,South Brisbane,QLD,Queensland,14243,1831
+305011111,Spring Hill,QLD,Queensland,6860,1869
+305011112,West End,QLD,Queensland,14953,2103
+305021113,Balmoral,QLD,Queensland,4554,2730
+305021114,Bulimba,QLD,Queensland,7407,2868
+305021115,East Brisbane,QLD,Queensland,6118,2054
+305021116,Hawthorne,QLD,Queensland,5133,3018
+305021117,Morningside - Seven Hills,QLD,Queensland,14308,2323
+305021118,Norman Park,QLD,Queensland,6857,2918
+305031119,Albion,QLD,Queensland,4305,2052
+305031120,Alderley,QLD,Queensland,6593,2347
+305031121,Ascot,QLD,Queensland,5769,2208
+305031122,Clayfield,QLD,Queensland,10754,1931
+305031123,Grange,QLD,Queensland,4627,3243
+305031124,Hamilton (Qld),QLD,Queensland,6768,2061
+305031125,Hendra,QLD,Queensland,4949,3018
+305031126,Kelvin Grove - Herston,QLD,Queensland,10165,1759
+305031127,Newmarket,QLD,Queensland,5083,2251
+305031128,Newstead - Bowen Hills,QLD,Queensland,18016,2160
+305031129,Wilston,QLD,Queensland,4031,3003
+305031130,Windsor,QLD,Queensland,7978,2192
+305031131,Wooloowin - Lutwyche,QLD,Queensland,11025,2086
+305041132,Ashgrove,QLD,Queensland,13716,2873
+305041133,Auchenflower,QLD,Queensland,5670,2180
+305041134,Bardon,QLD,Queensland,10343,3407
+305041135,Paddington - Milton,QLD,Queensland,12197,2426
+305041136,Red Hill (Qld),QLD,Queensland,5975,2355
+305041137,Toowong,QLD,Queensland,12428,1932
+306011138,Brinsmead,QLD,Queensland,5537,2190
+306011139,Clifton Beach - Kewarra Beach,QLD,Queensland,11789,1638
+306011140,Freshwater - Stratford,QLD,Queensland,3742,1841
+306011141,Redlynch,QLD,Queensland,13784,2193
+306011142,Trinity Beach - Smithfield,QLD,Queensland,16791,1800
+306011143,Yorkeys Knob - Machans Beach,QLD,Queensland,6133,1327
+306021144,Bentley Park,QLD,Queensland,8360,1831
+306021145,Cairns City,QLD,Queensland,12567,1375
+306021146,Earlville - Bayview Heights,QLD,Queensland,8376,1478
+306021147,Edmonton,QLD,Queensland,11409,1643
+306021148,Gordonvale - Trinity,QLD,Queensland,9838,1790
+306021149,Kanimbla - Mooroobool,QLD,Queensland,9963,1713
+306021151,Manoora,QLD,Queensland,6175,1054
+306021152,Manunda,QLD,Queensland,5191,1069
+306021153,Mount Sheridan,QLD,Queensland,8678,1826
+306021154,Westcourt - Bungalow,QLD,Queensland,6519,1154
+306021155,White Rock,QLD,Queensland,4918,1396
+306021156,Whitfield - Edge Hill,QLD,Queensland,8353,1677
+306021157,Woree,QLD,Queensland,5127,1152
+306031158,Babinda,QLD,Queensland,4568,1320
+306031159,Innisfail,QLD,Queensland,9257,1105
+306031160,Johnstone,QLD,Queensland,8002,1301
+306031161,Tully,QLD,Queensland,10999,1190
+306031163,Yarrabah,QLD,Queensland,2505,1254
+306041164,Daintree,QLD,Queensland,6674,1201
+306041165,Port Douglas,QLD,Queensland,5582,1441
+306051166,Atherton,QLD,Queensland,11625,1208
+306051167,Herberton,QLD,Queensland,5522,900
+306051168,Kuranda,QLD,Queensland,4826,1352
+306051169,Malanda - Yungaburra,QLD,Queensland,9095,1296
+306051170,Mareeba,QLD,Queensland,11825,1282
+307011171,Balonne,QLD,Queensland,4320,1358
+307011172,Chinchilla,QLD,Queensland,8775,1549
+307011173,Goondiwindi,QLD,Queensland,6230,1629
+307011174,Inglewood - Waggamba,QLD,Queensland,4065,1118
+307011175,Miles - Wandoan,QLD,Queensland,4180,1334
+307011176,Roma,QLD,Queensland,6838,1706
+307011177,Roma Surrounds,QLD,Queensland,5989,1436
+307011178,Tara,QLD,Queensland,3851,945
+307021179,Crows Nest - Rosalie,QLD,Queensland,9175,1109
+307021180,Jondaryan,QLD,Queensland,7662,1357
+307021181,Millmerran,QLD,Queensland,3223,1200
+307021182,Pittsworth,QLD,Queensland,5791,1406
+307021183,Wambo,QLD,Queensland,17015,1410
+307031184,Clifton - Greenmount,QLD,Queensland,5109,1307
+307031185,Southern Downs - East,QLD,Queensland,4360,1244
+307031186,Southern Downs - West,QLD,Queensland,4991,1096
+307031187,Stanthorpe,QLD,Queensland,5286,970
+307031188,Stanthorpe Surrounds,QLD,Queensland,6247,1137
+307031189,Warwick,QLD,Queensland,15525,1117
+308011190,Central Highlands - East,QLD,Queensland,7156,2069
+308011191,Central Highlands - West,QLD,Queensland,7616,1620
+308011192,Emerald,QLD,Queensland,14089,2190
+308031205,Berserker,QLD,Queensland,7024,1172
+308031206,Bouldercombe,QLD,Queensland,1948,1437
+308031207,Emu Park,QLD,Queensland,5798,1203
+308031208,Frenchville - Mount Archer,QLD,Queensland,9059,1737
+308031209,Glenlee - Rockyview,QLD,Queensland,5224,2432
+308031210,Gracemere,QLD,Queensland,12379,1713
+308031211,Lakes Creek,QLD,Queensland,4880,1374
+308031212,Mount Morgan,QLD,Queensland,2945,813
+308031213,Norman Gardens,QLD,Queensland,10709,1778
+308031214,Park Avenue,QLD,Queensland,5292,1281
+308031215,Parkhurst - Kawana,QLD,Queensland,7477,1626
+308031216,Rockhampton - West,QLD,Queensland,5903,1408
+308031217,Rockhampton City,QLD,Queensland,3364,1061
+308031218,Rockhampton Surrounds - East,QLD,Queensland,3507,1589
+308031219,Rockhampton Surrounds - North,QLD,Queensland,4598,1679
+308031220,Rockhampton Surrounds - West,QLD,Queensland,3002,1851
+308031222,The Range - Allenstown,QLD,Queensland,7989,1600
+308031223,Yeppoon,QLD,Queensland,20244,1641
+308041528,Banana,QLD,Queensland,8817,1675
+308041529,Biloela,QLD,Queensland,5694,1883
+308051530,Agnes Water - Miriam Vale,QLD,Queensland,6807,1009
+308051531,Boyne Island - Tannum Sands,QLD,Queensland,10063,1948
+308051533,Clinton - New Auckland,QLD,Queensland,14161,1890
+308051534,Gladstone,QLD,Queensland,6174,1222
+308051535,Gladstone Hinterland,QLD,Queensland,11529,1986
+308051536,Kin Kora - Sun Valley,QLD,Queensland,3533,1682
+308051538,Telina - Toolooa,QLD,Queensland,6387,1940
+308051539,West Gladstone,QLD,Queensland,4832,1329
+309011224,Broadbeach Waters,QLD,Queensland,8164,2072
+309011225,Burleigh Heads,QLD,Queensland,9176,1620
+309011226,Burleigh Waters,QLD,Queensland,14413,1737
+309011227,Mermaid Beach - Broadbeach,QLD,Queensland,13997,1638
+309011228,Mermaid Waters,QLD,Queensland,13205,1753
+309011229,Miami,QLD,Queensland,7445,1831
+309021230,Coolangatta,QLD,Queensland,6491,1331
+309021231,Currumbin - Tugun,QLD,Queensland,12339,1696
+309021232,Currumbin Waters,QLD,Queensland,9797,1636
+309021233,Elanora,QLD,Queensland,12539,1744
+309021234,Palm Beach,QLD,Queensland,16349,1721
+309031235,Arundel,QLD,Queensland,11171,1682
+309031236,Biggera Waters,QLD,Queensland,9973,1314
+309031237,Coombabah,QLD,Queensland,10298,1092
+309031238,Labrador,QLD,Queensland,18643,1188
+309031239,Paradise Point - Hollywell,QLD,Queensland,9991,1751
+309031240,Runaway Bay,QLD,Queensland,9308,1382
+309041241,Guanaba - Springbrook,QLD,Queensland,4420,1736
+309041242,Tamborine - Canungra,QLD,Queensland,15692,1745
+309051243,Currumbin Valley - Tallebudgera,QLD,Queensland,7674,2317
+309051244,Mudgeeraba - Bonogin,QLD,Queensland,19552,2052
+309051245,Reedy Creek - Andrews,QLD,Queensland,8810,2239
+309061246,Carrara,QLD,Queensland,13147,1560
+309061247,Highland Park,QLD,Queensland,8433,1671
+309061248,Nerang - Mount Nathan,QLD,Queensland,21260,1571
+309061249,Pacific Pines - Gaven,QLD,Queensland,18308,2086
+309061250,Worongary - Tallai,QLD,Queensland,8542,2262
+309071251,Coomera,QLD,Queensland,20225,1930
+309071252,Helensvale,QLD,Queensland,18949,2014
+309071253,Hope Island,QLD,Queensland,14665,1926
+309071254,Jacobs Well - Alberton,QLD,Queensland,4607,1917
+309071256,Oxenford - Maudsland,QLD,Queensland,17920,2040
+309071552,Ormeau (East) - Stapylton,QLD,Queensland,10681,1970
+309071553,Ormeau (West) - Yatala,QLD,Queensland,11879,2241
+309071554,Pimpama - North,QLD,Queensland,9910,1886
+309071555,Pimpama - South,QLD,Queensland,10491,1839
+309071556,Upper Coomera (South) - Wongawallan,QLD,Queensland,11420,2363
+309071557,Upper Coomera - North,QLD,Queensland,20287,1913
+309071558,Willow Vale - Pimpama (West),QLD,Queensland,7027,2013
+309081259,Clear Island Waters,QLD,Queensland,4395,1617
+309081260,Merrimac,QLD,Queensland,7210,1689
+309081262,Varsity Lakes,QLD,Queensland,16639,1645
+309081559,Robina - East,QLD,Queensland,16861,1851
+309081560,Robina - West,QLD,Queensland,8804,1613
+309091263,Ashmore,QLD,Queensland,12415,1581
+309091264,Molendinar,QLD,Queensland,6450,1767
+309091265,Parkwood,QLD,Queensland,8837,2064
+309091540,Southport - North,QLD,Queensland,17891,1193
+309091541,Southport - South,QLD,Queensland,18893,1362
+309101267,Benowa,QLD,Queensland,9889,1918
+309101268,Bundall,QLD,Queensland,4895,1957
+309101269,Main Beach,QLD,Queensland,3998,1682
+309101561,Surfers Paradise - North,QLD,Queensland,12204,1276
+309101562,Surfers Paradise - South,QLD,Queensland,14210,1360
+310011271,Darra - Sumner,QLD,Queensland,4699,1649
+310011272,Durack,QLD,Queensland,8254,1300
+310011274,Inala - Richlands,QLD,Queensland,19891,1172
+310011275,Oxley (Qld),QLD,Queensland,8578,2173
+310011276,Wacol,QLD,Queensland,6220,1204
+310011563,Doolandella,QLD,Queensland,8598,1844
+310011564,Forest Lake - Ellen Grove,QLD,Queensland,22478,1900
+310021277,Boonah,QLD,Queensland,12617,1375
+310021278,Esk,QLD,Queensland,5052,1021
+310021280,Lockyer Valley - East,QLD,Queensland,21208,1425
+310021281,Lowood,QLD,Queensland,14197,1445
+310021282,Rosewood,QLD,Queensland,14217,1578
+310031283,Brassall,QLD,Queensland,12115,1408
+310031284,Bundamba,QLD,Queensland,9334,1388
+310031285,Churchill - Yamanto,QLD,Queensland,6817,1678
+310031286,Ipswich - Central,QLD,Queensland,6715,1396
+310031287,Ipswich - East,QLD,Queensland,17975,1274
+310031288,Ipswich - North,QLD,Queensland,4561,2246
+310031289,Karalee - Barellan Point,QLD,Queensland,6694,2482
+310031290,Karana Downs,QLD,Queensland,6032,2385
+310031291,Leichhardt - One Mile,QLD,Queensland,8268,1212
+310031292,North Ipswich - Tivoli,QLD,Queensland,6416,1310
+310031293,Raceview,QLD,Queensland,15154,1563
+310031294,Ripley,QLD,Queensland,12774,2093
+310031295,Riverview,QLD,Queensland,3067,1097
+310041297,Camira - Gailes,QLD,Queensland,9249,1758
+310041299,Collingwood Park - Redbank,QLD,Queensland,11686,1640
+310041300,Goodna,QLD,Queensland,10885,1350
+310041302,Redbank Plains,QLD,Queensland,24349,1516
+310041303,Springfield,QLD,Queensland,7322,2176
+310041304,Springfield Lakes,QLD,Queensland,23526,2231
+310041565,Augustine Heights - Brookwater,QLD,Queensland,8987,2825
+310041566,Bellbird Park,QLD,Queensland,9191,1746
+311011305,Beaudesert,QLD,Queensland,14674,1199
+311021306,Beenleigh,QLD,Queensland,8425,1155
+311021307,Eagleby,QLD,Queensland,13594,1083
+311021308,Edens Landing - Holmview,QLD,Queensland,9549,1717
+311021309,Mount Warren Park,QLD,Queensland,5736,1496
+311021310,Wolffdene - Bahrs Scrub,QLD,Queensland,9016,2077
+311031311,Boronia Heights - Park Ridge,QLD,Queensland,19166,1463
+311031312,Browns Plains,QLD,Queensland,8161,1460
+311031313,Chambers Flat - Logan Reserve,QLD,Queensland,8869,1695
+311031314,Crestmead,QLD,Queensland,12158,1472
+311031316,Hillcrest,QLD,Queensland,8832,1764
+311031317,Marsden,QLD,Queensland,15988,1413
+311031318,Munruben - Park Ridge South,QLD,Queensland,4428,2229
+311031319,Regents Park - Heritage Park,QLD,Queensland,16032,1929
+311041322,Logan Village,QLD,Queensland,8608,2198
+311041567,Flagstone (East) - Riverbend,QLD,Queensland,6632,2203
+311041568,Flagstone (West) - New Beith,QLD,Queensland,10051,2524
+311041569,Greenbank - North Maclean,QLD,Queensland,7637,2073
+311041570,Jimboomba - Glenlogan,QLD,Queensland,18013,2169
+311041571,Yarrabilba,QLD,Queensland,10706,1603
+311051323,Bethania - Waterford,QLD,Queensland,12125,1298
+311051324,Cornubia - Carbrook,QLD,Queensland,9076,2315
+311051325,Loganholme - Tanah Merah,QLD,Queensland,11588,1868
+311051326,Loganlea,QLD,Queensland,11776,1377
+311051327,Shailer Park,QLD,Queensland,12073,2225
+311051328,Waterford West,QLD,Queensland,7815,1257
+311061329,Daisy Hill,QLD,Queensland,6897,2036
+311061330,Kingston (Qld),QLD,Queensland,10371,1180
+311061331,Logan Central,QLD,Queensland,6356,1017
+311061332,Rochedale South - Priestdale,QLD,Queensland,15394,1931
+311061333,Slacks Creek,QLD,Queensland,10408,1301
+311061334,Springwood,QLD,Queensland,9842,1724
+311061335,Underwood,QLD,Queensland,6809,1992
+311061336,Woodridge,QLD,Queensland,12982,1043
+312011337,Bowen,QLD,Queensland,9874,1322
+312011338,Broadsound - Nebo,QLD,Queensland,8730,2207
+312011339,Clermont,QLD,Queensland,3893,1873
+312011340,Collinsville,QLD,Queensland,3898,1359
+312011341,Moranbah,QLD,Queensland,9425,3079
+312021342,Andergrove - Beaconsfield,QLD,Queensland,15824,1732
+312021343,East Mackay,QLD,Queensland,3756,1717
+312021344,Eimeo - Rural View,QLD,Queensland,13495,2301
+312021346,Mackay,QLD,Queensland,4026,1239
+312021347,Mackay Harbour,QLD,Queensland,615,2171
+312021348,Mount Pleasant - Glenella,QLD,Queensland,11558,2213
+312021349,North Mackay,QLD,Queensland,6283,1372
+312021350,Ooralea - Bakers Creek,QLD,Queensland,5941,2149
+312021351,Pioneer Valley,QLD,Queensland,8897,2036
+312021352,Sarina,QLD,Queensland,11822,1781
+312021353,Seaforth - Calen,QLD,Queensland,8181,1661
+312021354,Shoal Point - Bucasia,QLD,Queensland,6084,2085
+312021355,Slade Point,QLD,Queensland,3455,1536
+312021356,South Mackay,QLD,Queensland,6918,1477
+312021357,Walkerston - Eton,QLD,Queensland,8457,2105
+312021358,West Mackay,QLD,Queensland,6364,1694
+312031359,Airlie - Whitsundays,QLD,Queensland,14523,1674
+312031361,Proserpine,QLD,Queensland,8858,1431
+313011362,Beachmere - Sandstone Point,QLD,Queensland,16469,1160
+313011363,Bribie Island,QLD,Queensland,20612,961
+313021364,Burpengary - East,QLD,Queensland,6658,2346
+313021366,Caboolture - South,QLD,Queensland,23625,1277
+313021367,Elimbah,QLD,Queensland,4290,2183
+313021368,Morayfield - East,QLD,Queensland,11078,1482
+313021369,Wamuran,QLD,Queensland,4228,2049
+313021572,Caboolture - East,QLD,Queensland,17736,1319
+313021573,Caboolture - West,QLD,Queensland,12165,1300
+313031370,Kilcoy,QLD,Queensland,5799,1334
+313031371,Woodford - D'Aguilar,QLD,Queensland,9100,1632
+313041372,Burpengary,QLD,Queensland,16488,1720
+313041373,Deception Bay,QLD,Queensland,22686,1219
+313041374,Morayfield,QLD,Queensland,5867,1951
+313041375,Narangba,QLD,Queensland,20914,2207
+313041376,Upper Caboolture,QLD,Queensland,3260,2202
+313051377,Clontarf,QLD,Queensland,8415,1389
+313051378,Margate - Woody Point,QLD,Queensland,11974,1225
+313051379,Redcliffe,QLD,Queensland,10434,1111
+313051380,Rothwell - Kippa-Ring,QLD,Queensland,17385,1301
+313051575,Scarborough - Newport,QLD,Queensland,15257,1658
+314011382,Albany Creek,QLD,Queensland,16410,2267
+314011383,Cashmere,QLD,Queensland,19643,2406
+314011384,Dayboro,QLD,Queensland,9213,2378
+314011385,Eatons Hill,QLD,Queensland,7822,2771
+314011386,The Hills District,QLD,Queensland,24313,2334
+314011387,Samford Valley,QLD,Queensland,12385,2806
+314021389,Murrumba Downs - Griffin,QLD,Queensland,23089,1939
+314021576,Dakabin,QLD,Queensland,5275,1689
+314021577,Kallangur,QLD,Queensland,21749,1456
+314021578,Mango Hill,QLD,Queensland,14921,2145
+314021579,North Lakes,QLD,Queensland,23030,2092
+314031391,Bray Park,QLD,Queensland,10271,1736
+314031392,Lawnton,QLD,Queensland,7095,1494
+314031393,Petrie,QLD,Queensland,8735,1853
+314031394,Strathpine - Brendale,QLD,Queensland,13747,1455
+315011395,Aurukun,QLD,Queensland,1101,1069
+315011396,Cape York,QLD,Queensland,7803,1063
+315011397,Croydon - Etheridge,QLD,Queensland,981,1206
+315011398,Kowanyama - Pormpuraaw,QLD,Queensland,1691,1104
+315011399,Northern Peninsula,QLD,Queensland,2781,1331
+315011400,Tablelands,QLD,Queensland,6204,1171
+315011401,Torres,QLD,Queensland,3421,2006
+315011402,Torres Strait Islands,QLD,Queensland,4124,976
+315011403,Weipa,QLD,Queensland,4097,2976
+315021404,Carpentaria,QLD,Queensland,4921,1279
+315021405,Mount Isa,QLD,Queensland,18317,2236
+315021406,Mount Isa Surrounds,QLD,Queensland,4044,1856
+315021407,Northern Highlands,QLD,Queensland,3095,1502
+315031408,Barcaldine - Blackall,QLD,Queensland,4749,1341
+315031409,Charleville,QLD,Queensland,3971,1294
+315031410,Far Central West,QLD,Queensland,2156,1442
+315031411,Far South West,QLD,Queensland,2713,1110
+315031412,Longreach,QLD,Queensland,3647,1561
+316011413,Buderim - North,QLD,Queensland,17960,1583
+316011414,Buderim - South,QLD,Queensland,17501,1922
+316011415,Mountain Creek,QLD,Queensland,11950,1911
+316011416,Sippy Downs,QLD,Queensland,11544,1484
+316021417,Aroona - Currimundi,QLD,Queensland,10043,1591
+316021418,Buddina - Minyama,QLD,Queensland,6956,1719
+316021419,Caloundra - Kings Beach,QLD,Queensland,6973,1122
+316021421,Golden Beach - Pelican Waters,QLD,Queensland,13035,1347
+316021422,Moffat Beach - Battery Hill,QLD,Queensland,8130,1503
+316021423,Parrearra - Warana,QLD,Queensland,10392,1593
+316021424,Wurtulla - Birtinya,QLD,Queensland,10671,1779
+316021580,Caloundra West - Baringa,QLD,Queensland,15707,1872
+316021581,Meridan Plains - Little Mountain (North),QLD,Queensland,14397,1496
+316031425,Coolum Beach,QLD,Queensland,15948,1703
+316031426,Marcoola - Mudjimba,QLD,Queensland,11961,1506
+316031427,Maroochydore - Kuluin,QLD,Queensland,23327,1384
+316031428,Mooloolaba - Alexandra Headland,QLD,Queensland,12443,1559
+316051434,Noosa Heads,QLD,Queensland,5120,1843
+316051435,Noosaville,QLD,Queensland,9344,1390
+316051437,Sunshine Beach,QLD,Queensland,6851,1826
+316051438,Tewantin,QLD,Queensland,10538,1261
+316051543,Peregian Beach - Marcus Beach,QLD,Queensland,4107,1755
+316051544,Peregian Springs,QLD,Queensland,10694,1864
+316061439,Beerwah,QLD,Queensland,9255,1534
+316061440,Caloundra Hinterland,QLD,Queensland,9110,1261
+316061441,Glass House Mountains,QLD,Queensland,6552,1686
+316061442,Landsborough,QLD,Queensland,15652,2004
+316061443,Maroochy Hinterland,QLD,Queensland,6830,1337
+316061444,Palmwoods,QLD,Queensland,11643,1795
+316071545,Bli Bli,QLD,Queensland,10750,1699
+316071546,Diddillibah - Rosemount,QLD,Queensland,4403,1595
+316071547,Eumundi - Yandina,QLD,Queensland,12348,1796
+316071548,Nambour,QLD,Queensland,22492,1383
+316081549,Noosa Hinterland,QLD,Queensland,24207,1496
+317011445,Cambooya - Wyreema,QLD,Queensland,7899,1982
+317011446,Darling Heights,QLD,Queensland,14576,1376
+317011447,Drayton - Harristown,QLD,Queensland,10823,1194
+317011448,Gatton,QLD,Queensland,7951,1274
+317011449,Gowrie (Qld),QLD,Queensland,7059,2004
+317011450,Highfields,QLD,Queensland,14582,2104
+317011451,Lockyer Valley - West,QLD,Queensland,11943,1690
+317011452,Middle Ridge,QLD,Queensland,7595,2177
+317011453,Newtown (Qld),QLD,Queensland,10039,1200
+317011454,North Toowoomba - Harlaxton,QLD,Queensland,6426,1232
+317011455,Rangeville,QLD,Queensland,8668,1689
+317011456,Toowoomba - Central,QLD,Queensland,13987,1345
+317011457,Toowoomba - East,QLD,Queensland,10533,1814
+317011458,Toowoomba - West,QLD,Queensland,15848,1852
+317011459,Wilsonton,QLD,Queensland,14112,1123
+318011460,Ayr,QLD,Queensland,8987,1269
+318011461,Burdekin,QLD,Queensland,7658,1422
+318011462,Charters Towers,QLD,Queensland,8040,1282
+318011463,Dalrymple,QLD,Queensland,3754,1391
+318011464,Ingham,QLD,Queensland,4455,1028
+318011465,Ingham Surrounds,QLD,Queensland,6462,1245
+318011466,Palm Island,QLD,Queensland,2098,977
+318021467,Aitkenvale,QLD,Queensland,4797,1378
+318021468,Annandale (Qld),QLD,Queensland,10116,2215
+318021469,Belgian Gardens - Pallarenda,QLD,Queensland,3192,1637
+318021470,Bohle Plains,QLD,Queensland,8515,2346
+318021471,Condon - Rasmussen,QLD,Queensland,10799,1380
+318021472,Cranbrook,QLD,Queensland,5844,1400
+318021474,Douglas,QLD,Queensland,7868,2025
+318021475,Garbutt - West End,QLD,Queensland,6273,1290
+318021476,Gulliver - Currajong - Vincent,QLD,Queensland,7586,1392
+318021477,Heatley,QLD,Queensland,3907,1266
+318021478,Hermit Park - Rosslea,QLD,Queensland,5415,1362
+318021479,Hyde Park - Pimlico,QLD,Queensland,4728,1305
+318021480,Kelso,QLD,Queensland,10683,1631
+318021481,Kirwan - East,QLD,Queensland,7693,1294
+318021482,Kirwan - West,QLD,Queensland,14944,1894
+318021483,Magnetic Island,QLD,Queensland,2475,1001
+318021484,Mount Louisa,QLD,Queensland,10110,2033
+318021485,Mundingburra,QLD,Queensland,3594,1344
+318021486,Northern Beaches,QLD,Queensland,6566,1531
+318021487,Oonoonba,QLD,Queensland,7033,2086
+318021488,South Townsville - Railway Estate,QLD,Queensland,5296,1524
+318021489,Townsville - South,QLD,Queensland,4767,1886
+318021490,Townsville City - North Ward,QLD,Queensland,9116,1783
+318021491,Wulguru - Roseneath,QLD,Queensland,6091,1421
+318021582,Burdell - Mount Low,QLD,Queensland,19337,2253
+318021583,Deeragun - Jensen,QLD,Queensland,6074,1735
+319011492,Ashfield - Kepnock,QLD,Queensland,5659,1273
+319011493,Bargara - Burnett Heads,QLD,Queensland,19008,1310
+319011494,Branyan - Kensington,QLD,Queensland,5384,1616
+319011495,Bundaberg,QLD,Queensland,6247,972
+319011496,Bundaberg East - Kalkie,QLD,Queensland,5804,1301
+319011497,Bundaberg North - Gooburrum,QLD,Queensland,7448,1028
+319011498,Bundaberg Surrounds - North,QLD,Queensland,9276,1216
+319011499,Bundaberg Surrounds - South,QLD,Queensland,10778,1022
+319011500,Millbank - Avoca,QLD,Queensland,7406,1113
+319011501,Svensson Heights - Norville,QLD,Queensland,5809,1073
+319011502,Walkervale - Avenell Heights,QLD,Queensland,10982,1117
+319021503,Gayndah - Mundubbera,QLD,Queensland,6395,1051
+319021504,Gin Gin,QLD,Queensland,5402,954
+319021505,Kingaroy,QLD,Queensland,10545,1257
+319021506,Kingaroy Surrounds - North,QLD,Queensland,9490,950
+319021507,Kingaroy Surrounds - South,QLD,Queensland,4157,1361
+319021508,Monto - Eidsvold,QLD,Queensland,3673,981
+319021509,Nanango,QLD,Queensland,10003,883
+319031511,Cooloola,QLD,Queensland,6568,790
+319031512,Gympie - North,QLD,Queensland,14866,1082
+319031513,Gympie - South,QLD,Queensland,7561,1245
+319031514,Gympie Surrounds,QLD,Queensland,20359,1292
+319031515,Kilkivan,QLD,Queensland,3788,1088
+319041516,Booral - River Heads,QLD,Queensland,5775,1402
+319041517,Craignish - Dundowran Beach,QLD,Queensland,5574,1563
+319041518,Pialba - Eli Waters,QLD,Queensland,15856,1014
+319041519,Point Vernon,QLD,Queensland,5718,1077
+319041520,Torquay - Scarness - Kawungan,QLD,Queensland,15786,1002
+319041521,Urangan - Wondunna,QLD,Queensland,14781,1109
+319051522,Burrum - Fraser,QLD,Queensland,10594,976
+319051523,Granville,QLD,Queensland,3051,1033
+319051524,Maryborough (Qld),QLD,Queensland,18558,977
+319051525,Maryborough Surrounds - South,QLD,Queensland,9548,959
+319051526,Tinana,QLD,Queensland,5872,1255
+401011001,Adelaide,SA,South Australia,18202,1365
+401011002,North Adelaide,SA,South Australia,6823,1867
+401021003,Adelaide Hills,SA,South Australia,7051,1905
+401021004,Aldgate - Stirling,SA,South Australia,18208,2297
+401021005,Hahndorf - Echunga,SA,South Australia,4726,1926
+401021006,Lobethal - Woodside,SA,South Australia,9448,1691
+401021007,Mount Barker,SA,South Australia,22113,1698
+401021008,Mount Barker Surrounds,SA,South Australia,6825,1784
+401021009,Nairne,SA,South Australia,5327,1776
+401021010,Uraidla - Summertown,SA,South Australia,6042,2181
+401031011,Burnside - Wattle Park,SA,South Australia,19066,2086
+401031012,Beaumont - Glen Osmond,SA,South Australia,10328,2326
+401031013,Toorak Gardens,SA,South Australia,16635,1929
+401041014,Athelstone,SA,South Australia,9601,1941
+401041015,Paradise - Newton,SA,South Australia,21601,1427
+401041016,Rostrevor - Magill,SA,South Australia,23968,1644
+401051017,Norwood (SA),SA,South Australia,10849,1653
+401051018,Payneham - Felixstow,SA,South Australia,13122,1476
+401051019,St Peters - Marden,SA,South Australia,13515,1879
+401061020,Nailsworth - Broadview,SA,South Australia,6484,1967
+401061021,Prospect,SA,South Australia,15785,2019
+401061022,Walkerville,SA,South Australia,8023,2052
+401071023,Goodwood - Millswood,SA,South Australia,17650,2001
+401071024,Unley - Parkside,SA,South Australia,20998,1998
+402011025,Gawler - North,SA,South Australia,9545,1770
+402011026,Gawler - South,SA,South Australia,21662,1336
+402011027,Lewiston - Two Wells,SA,South Australia,6505,1908
+402021028,Craigmore - Blakeview,SA,South Australia,19920,1600
+402021029,Davoren Park,SA,South Australia,18313,1161
+402021030,Elizabeth,SA,South Australia,10829,827
+402021031,Elizabeth East,SA,South Australia,14047,1188
+402021032,Munno Para West - Angle Vale,SA,South Australia,16215,1653
+402021033,One Tree Hill,SA,South Australia,2473,2277
+402021034,Smithfield - Elizabeth North,SA,South Australia,12446,939
+402021035,Virginia - Waterloo Corner,SA,South Australia,5693,1387
+402031036,Enfield - Blair Athol,SA,South Australia,25578,1428
+402031038,Windsor Gardens,SA,South Australia,22587,1595
+402031175,Northgate - Northfield,SA,South Australia,18188,1759
+402031176,Valley View - Gilles Plains,SA,South Australia,10504,1469
+402041040,Ingle Farm,SA,South Australia,15681,1344
+402041041,Para Hills,SA,South Australia,15094,1444
+402041043,Parafield Gardens,SA,South Australia,18467,1384
+402041044,Paralowie,SA,South Australia,17816,1458
+402041046,Salisbury,SA,South Australia,18594,1071
+402041047,Salisbury East,SA,South Australia,18454,1339
+402041048,Salisbury North,SA,South Australia,18487,1255
+402041171,Mawson Lakes - Globe Derby Park,SA,South Australia,13855,1913
+402041172,Pooraka - Cavan,SA,South Australia,8080,1263
+402051049,Golden Grove,SA,South Australia,10406,1674
+402051050,Greenwith,SA,South Australia,9017,1937
+402051051,Highbury - Dernancourt,SA,South Australia,11048,1920
+402051052,Hope Valley - Modbury,SA,South Australia,17496,1314
+402051053,Modbury Heights,SA,South Australia,19248,1657
+402051054,Redwood Park,SA,South Australia,16276,1818
+402051055,St Agnes - Ridgehaven,SA,South Australia,13161,1492
+403011056,Brighton (SA),SA,South Australia,15191,1673
+403011057,Glenelg (SA),SA,South Australia,20522,1562
+403021058,Edwardstown,SA,South Australia,14563,1452
+403021059,Hallett Cove,SA,South Australia,12609,1876
+403021060,Marino - Seaview Downs,SA,South Australia,9703,1821
+403021061,Mitchell Park,SA,South Australia,16516,1307
+403021062,Morphettville,SA,South Australia,16531,1554
+403021063,Sheidow Park - Trott Park,SA,South Australia,10211,1922
+403021064,Warradale,SA,South Australia,16190,1421
+403031065,Belair,SA,South Australia,4896,2273
+403031066,Bellevue Heights,SA,South Australia,7608,1764
+403031067,Blackwood,SA,South Australia,12963,2114
+403031068,Colonel Light Gardens,SA,South Australia,15842,2006
+403031069,Mitcham (SA),SA,South Australia,16506,2203
+403031070,Panorama,SA,South Australia,8475,1518
+403041071,Aberfoyle Park,SA,South Australia,11911,1807
+403041072,Aldinga,SA,South Australia,15923,1317
+403041073,Christie Downs,SA,South Australia,9475,995
+403041074,Christies Beach,SA,South Australia,11050,1220
+403041075,Clarendon,SA,South Australia,2729,2020
+403041076,Coromandel Valley,SA,South Australia,4469,2233
+403041077,Flagstaff Hill,SA,South Australia,10784,2045
+403041078,Hackham - Onkaparinga Hills,SA,South Australia,6875,1355
+403041079,Hackham West - Huntfield Heights,SA,South Australia,7818,1080
+403041080,Happy Valley,SA,South Australia,13864,1568
+403041083,McLaren Vale,SA,South Australia,7344,1638
+403041084,Morphett Vale - East,SA,South Australia,13863,1228
+403041085,Morphett Vale - West,SA,South Australia,10138,1163
+403041086,Reynella,SA,South Australia,10286,1334
+403041088,Willunga,SA,South Australia,3604,1755
+403041089,Woodcroft,SA,South Australia,11552,1672
+403041177,Seaford - Seaford Meadows,SA,South Australia,14177,1466
+403041178,Seaford Rise - Moana,SA,South Australia,10629,1521
+404011090,Beverley,SA,South Australia,8897,1695
+404011091,Flinders Park,SA,South Australia,16361,1563
+404011092,Henley Beach,SA,South Australia,15634,1786
+404011093,Hindmarsh - Brompton,SA,South Australia,19076,1631
+404011094,Royal Park - Hendon - Albert Park,SA,South Australia,6499,1427
+404011095,Seaton - Grange,SA,South Australia,17501,1425
+404011096,West Lakes,SA,South Australia,15205,1506
+404011097,Woodville - Cheltenham,SA,South Australia,19269,1491
+404021099,Largs Bay - Semaphore,SA,South Australia,14807,1584
+404021100,North Haven,SA,South Australia,14800,1414
+404021101,Port Adelaide,SA,South Australia,11589,1247
+404021102,The Parks,SA,South Australia,19645,1297
+404031105,Fulham,SA,South Australia,2920,1753
+404031106,Lockleys,SA,South Australia,13452,1635
+404031107,Plympton,SA,South Australia,26480,1551
+404031108,Richmond (SA),SA,South Australia,17022,1555
+404031109,West Beach,SA,South Australia,5175,1746
+405011110,Barossa - Angaston,SA,South Australia,6486,1441
+405011111,Light,SA,South Australia,9797,1544
+405011112,Lyndoch,SA,South Australia,6544,1827
+405011113,Mallala,SA,South Australia,3335,1369
+405011114,Nuriootpa,SA,South Australia,7157,1326
+405011115,Tanunda,SA,South Australia,4666,1446
+405021116,Clare,SA,South Australia,4096,1368
+405021117,Gilbert Valley,SA,South Australia,5016,1257
+405021118,Goyder,SA,South Australia,4079,917
+405021119,Wakefield - Barunga West,SA,South Australia,9500,1092
+405031120,Jamestown,SA,South Australia,4596,1145
+405031121,Peterborough - Mount Remarkable,SA,South Australia,5341,931
+405031122,Port Pirie,SA,South Australia,13896,1044
+405031123,Port Pirie Surrounds,SA,South Australia,3335,1145
+405041124,Kadina,SA,South Australia,5414,1155
+405041125,Moonta,SA,South Australia,5217,965
+405041126,Wallaroo,SA,South Australia,4426,916
+405041127,Yorke Peninsula - North,SA,South Australia,7458,1003
+405041128,Yorke Peninsula - South,SA,South Australia,4142,891
+406011129,Ceduna,SA,South Australia,2697,1406
+406011130,Eyre Peninsula,SA,South Australia,6824,1308
+406011131,Kimba - Cleve - Franklin Harbour,SA,South Australia,4201,1176
+406011132,Le Hunte - Elliston,SA,South Australia,2122,1235
+406011133,Port Lincoln,SA,South Australia,16307,1301
+406011134,West Coast (SA),SA,South Australia,3646,1148
+406011136,Whyalla,SA,South Australia,21154,1188
+406021138,APY Lands,SA,South Australia,2333,1266
+406021139,Coober Pedy,SA,South Australia,1566,764
+406021140,Quorn - Lake Gilles,SA,South Australia,2142,1047
+406021141,Outback,SA,South Australia,2030,1214
+406021142,Port Augusta,SA,South Australia,13515,1277
+406021143,Roxby Downs,SA,South Australia,3976,3140
+407011144,Goolwa - Port Elliot,SA,South Australia,12516,970
+407011145,Kangaroo Island,SA,South Australia,4894,1128
+407011146,Strathalbyn,SA,South Australia,7871,1277
+407011147,Strathalbyn Surrounds,SA,South Australia,7969,1479
+407011148,Victor Harbor,SA,South Australia,15847,977
+407011149,Yankalilla,SA,South Australia,6498,1082
+407021150,Grant,SA,South Australia,6138,1582
+407021151,Kingston - Robe,SA,South Australia,3872,1200
+407021152,Millicent,SA,South Australia,5245,988
+407021154,Naracoorte,SA,South Australia,6293,1377
+407021155,Naracoorte Surrounds,SA,South Australia,2395,1632
+407021156,Penola,SA,South Australia,3107,1314
+407021157,Tatiara,SA,South Australia,6891,1470
+407021158,Wattle Range,SA,South Australia,3470,1351
+407021173,Mount Gambier - East,SA,South Australia,14947,1348
+407021174,Mount Gambier - West,SA,South Australia,14499,1210
+407031159,Barmera,SA,South Australia,6401,1245
+407031160,Berri,SA,South Australia,4143,1039
+407031161,Karoonda - Lameroo,SA,South Australia,2921,1189
+407031162,Loxton,SA,South Australia,5575,1208
+407031163,Loxton Surrounds,SA,South Australia,1742,1300
+407031164,Mannum,SA,South Australia,6594,901
+407031165,Murray Bridge,SA,South Australia,18243,1077
+407031166,Murray Bridge Surrounds,SA,South Australia,3732,1294
+407031167,Renmark,SA,South Australia,4705,1017
+407031168,Renmark Surrounds,SA,South Australia,5080,1459
+407031169,The Coorong,SA,South Australia,5473,1085
+407031170,Waikerie,SA,South Australia,6646,1027
+501011001,Augusta,WA,Western Australia,6595,1370
+501011003,Busselton Surrounds,WA,Western Australia,11900,1823
+501011004,Margaret River,WA,Western Australia,10193,1678
+501011293,Busselton - East,WA,Western Australia,9359,1381
+501011294,Busselton - West,WA,Western Australia,19292,1351
+501021005,Australind - Leschenault,WA,Western Australia,19256,1910
+501021007,Capel,WA,Western Australia,5457,1551
+501021008,College Grove - Carey Park,WA,Western Australia,6976,1122
+501021009,Collie,WA,Western Australia,8812,1234
+501021010,Dardanup,WA,Western Australia,3286,1883
+501021012,Eaton - Pelican Point,WA,Western Australia,12327,1738
+501021014,Harvey,WA,Western Australia,9309,1498
+501021015,East Bunbury - Glen Iris,WA,Western Australia,7195,1358
+501021016,Waroona,WA,Western Australia,4234,1312
+501021251,Dalyellup,WA,Western Australia,9770,2066
+501021252,Gelorup - Stratham,WA,Western Australia,3042,2342
+501021253,South Bunbury - Bunbury,WA,Western Australia,12760,1487
+501021254,Withers - Usher,WA,Western Australia,5119,1133
+501031017,Bridgetown - Boyup Brook,WA,Western Australia,7068,1230
+501031018,Donnybrook - Balingup,WA,Western Australia,6155,1332
+501031019,Manjimup,WA,Western Australia,5447,1271
+501031020,Pemberton,WA,Western Australia,5198,1112
+502011021,Dawesville - Bouvard,WA,Western Australia,8498,1436
+502011022,Falcon - Wannanup,WA,Western Australia,9664,1294
+502011023,Greenfields,WA,Western Australia,9869,1004
+502011024,Halls Head - Erskine,WA,Western Australia,19905,1377
+502011025,Mandurah,WA,Western Australia,10256,901
+502011026,Mandurah - East,WA,Western Australia,6599,1348
+502011027,Mandurah - North,WA,Western Australia,21261,1861
+502011028,Mandurah - South,WA,Western Australia,11323,1034
+502011029,Pinjarra,WA,Western Australia,10263,1337
+503011030,City Beach,WA,Western Australia,6805,3700
+503011031,Claremont (WA),WA,Western Australia,9248,2068
+503011032,Cottesloe,WA,Western Australia,7750,3351
+503011033,Floreat,WA,Western Australia,8621,3570
+503011034,Mosman Park - Peppermint Grove,WA,Western Australia,10764,2303
+503011035,Nedlands - Dalkeith - Crawley,WA,Western Australia,18936,2610
+503011036,Swanbourne - Mount Claremont,WA,Western Australia,9612,3167
+503021038,Mount Hawthorn - Leederville,WA,Western Australia,11872,2632
+503021039,Mount Lawley - Inglewood,WA,Western Australia,16934,2079
+503021040,North Perth,WA,Western Australia,9707,2328
+503021042,Subiaco - Shenton Park,WA,Western Australia,17527,2143
+503021043,Wembley - West Leederville - Glendalough,WA,Western Australia,19102,2012
+503021295,East Perth,WA,Western Australia,11798,2009
+503021296,Perth (North) - Highgate,WA,Western Australia,11414,1893
+503021297,Perth (West) - Northbridge,WA,Western Australia,12119,1966
+504011044,Bassendean - Eden Hill - Ashfield,WA,Western Australia,15932,1738
+504011045,Bayswater - Embleton - Bedford,WA,Western Australia,24523,2011
+504011046,Maylands,WA,Western Australia,13294,1623
+504011047,Morley,WA,Western Australia,22714,1583
+504011048,Noranda,WA,Western Australia,8002,1632
+504021049,Chidlow,WA,Western Australia,4633,1959
+504021050,Glen Forrest - Darlington,WA,Western Australia,7223,2286
+504021051,Helena Valley - Koongamia,WA,Western Australia,5780,1861
+504021053,Mundaring,WA,Western Australia,13305,2013
+504021054,Swan View - Greenmount - Midvale,WA,Western Australia,12838,1453
+504031056,Ballajura,WA,Western Australia,18505,1725
+504031057,Beechboro,WA,Western Australia,21348,1791
+504031058,Bullsbrook,WA,Western Australia,5605,1912
+504031060,Gidgegannup,WA,Western Australia,2818,2449
+504031061,Hazelmere - Guildford,WA,Western Australia,5408,2107
+504031062,Lockridge - Kiara,WA,Western Australia,12518,1812
+504031065,Middle Swan - Herne Hill,WA,Western Australia,5678,1502
+504031066,Midland - Guildford,WA,Western Australia,11087,1300
+504031067,Stratton - Jane Brook,WA,Western Australia,7019,1802
+504031068,The Vines,WA,Western Australia,12457,2218
+504031298,Aveley,WA,Western Australia,15680,2136
+504031299,Brabham - Henley Brook,WA,Western Australia,11164,2151
+504031300,Ellenbrook,WA,Western Australia,19011,1844
+505011070,Craigie - Beldon,WA,Western Australia,10556,1833
+505011071,Currambine - Kinross,WA,Western Australia,13819,2227
+505011072,Duncraig,WA,Western Australia,15982,2394
+505011073,Greenwood - Warwick,WA,Western Australia,13723,1897
+505011074,Heathridge - Connolly,WA,Western Australia,10572,1930
+505011075,Hillarys,WA,Western Australia,11200,2465
+505011076,Iluka - Burns Beach,WA,Western Australia,9737,3272
+505011077,Joondalup - Edgewater,WA,Western Australia,13845,1784
+505011078,Kingsley,WA,Western Australia,13204,2012
+505011079,Mullaloo - Kallaroo,WA,Western Australia,11493,2292
+505011080,Ocean Reef,WA,Western Australia,8125,2480
+505011081,Padbury,WA,Western Australia,8626,2065
+505011082,Sorrento - Marmion,WA,Western Australia,10193,2463
+505011083,Woodvale,WA,Western Australia,9579,2339
+505021084,Balcatta - Hamersley,WA,Western Australia,16025,1625
+505021085,Balga - Mirrabooka,WA,Western Australia,21032,1293
+505021088,Innaloo - Doubleview,WA,Western Australia,18468,2050
+505021089,Karrinyup - Gwelup - Carine,WA,Western Australia,22602,2490
+505021090,Nollamara - Westminster,WA,Western Australia,19818,1459
+505021092,Scarborough,WA,Western Australia,17552,2108
+505021093,Stirling - Osborne Park,WA,Western Australia,14620,1857
+505021094,Trigg - North Beach - Watermans Bay,WA,Western Australia,7965,2304
+505021095,Tuart Hill - Joondanna,WA,Western Australia,12820,1588
+505021096,Wembley Downs - Churchlands - Woodlands,WA,Western Australia,15044,2370
+505021097,Yokine - Coolbinia - Menora,WA,Western Australia,17066,1746
+505021301,Dianella - North,WA,Western Australia,11927,1881
+505021302,Dianella - South,WA,Western Australia,12985,1528
+505031098,Alexander Heights - Koondoola,WA,Western Australia,11687,1494
+505031099,Butler - Merriwa - Ridgewood,WA,Western Australia,23679,1542
+505031100,Carramar,WA,Western Australia,18641,2116
+505031101,Clarkson,WA,Western Australia,13904,1761
+505031102,Girrawheen,WA,Western Australia,8897,1239
+505031104,Marangaroo,WA,Western Australia,10483,1533
+505031105,Mindarie - Quinns Rocks - Jindalee,WA,Western Australia,20764,2343
+505031107,Tapping - Ashby - Sinagra,WA,Western Australia,13569,2128
+505031255,Alkimos - Eglinton,WA,Western Australia,13904,2031
+505031256,Carabooda - Pinjar,WA,Western Australia,723,2120
+505031257,Two Rocks,WA,Western Australia,3822,1526
+505031258,Yanchep,WA,Western Australia,11009,1697
+505031303,Hocking - Pearsall,WA,Western Australia,13139,2096
+505031304,Landsdale,WA,Western Australia,15401,2439
+505031305,Madeley - Darch,WA,Western Australia,14199,2261
+505031306,Wanneroo - Sinagra,WA,Western Australia,14678,1679
+506011110,Armadale - Wungong - Brookdale,WA,Western Australia,23166,1306
+506011112,Camillo - Champion Lakes,WA,Western Australia,5793,1372
+506011114,Kelmscott,WA,Western Australia,10604,1354
+506011115,Mount Nasura - Mount Richon - Bedfordale,WA,Western Australia,8241,1920
+506011116,Roleystone,WA,Western Australia,7243,2185
+506011117,Seville Grove,WA,Western Australia,11409,1739
+506011307,Harrisdale,WA,Western Australia,11667,2412
+506011308,Piara Waters - Forrestdale,WA,Western Australia,16049,2441
+506021118,Belmont - Ascot - Redcliffe,WA,Western Australia,15082,1666
+506021119,East Victoria Park - Carlisle,WA,Western Australia,17245,1974
+506021123,Victoria Park - Lathlain - Burswood,WA,Western Australia,15816,1896
+506021309,Cloverdale,WA,Western Australia,8864,1520
+506021310,Kewdale,WA,Western Australia,7394,1597
+506021311,Rivervale,WA,Western Australia,10897,1723
+506031124,Bentley - Wilson - St James,WA,Western Australia,20612,1482
+506031125,Canning Vale - West,WA,Western Australia,10078,2326
+506031127,Cannington - Queens Park,WA,Western Australia,20655,1695
+506031128,Parkwood - Ferndale - Lynwood,WA,Western Australia,13992,1546
+506031129,Riverton - Shelley - Rossmoyne,WA,Western Australia,14518,2051
+506031131,Willetton,WA,Western Australia,19262,2178
+506041132,Beckenham - Kenwick - Langford,WA,Western Australia,20280,1494
+506041133,Canning Vale - East,WA,Western Australia,24415,2259
+506041134,Gosnells,WA,Western Australia,21146,1254
+506041135,Huntingdale - Southern River,WA,Western Australia,21869,2115
+506041136,Maddington - Orange Grove - Martin,WA,Western Australia,15005,1407
+506041137,Thornlie,WA,Western Australia,23665,1571
+506051138,Forrestfield - Wattle Grove,WA,Western Australia,19729,1839
+506051139,High Wycombe,WA,Western Australia,12198,1758
+506051140,Kalamunda - Maida Vale - Gooseberry Hill,WA,Western Australia,15136,1864
+506051141,Lesmurdie - Bickley - Carmel,WA,Western Australia,11698,2070
+506061142,Byford,WA,Western Australia,20471,2086
+506061143,Mundijong,WA,Western Australia,7165,2218
+506061144,Serpentine - Jarrahdale,WA,Western Australia,4607,1956
+506071145,Como,WA,Western Australia,14575,1804
+506071146,Manning - Waterford,WA,Western Australia,11653,2146
+506071147,South Perth - Kensington,WA,Western Australia,17226,2113
+507011148,Banjup,WA,Western Australia,21746,2456
+507011152,Coogee,WA,Western Australia,9816,2138
+507011153,Coolbellup,WA,Western Australia,8503,1578
+507011154,Hamilton Hill,WA,Western Australia,11327,1396
+507011158,North Coogee,WA,Western Australia,3741,2566
+507011159,South Lake - Cockburn Central,WA,Western Australia,11723,1715
+507011160,Spearwood,WA,Western Australia,11268,1473
+507011161,Success - Hammond Park,WA,Western Australia,17454,2273
+507011163,Yangebup,WA,Western Australia,7631,1915
+507011259,Beeliar - Wattleup,WA,Western Australia,10128,2178
+507011260,Jandakot,WA,Western Australia,2446,2323
+507021164,East Fremantle,WA,Western Australia,7819,2288
+507021165,Fremantle,WA,Western Australia,16720,1952
+507021166,Fremantle - South,WA,Western Australia,15372,1811
+507031169,Wellard (West) - Bertram,WA,Western Australia,17953,2068
+507031170,Calista,WA,Western Australia,7434,1213
+507031174,Parmelia - Orelia,WA,Western Australia,11286,1293
+507031261,Casuarina - Wandi,WA,Western Australia,9084,2286
+507041175,Applecross - Ardross,WA,Western Australia,11725,2435
+507041176,Bateman,WA,Western Australia,3832,2284
+507041177,Bicton - Palmyra,WA,Western Australia,14778,1842
+507041178,Booragoon,WA,Western Australia,15476,2148
+507041179,Bull Creek,WA,Western Australia,8030,1880
+507041180,Leeming,WA,Western Australia,10883,2330
+507041181,Melville,WA,Western Australia,17452,2292
+507041182,Murdoch - Kardinya,WA,Western Australia,12489,1824
+507041183,Willagee,WA,Western Australia,5447,1660
+507041184,Winthrop,WA,Western Australia,6020,2324
+507051186,Cooloongup,WA,Western Australia,8503,1229
+507051187,Port Kennedy,WA,Western Australia,13477,1921
+507051188,Rockingham,WA,Western Australia,16411,1147
+507051190,Safety Bay - Shoalwater,WA,Western Australia,12039,1355
+507051191,Singleton - Golden Bay - Secret Harbour,WA,Western Australia,22178,2267
+507051192,Waikiki,WA,Western Australia,12539,1612
+507051193,Warnbro,WA,Western Australia,10741,1502
+507051312,Baldivis - North,WA,Western Australia,11651,1957
+507051313,Baldivis - South,WA,Western Australia,26046,2161
+507051314,Karnup,WA,Western Australia,2096,2122
+509011225,Albany,WA,Western Australia,14828,1246
+509011226,Albany Surrounds,WA,Western Australia,3707,1552
+509011227,Bayonet Head - Lower King,WA,Western Australia,5211,1390
+509011228,Denmark,WA,Western Australia,6310,1134
+509011229,Gnowangerup,WA,Western Australia,2862,1484
+509011230,Katanning,WA,Western Australia,4512,1347
+509011231,Kojonup,WA,Western Australia,4053,1385
+509011232,Little Grove - Elleker,WA,Western Australia,3679,1495
+509011233,McKail - Willyung,WA,Western Australia,11333,1387
+509011234,Plantagenet,WA,Western Australia,5388,1181
+509021236,Chittering,WA,Western Australia,5930,2044
+509021237,Cunderdin,WA,Western Australia,3789,1248
+509021238,Dowerin,WA,Western Australia,3801,1202
+509021239,Gingin - Dandaragan,WA,Western Australia,8929,1321
+509021240,Merredin,WA,Western Australia,4893,1387
+509021241,Moora,WA,Western Australia,4471,1583
+509021242,Mukinbudin,WA,Western Australia,3005,1286
+509021243,Northam,WA,Western Australia,11358,1316
+509021244,Toodyay,WA,Western Australia,4601,1272
+509021245,York - Beverley,WA,Western Australia,5158,1102
+509031246,Brookton,WA,Western Australia,3504,1258
+509031247,Kulin,WA,Western Australia,4249,1480
+509031248,Murray,WA,Western Australia,2376,1644
+509031249,Narrogin,WA,Western Australia,4370,1294
+509031250,Wagin,WA,Western Australia,4859,1355
+510011262,Broome,WA,Western Australia,14660,2222
+510011263,Derby - West Kimberley,WA,Western Australia,7045,1327
+510011264,Halls Creek,WA,Western Australia,3603,1096
+510011265,Kununurra,WA,Western Australia,7477,1858
+510011266,Roebuck,WA,Western Australia,2310,1140
+510021267,East Pilbara,WA,Western Australia,5910,1159
+510021268,Newman,WA,Western Australia,4239,2995
+510021269,Port Hedland,WA,Western Australia,4253,3402
+510021270,South Hedland,WA,Western Australia,11046,2586
+510031271,Ashburton (WA),WA,Western Australia,7391,2937
+510031272,Karratha,WA,Western Australia,17013,3194
+510031273,Roebourne,WA,Western Australia,5187,2983
+511011274,Esperance,WA,Western Australia,12003,1492
+511011275,Esperance Surrounds,WA,Western Australia,3966,1653
+511021276,Carnarvon,WA,Western Australia,4879,1416
+511021277,Exmouth,WA,Western Australia,4659,1727
+511031278,Boulder,WA,Western Australia,7150,2001
+511031279,Kalgoorlie,WA,Western Australia,13213,2374
+511031280,Kalgoorlie - North,WA,Western Australia,8711,2514
+511031282,Kambalda - Coolgardie - Norseman,WA,Western Australia,4389,1627
+511031283,Leinster - Leonora,WA,Western Australia,4804,1405
+511041285,Geraldton,WA,Western Australia,11888,1143
+511041286,Geraldton - East,WA,Western Australia,7824,1553
+511041287,Geraldton - North,WA,Western Australia,8546,1915
+511041288,Geraldton - South,WA,Western Australia,10333,1982
+511041289,Irwin,WA,Western Australia,3680,1168
+511041290,Meekatharra,WA,Western Australia,3153,1202
+511041291,Morawa,WA,Western Australia,3876,1310
+511041292,Northampton - Mullewa - Greenough,WA,Western Australia,5679,1276
+601011001,Bridgewater - Gagebrook,TAS,Tasmania,8150,971
+601011002,Brighton - Pontville,TAS,Tasmania,6449,1630
+601011003,Old Beach - Otago,TAS,Tasmania,4989,1875
+601021004,Bellerive - Rosny,TAS,Tasmania,6522,1512
+601021005,Cambridge,TAS,Tasmania,8573,2191
+601021006,Geilston Bay - Risdon,TAS,Tasmania,3452,1742
+601021007,Howrah - Tranmere,TAS,Tasmania,11627,1787
+601021008,Lindisfarne - Rose Bay,TAS,Tasmania,7830,1588
+601021009,Mornington - Warrane,TAS,Tasmania,5168,1258
+601021010,Risdon Vale,TAS,Tasmania,3501,1104
+601021011,Rokeby,TAS,Tasmania,7874,1321
+601021012,South Arm,TAS,Tasmania,4616,1934
+601031013,Austins Ferry - Granton,TAS,Tasmania,4297,1817
+601031014,Berriedale - Chigwell,TAS,Tasmania,5748,1296
+601031015,Claremont (Tas.),TAS,Tasmania,8397,1241
+601031016,Derwent Park - Lutana,TAS,Tasmania,4709,1301
+601031017,Glenorchy,TAS,Tasmania,12287,1151
+601031018,Montrose - Rosetta,TAS,Tasmania,5142,1434
+601031019,Moonah,TAS,Tasmania,5737,1418
+601031020,New Norfolk,TAS,Tasmania,7293,1178
+601031021,West Moonah,TAS,Tasmania,4398,1494
+601041022,Kingston - Huntingfield,TAS,Tasmania,13473,1544
+601041023,Kingston Beach - Blackmans Bay,TAS,Tasmania,11051,1778
+601041024,Margate - Snug,TAS,Tasmania,8482,1853
+601041026,Taroona - Bonnet Hill,TAS,Tasmania,3637,1910
+601051027,Hobart,TAS,Tasmania,9025,1741
+601051028,Lenah Valley - Mount Stuart,TAS,Tasmania,9033,1916
+601051029,Mount Nelson - Dynnyrne,TAS,Tasmania,5053,1873
+601051030,New Town,TAS,Tasmania,6606,1621
+601051031,Sandy Bay,TAS,Tasmania,12326,1913
+601051032,South Hobart - Fern Tree,TAS,Tasmania,6727,1827
+601051033,West Hobart,TAS,Tasmania,6397,1994
+601061034,Dodges Ferry - Lewisham,TAS,Tasmania,8521,1373
+601061035,Sorell - Richmond,TAS,Tasmania,9993,1439
+602011036,Invermay,TAS,Tasmania,3498,1128
+602011037,Kings Meadows - Punchbowl,TAS,Tasmania,4941,1298
+602011038,Launceston,TAS,Tasmania,5421,1581
+602011039,Legana,TAS,Tasmania,4769,1636
+602011040,Mowbray,TAS,Tasmania,4048,1138
+602011041,Newnham - Mayfield,TAS,Tasmania,9628,1112
+602011042,Newstead,TAS,Tasmania,5449,1452
+602011043,Norwood (Tas.),TAS,Tasmania,4031,1463
+602011044,Prospect Vale - Blackstone,TAS,Tasmania,6777,1377
+602011045,Ravenswood,TAS,Tasmania,3804,858
+602011046,Riverside,TAS,Tasmania,7275,1522
+602011047,South Launceston,TAS,Tasmania,4846,1373
+602011048,Summerhill - Prospect,TAS,Tasmania,4958,1294
+602011049,Trevallyn,TAS,Tasmania,4826,1614
+602011050,Waverley - St Leonards,TAS,Tasmania,3932,1308
+602011051,West Launceston,TAS,Tasmania,4215,1469
+602011052,Youngtown - Relbia,TAS,Tasmania,4921,1432
+602021053,Beauty Point - Beaconsfield,TAS,Tasmania,4045,944
+602021054,Deloraine,TAS,Tasmania,6114,1093
+602021055,Grindelwald - Lanena,TAS,Tasmania,6136,1371
+602021056,Hadspen - Carrick,TAS,Tasmania,3605,1581
+602021057,Westbury,TAS,Tasmania,4351,1211
+602031058,Dilston - Lilydale,TAS,Tasmania,4354,1580
+602031059,George Town,TAS,Tasmania,7118,1002
+602031060,Longford,TAS,Tasmania,4428,1217
+602031061,Northern Midlands,TAS,Tasmania,3700,1046
+602031062,Perth - Evandale,TAS,Tasmania,5482,1457
+602031064,St Helens - Scamander,TAS,Tasmania,6756,835
+602031099,Flinders and Cape Barren Islands,TAS,Tasmania,922,1057
+602031100,Scottsdale - Bridport,TAS,Tasmania,6835,1040
+603011065,Central Highlands,TAS,Tasmania,2427,1017
+603011066,Derwent Valley,TAS,Tasmania,3324,1333
+603011067,Southern Midlands,TAS,Tasmania,6675,1330
+603021069,Bruny Island - Kettering,TAS,Tasmania,3447,1296
+603021070,Cygnet,TAS,Tasmania,4802,1077
+603021071,Geeveston - Dover,TAS,Tasmania,4051,1059
+603021072,Huonville - Franklin,TAS,Tasmania,9405,1429
+603031073,Forestier - Tasman,TAS,Tasmania,2593,863
+603031074,Triabunna - Bicheno,TAS,Tasmania,4988,1005
+604011075,Acton - Upper Burnie,TAS,Tasmania,3270,966
+604011076,Burnie - Ulverstone Surrounds,TAS,Tasmania,5175,1443
+604011077,Burnie - Wivenhoe,TAS,Tasmania,3779,1089
+604011078,Parklands - Camdale,TAS,Tasmania,6777,1321
+604011079,Penguin - Sulphur Creek,TAS,Tasmania,5417,1346
+604011080,Romaine - Havenview,TAS,Tasmania,3535,1334
+604011081,Somerset,TAS,Tasmania,4067,1100
+604011082,Ulverstone,TAS,Tasmania,7088,1039
+604011083,West Ulverstone,TAS,Tasmania,4515,1059
+604011084,Wynyard,TAS,Tasmania,6388,1048
+604021085,Devonport,TAS,Tasmania,14481,1093
+604021086,East Devonport,TAS,Tasmania,5075,950
+604021087,Latrobe,TAS,Tasmania,5385,1192
+604021088,Miandetta - Don,TAS,Tasmania,3661,1561
+604021089,Port Sorell,TAS,Tasmania,6472,1279
+604021090,Quoiba - Spreyton,TAS,Tasmania,3116,1531
+604021091,Sheffield - Railton,TAS,Tasmania,6619,1209
+604021092,Turners Beach - Forth,TAS,Tasmania,3478,1588
+604031093,King Island,TAS,Tasmania,1617,1330
+604031094,North West,TAS,Tasmania,4188,1356
+604031095,Smithton,TAS,Tasmania,3934,1189
+604031096,Waratah,TAS,Tasmania,3843,1329
+604031097,West Coast (Tas.),TAS,Tasmania,4267,958
+701011002,Darwin City,NT,Northern Territory,7149,2151
+701011004,Fannie Bay - The Gardens,NT,Northern Territory,3602,2197
+701011005,Larrakeyah,NT,Northern Territory,3943,2372
+701011006,Ludmilla - The Narrows,NT,Northern Territory,2563,1988
+701011007,Parap,NT,Northern Territory,2819,2231
+701011008,Stuart Park,NT,Northern Territory,4101,2278
+701011009,Woolner - Bayview - Winnellie,NT,Northern Territory,2858,2826
+701021010,Alawa,NT,Northern Territory,2078,2083
+701021011,Anula,NT,Northern Territory,2385,2269
+701021012,Berrimah,NT,Northern Territory,1712,2250
+701021013,Brinkin - Nakara,NT,Northern Territory,3430,2372
+701021016,Coconut Grove,NT,Northern Territory,2892,1549
+701021018,Jingili,NT,Northern Territory,1841,2371
+701021019,Karama,NT,Northern Territory,4803,1783
+701021020,Leanyer,NT,Northern Territory,4597,2223
+701021021,Lyons (NT),NT,Northern Territory,6006,2965
+701021022,Malak - Marrara,NT,Northern Territory,4341,1774
+701021023,Millner,NT,Northern Territory,2576,1817
+701021024,Moil,NT,Northern Territory,2000,2033
+701021025,Nightcliff,NT,Northern Territory,3884,2051
+701021026,Rapid Creek,NT,Northern Territory,3261,2208
+701021027,Tiwi,NT,Northern Territory,2511,2022
+701021028,Wagaman,NT,Northern Territory,2023,2083
+701021029,Wanguri,NT,Northern Territory,1836,2439
+701021030,Wulagi,NT,Northern Territory,2510,2331
+701031031,Howard Springs,NT,Northern Territory,5100,2442
+701031032,Humpty Doo,NT,Northern Territory,8387,2569
+701031034,Virginia,NT,Northern Territory,3197,2153
+701031035,Weddell,NT,Northern Territory,4289,1969
+701041036,Bakewell,NT,Northern Territory,3091,1955
+701041037,Driver,NT,Northern Territory,2747,1984
+701041038,Durack - Marlow Lagoon,NT,Northern Territory,4501,2572
+701041039,Gray,NT,Northern Territory,3142,1479
+701041040,Moulden,NT,Northern Territory,3053,1515
+701041041,Palmerston - North,NT,Northern Territory,4456,2445
+701041042,Palmerston - South,NT,Northern Territory,6451,2527
+701041043,Rosebery - Bellamack,NT,Northern Territory,6555,2376
+701041044,Woodroffe,NT,Northern Territory,3175,1891
+702011045,Charles,NT,Northern Territory,4215,2026
+702011046,East Side,NT,Northern Territory,5418,2042
+702011047,Flynn (NT),NT,Northern Territory,4585,2147
+702011048,Larapinta,NT,Northern Territory,4964,2267
+702011049,Mount Johns,NT,Northern Territory,4025,2288
+702011050,Petermann - Simpson,NT,Northern Territory,1961,1248
+702011051,Ross,NT,Northern Territory,2706,1953
+702011052,Sandover - Plenty,NT,Northern Territory,3912,1133
+702011053,Tanami,NT,Northern Territory,2839,1277
+702011054,Yuendumu - Anmatjere,NT,Northern Territory,1851,1091
+702021055,Barkly,NT,Northern Territory,2203,1172
+702021056,Tennant Creek,NT,Northern Territory,3080,1677
+702031057,Alligator,NT,Northern Territory,4242,1279
+702031058,Daly,NT,Northern Territory,1890,1182
+702031059,Thamarrurr,NT,Northern Territory,2118,787
+702031060,Tiwi Islands,NT,Northern Territory,2348,757
+702031061,West Arnhem,NT,Northern Territory,5204,1369
+702041062,Anindilyakwa,NT,Northern Territory,2541,1598
+702041063,East Arnhem,NT,Northern Territory,6983,1552
+702041064,Nhulunbuy,NT,Northern Territory,3267,2799
+702051065,Elsey,NT,Northern Territory,2283,1389
+702051066,Gulf,NT,Northern Territory,4189,1281
+702051067,Katherine,NT,Northern Territory,9658,2111
+702051068,Victoria River,NT,Northern Territory,2609,1095
+801011001,Aranda,ACT,Australian Capital Territory,2605,3161
+801011002,Belconnen,ACT,Australian Capital Territory,8502,1776
+801011003,Bruce,ACT,Australian Capital Territory,7520,2266
+801011004,Charnwood,ACT,Australian Capital Territory,3055,1818
+801011005,Cook,ACT,Australian Capital Territory,2965,2269
+801011006,Dunlop,ACT,Australian Capital Territory,7265,2503
+801011007,Evatt,ACT,Australian Capital Territory,5531,2428
+801011008,Florey,ACT,Australian Capital Territory,4781,2082
+801011009,Flynn (ACT),ACT,Australian Capital Territory,3671,2728
+801011010,Fraser,ACT,Australian Capital Territory,2126,2618
+801011011,Giralang,ACT,Australian Capital Territory,3372,2447
+801011013,Hawker,ACT,Australian Capital Territory,3008,2251
+801011014,Higgins,ACT,Australian Capital Territory,3321,2248
+801011015,Holt,ACT,Australian Capital Territory,5628,1983
+801011016,Kaleen,ACT,Australian Capital Territory,7672,2336
+801011017,Latham,ACT,Australian Capital Territory,3767,2125
+801011018,Lawson,ACT,Australian Capital Territory,2739,2492
+801011019,Macgregor (ACT),ACT,Australian Capital Territory,7049,2344
+801011020,Macquarie,ACT,Australian Capital Territory,3104,1947
+801011021,McKellar,ACT,Australian Capital Territory,2740,2687
+801011022,Melba,ACT,Australian Capital Territory,3383,2326
+801011023,Page,ACT,Australian Capital Territory,3054,1773
+801011024,Scullin,ACT,Australian Capital Territory,3069,2025
+801011025,Spence,ACT,Australian Capital Territory,2587,2358
+801011026,Weetangera,ACT,Australian Capital Territory,2795,3349
+801011143,Strathnairn,ACT,Australian Capital Territory,714,2629
+801031113,Canberra East,ACT,Australian Capital Territory,1097,1003
+801041034,Amaroo,ACT,Australian Capital Territory,6129,2769
+801041035,Bonner,ACT,Australian Capital Territory,7339,2811
+801041036,Casey,ACT,Australian Capital Territory,6471,2680
+801041037,Crace,ACT,Australian Capital Territory,4800,2811
+801041038,Forde,ACT,Australian Capital Territory,4435,3553
+801041039,Franklin,ACT,Australian Capital Territory,7484,2383
+801041040,Gungahlin,ACT,Australian Capital Territory,8586,2208
+801041044,Harrison,ACT,Australian Capital Territory,8244,2636
+801041046,Ngunnawal,ACT,Australian Capital Territory,10957,2219
+801041047,Nicholls,ACT,Australian Capital Territory,6680,3134
+801041048,Palmerston,ACT,Australian Capital Territory,5579,2316
+801041118,Jacka,ACT,Australian Capital Territory,712,2160
+801041120,Moncrieff,ACT,Australian Capital Territory,5310,2699
+801041121,Taylor,ACT,Australian Capital Territory,2220,2655
+801041122,Throsby,ACT,Australian Capital Territory,2405,3181
+801051050,Ainslie,ACT,Australian Capital Territory,5376,2434
+801051051,Braddon,ACT,Australian Capital Territory,6383,2259
+801051053,Civic,ACT,Australian Capital Territory,4835,2232
+801051054,Dickson,ACT,Australian Capital Territory,3292,2277
+801051055,Downer,ACT,Australian Capital Territory,4296,2267
+801051056,Hackett,ACT,Australian Capital Territory,3227,2623
+801051057,Lyneham,ACT,Australian Capital Territory,5703,2084
+801051058,O'Connor (ACT),ACT,Australian Capital Territory,5917,2518
+801051060,Turner,ACT,Australian Capital Territory,4470,2330
+801051061,Watson,ACT,Australian Capital Territory,6727,2414
+801051124,Campbell,ACT,Australian Capital Territory,4588,3048
+801051125,Duntroon,ACT,Australian Capital Territory,1974,3100
+801051127,Reid,ACT,Australian Capital Territory,1544,2272
+801061062,Deakin,ACT,Australian Capital Territory,3124,3117
+801061063,Forrest,ACT,Australian Capital Territory,1827,3363
+801061064,Griffith (ACT),ACT,Australian Capital Territory,5328,2542
+801061067,Narrabundah,ACT,Australian Capital Territory,6455,2353
+801061069,Red Hill (ACT),ACT,Australian Capital Territory,3146,3938
+801061070,Yarralumla,ACT,Australian Capital Territory,3120,3327
+801061129,Barton,ACT,Australian Capital Territory,1946,2462
+801061131,Kingston (ACT),ACT,Australian Capital Territory,6579,2469
+801071071,Banks,ACT,Australian Capital Territory,5100,2419
+801071072,Bonython,ACT,Australian Capital Territory,3839,2223
+801071073,Calwell,ACT,Australian Capital Territory,5730,2460
+801071074,Chisholm,ACT,Australian Capital Territory,5268,2292
+801071075,Conder,ACT,Australian Capital Territory,5108,2574
+801071076,Fadden,ACT,Australian Capital Territory,3006,3302
+801071077,Gilmore,ACT,Australian Capital Territory,2706,2416
+801071078,Gordon (ACT),ACT,Australian Capital Territory,7892,2321
+801071079,Gowrie (ACT),ACT,Australian Capital Territory,3140,2674
+801071080,Greenway,ACT,Australian Capital Territory,4129,1857
+801071081,Isabella Plains,ACT,Australian Capital Territory,4329,2131
+801071082,Kambah,ACT,Australian Capital Territory,15670,2207
+801071083,Macarthur,ACT,Australian Capital Territory,1405,3037
+801071084,Monash,ACT,Australian Capital Territory,5644,2164
+801071086,Oxley (ACT),ACT,Australian Capital Territory,1703,2393
+801071087,Richardson,ACT,Australian Capital Territory,3058,2043
+801071088,Theodore,ACT,Australian Capital Territory,3798,2588
+801071090,Wanniassa,ACT,Australian Capital Territory,7885,2295
+801081091,Chapman,ACT,Australian Capital Territory,2867,3111
+801081092,Duffy,ACT,Australian Capital Territory,3395,2593
+801081093,Fisher,ACT,Australian Capital Territory,3219,2275
+801081094,Holder,ACT,Australian Capital Territory,2816,2338
+801081095,Rivett,ACT,Australian Capital Territory,3354,2207
+801081096,Stirling,ACT,Australian Capital Territory,2191,2206
+801081097,Waramanga,ACT,Australian Capital Territory,2785,2247
+801081098,Weston,ACT,Australian Capital Territory,4000,2361
+801091099,Chifley,ACT,Australian Capital Territory,2680,2347
+801091100,Curtin,ACT,Australian Capital Territory,5569,2886
+801091101,Farrer,ACT,Australian Capital Territory,3787,2540
+801091102,Garran,ACT,Australian Capital Territory,3706,2985
+801091103,Hughes,ACT,Australian Capital Territory,3210,2797
+801091104,Isaacs,ACT,Australian Capital Territory,2379,2670
+801091105,Lyons (ACT),ACT,Australian Capital Territory,3271,2062
+801091106,Mawson,ACT,Australian Capital Territory,3440,2204
+801091107,O'Malley,ACT,Australian Capital Territory,928,4476
+801091108,Pearce,ACT,Australian Capital Territory,2687,2362
+801091109,Phillip,ACT,Australian Capital Territory,5197,2075
+801091110,Torrens,ACT,Australian Capital Territory,2424,2612
+801101135,Coombs,ACT,Australian Capital Territory,4851,2634
+801101136,Denman Prospect,ACT,Australian Capital Territory,2759,3219
+801101139,Wright,ACT,Australian Capital Territory,3808,2559
+801111140,ACT - South West,ACT,Australian Capital Territory,556,3134

@@ -1,0 +1,190 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "2021 Census median age by Statistical Area Level 2 (SA2), Australia.",
+  "width": 820,
+  "height": 560,
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [
+      -18,
+      -36
+    ],
+    "rotate": [
+      -132,
+      0,
+      0
+    ],
+    "center": [
+      0,
+      -27
+    ],
+    "scale": 850
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/c02_geometry_keys.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "sa2_code": "string"
+          }
+        }
+      },
+      "transform": [
+        {
+          "lookup": "sa2_code",
+          "from": {
+            "data": {
+              "url": "data/sa2_2021_vega.geojson",
+              "format": {
+                "type": "json",
+                "property": "features"
+              }
+            },
+            "key": "id",
+            "fields": [
+              "geometry"
+            ]
+          },
+          "as": [
+            "geo"
+          ]
+        },
+        {
+          "filter": "isValid(datum.geo)"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e8e8e8",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.15
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/c02_median_age.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "sa2_code": "string",
+            "population": "number",
+            "median_age": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "isValid(datum.median_age) && datum.median_age > 0 && datum.population > 0"
+        },
+        {
+          "lookup": "sa2_code",
+          "from": {
+            "data": {
+              "url": "data/sa2_2021_vega.geojson",
+              "format": {
+                "type": "json",
+                "property": "features"
+              }
+            },
+            "key": "id",
+            "fields": [
+              "geometry"
+            ]
+          },
+          "as": [
+            "geo"
+          ]
+        },
+        {
+          "filter": "isValid(datum.geo)"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.15
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "median_age",
+          "type": "quantitative",
+          "title": "Median age (years)",
+          "scale": {
+            "scheme": "blues",
+            "domain": [
+              20,
+              65
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 320,
+            "gradientThickness": 14,
+            "values": [
+              20,
+              30,
+              40,
+              50,
+              60
+            ],
+            "titleOrient": "left"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "sa2_name",
+            "type": "nominal",
+            "title": "SA2"
+          },
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "median_age",
+            "type": "quantitative",
+            "title": "Median age",
+            "format": ".0f"
+          },
+          {
+            "field": "population",
+            "type": "quantitative",
+            "title": "Population",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "white",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "titleFontSize": 13,
+      "labelFontSize": 12
+    },
+    "style": {
+      "cell": {
+        "stroke": null
+      }
+    }
+  }
+}

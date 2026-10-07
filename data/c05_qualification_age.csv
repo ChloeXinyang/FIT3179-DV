@@ -1,0 +1,57 @@
+age_group,qualification,qualification_short,count,share
+15-24,Postgraduate degree,Postgraduate,20143,1.98
+15-24,Graduate diploma/certificate,Grad Dip / Cert,9657,0.95
+15-24,Bachelor degree,Bachelor,253927,24.98
+15-24,Advanced diploma/diploma,Adv Dip / Diploma,115671,11.38
+15-24,Certificate III/IV,Certificate III / IV,318762,31.36
+15-24,Certificate I/II or level nfd,Certificate I / II / nfd,89362,8.79
+15-24,Other/not stated,Other / not stated,207756,20.44
+25-34,Postgraduate degree,Postgraduate,371139,13.05
+25-34,Graduate diploma/certificate,Grad Dip / Cert,89145,3.14
+25-34,Bachelor degree,Bachelor,991659,34.87
+25-34,Advanced diploma/diploma,Adv Dip / Diploma,336866,11.85
+25-34,Certificate III/IV,Certificate III / IV,672169,23.64
+25-34,Certificate I/II or level nfd,Certificate I / II / nfd,86508,3.04
+25-34,Other/not stated,Other / not stated,295792,10.4
+35-44,Postgraduate degree,Postgraduate,398250,14.34
+35-44,Graduate diploma/certificate,Grad Dip / Cert,112796,4.06
+35-44,Bachelor degree,Bachelor,883477,31.81
+35-44,Advanced diploma/diploma,Adv Dip / Diploma,398559,14.35
+35-44,Certificate III/IV,Certificate III / IV,625006,22.51
+35-44,Certificate I/II or level nfd,Certificate I / II / nfd,92903,3.35
+35-44,Other/not stated,Other / not stated,265724,9.57
+45-54,Postgraduate degree,Postgraduate,247806,10.62
+45-54,Graduate diploma/certificate,Grad Dip / Cert,107978,4.63
+45-54,Bachelor degree,Bachelor,620856,26.61
+45-54,Advanced diploma/diploma,Adv Dip / Diploma,398764,17.09
+45-54,Certificate III/IV,Certificate III / IV,611608,26.21
+45-54,Certificate I/II or level nfd,Certificate I / II / nfd,106843,4.58
+45-54,Other/not stated,Other / not stated,239111,10.25
+55-64,Postgraduate degree,Postgraduate,169388,8.86
+55-64,Graduate diploma/certificate,Grad Dip / Cert,89624,4.69
+55-64,Bachelor degree,Bachelor,420467,21.99
+55-64,Advanced diploma/diploma,Adv Dip / Diploma,336577,17.6
+55-64,Certificate III/IV,Certificate III / IV,556485,29.1
+55-64,Certificate I/II or level nfd,Certificate I / II / nfd,109191,5.71
+55-64,Other/not stated,Other / not stated,230423,12.05
+65-74,Postgraduate degree,Postgraduate,106905,7.83
+65-74,Graduate diploma/certificate,Grad Dip / Cert,64730,4.74
+65-74,Bachelor degree,Bachelor,294564,21.56
+65-74,Advanced diploma/diploma,Adv Dip / Diploma,233443,17.09
+65-74,Certificate III/IV,Certificate III / IV,353432,25.87
+65-74,Certificate I/II or level nfd,Certificate I / II / nfd,87090,6.37
+65-74,Other/not stated,Other / not stated,225423,16.5
+75-84,Postgraduate degree,Postgraduate,38220,5.81
+75-84,Graduate diploma/certificate,Grad Dip / Cert,18439,2.8
+75-84,Bachelor degree,Bachelor,115056,17.48
+75-84,Advanced diploma/diploma,Adv Dip / Diploma,99932,15.19
+75-84,Certificate III/IV,Certificate III / IV,159096,24.18
+75-84,Certificate I/II or level nfd,Certificate I / II / nfd,38328,5.82
+75-84,Other/not stated,Other / not stated,187431,28.48
+85+,Postgraduate degree,Postgraduate,6494,2.77
+85+,Graduate diploma/certificate,Grad Dip / Cert,2377,1.01
+85+,Bachelor degree,Bachelor,28936,12.34
+85+,Advanced diploma/diploma,Adv Dip / Diploma,26601,11.34
+85+,Certificate III/IV,Certificate III / IV,43198,18.42
+85+,Certificate I/II or level nfd,Certificate I / II / nfd,10246,4.37
+85+,Other/not stated,Other / not stated,113348,48.34
