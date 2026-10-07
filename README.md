@@ -1,7 +1,9 @@
 # This is the DV2 assignment.
 This assignment utilizes various visualizations to present statistical information regarding Australia's population, economy, and other aspects.
+
 ## Data Sources:
 Australian Bureau of Statistics — 2021 Census DataPacks
+
 Australian Government Department of Social Services — Benefit and Payment Recipient Demographics
 
 ## Structure
