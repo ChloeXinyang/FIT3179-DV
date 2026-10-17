@@ -1,9 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "C01 state and territory population treemap for FIT3179 DV2.",
+  "description": "Hierarchical treemap: state/territory population subdivided by broad age group, 2021 Census.",
   "width": 900,
-  "height": 470,
+  "height": 500,
   "padding": 4,
+  "background": "#FBF7F0",
   "autosize": {
     "type": "fit",
     "contains": "padding"
@@ -11,18 +12,19 @@
   "data": [
     {
       "name": "tree",
-      "url": "data/c01_state_population.csv",
+      "url": "data/c01_state_age_treemap.csv",
       "format": {
         "type": "csv",
         "parse": {
           "population": "number",
-          "share": "number"
+          "share_australia": "number",
+          "share_state": "number"
         }
       },
       "transform": [
         {
           "type": "formula",
-          "expr": "datum.parent ? datum.population : 0",
+          "expr": "datum.node_type === 'age' ? datum.population : 0",
           "as": "treemap_value"
         },
         {
@@ -39,10 +41,14 @@
           },
           "round": true,
           "method": "squarify",
-          "ratio": 1.2,
-          "size": [900, 470],
-          "paddingInner": 4,
-          "paddingOuter": 1
+          "ratio": 1.25,
+          "size": [
+            900,
+            500
+          ],
+          "paddingInner": 2,
+          "paddingOuter": 2,
+          "paddingTop": 24
         }
       ]
     },
@@ -55,80 +61,223 @@
           "expr": "datum.depth === 1"
         }
       ]
+    },
+    {
+      "name": "ages",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.depth === 2"
+        }
+      ]
     }
   ],
   "scales": [
     {
-      "name": "stateColor",
+      "name": "ageColor",
       "type": "ordinal",
-      "domain": ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT"],
-      "range": ["#4C78A8", "#C76D7E", "#54A24B", "#E58645", "#B05A91", "#72B7B2", "#E0B84F", "#9D9D9D"]
+      "domain": [
+        "0-14",
+        "15-24",
+        "25-44",
+        "45-64",
+        "65+"
+      ],
+      "range": [
+        "#F1D8A8",
+        "#E6B17D",
+        "#C98269",
+        "#8A6A82",
+        "#50536B"
+      ]
+    }
+  ],
+  "legends": [
+    {
+      "fill": "ageColor",
+      "title": "Age group",
+      "orient": "bottom",
+      "direction": "horizontal",
+      "columns": 5,
+      "symbolType": "square",
+      "symbolSize": 130,
+      "labelFont": "Source Sans 3",
+      "labelFontSize": 11,
+      "titleFont": "Source Sans 3",
+      "titleFontSize": 12
     }
   ],
   "marks": [
     {
       "type": "rect",
-      "from": {"data": "states"},
+      "from": {
+        "data": "ages"
+      },
       "encode": {
         "enter": {
-          "fill": {"scale": "stateColor", "field": "state_abbrev"},
-          "stroke": {"value": "#ffffff"},
-          "strokeWidth": {"value": 2},
-          "cornerRadius": {"value": 3},
+          "fill": {
+            "scale": "ageColor",
+            "field": "age_group"
+          },
+          "stroke": {
+            "value": "#FBF7F0"
+          },
+          "strokeWidth": {
+            "value": 1.5
+          },
           "tooltip": {
-            "signal": "datum.state + ': ' + format(datum.population, ',') + ' residents (' + format(datum.share, '.1f') + '%)'"
+            "signal": "{'State / territory': datum.state, 'Age group': datum.age_group, 'Population': format(datum.population, ','), 'Share within state': format(datum.share_state, '.1f') + '%'}"
           }
         },
         "update": {
-          "x": {"field": "x0"},
-          "y": {"field": "y0"},
-          "x2": {"field": "x1"},
-          "y2": {"field": "y1"},
-          "fillOpacity": {"value": 0.92}
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          },
+          "fillOpacity": {
+            "value": 0.95
+          }
         },
-        "hover": {"fillOpacity": {"value": 1}}
+        "hover": {
+          "fillOpacity": {
+            "value": 1
+          }
+        }
       }
     },
     {
-      "type": "text",
-      "from": {"data": "states"},
+      "type": "rect",
+      "from": {
+        "data": "states"
+      },
       "encode": {
         "enter": {
-          "x": {"signal": "(datum.x0 + datum.x1) / 2"},
-          "y": {"signal": "(datum.y0 + datum.y1) / 2 - 9"},
-          "text": {"field": "state_abbrev"},
-          "align": {"value": "center"},
-          "baseline": {"value": "middle"},
-          "font": {"value": "Arial"},
-          "fontWeight": {"value": "bold"},
-          "fontSize": {
-            "signal": "(datum.x1-datum.x0) > 150 && (datum.y1-datum.y0) > 100 ? 24 : ((datum.x1-datum.x0) > 70 && (datum.y1-datum.y0) > 45 ? 16 : 12)"
+          "fillOpacity": {
+            "value": 0
           },
-          "fill": {"value": "#ffffff"}
+          "stroke": {
+            "value": "#5F5A52"
+          },
+          "strokeWidth": {
+            "value": 2.2
+          }
         },
         "update": {
-          "opacity": {"signal": "(datum.x1-datum.x0) > 38 && (datum.y1-datum.y0) > 25 ? 1 : 0"}
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          }
         }
       }
     },
     {
       "type": "text",
-      "from": {"data": "states"},
+      "from": {
+        "data": "states"
+      },
       "encode": {
         "enter": {
-          "x": {"signal": "(datum.x0 + datum.x1) / 2"},
-          "y": {"signal": "(datum.y0 + datum.y1) / 2 + 14"},
-          "text": {"signal": "format(datum.share, '.1f') + '%'"},
-          "align": {"value": "center"},
-          "baseline": {"value": "middle"},
-          "font": {"value": "Arial"},
-          "fontSize": {"value": 13},
-          "fill": {"value": "#ffffff"}
+          "x": {
+            "signal": "datum.x0 + 7"
+          },
+          "y": {
+            "signal": "datum.y0 + 5"
+          },
+          "baseline": {
+            "value": "top"
+          },
+          "align": {
+            "value": "left"
+          },
+          "font": {
+            "value": "Source Sans 3"
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "fontSize": {
+            "value": 13
+          },
+          "fill": {
+            "value": "#2E2B27"
+          },
+          "text": {
+            "signal": "datum.state_abbrev + '  ' + format(datum.share_australia, '.1f') + '%'"
+          }
         },
         "update": {
-          "opacity": {"signal": "(datum.x1-datum.x0) > 65 && (datum.y1-datum.y0) > 48 ? 1 : 0"}
+          "opacity": {
+            "signal": "(datum.x1-datum.x0) > 55 && (datum.y1-datum.y0) > 32 ? 1 : 0"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "ages"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "(datum.x0 + datum.x1)/2"
+          },
+          "y": {
+            "signal": "(datum.y0 + datum.y1)/2"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "font": {
+            "value": "Source Sans 3"
+          },
+          "fontSize": {
+            "value": 11
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "fill": {
+            "signal": "datum.age_group === '45-64' || datum.age_group === '65+' ? '#ffffff' : '#302d29'"
+          },
+          "text": {
+            "field": "age_group"
+          }
+        },
+        "update": {
+          "opacity": {
+            "signal": "(datum.x1-datum.x0) > 56 && (datum.y1-datum.y0) > 30 ? 1 : 0"
+          }
         }
       }
     }
-  ]
+  ],
+  "usermeta": {
+    "图表编号": "C01",
+    "图表类型": "Hierarchical Treemap（分层树图）",
+    "为什么用这个图": "同时显示州/领地总人口规模和州内年龄结构。外层面积比较州人口，内层矩形比较年龄组。",
+    "主要Mark和Channel": "Area mark；矩形面积=人口；颜色Hue=年龄组；嵌套位置=州/领地层级。",
+    "老师可能问": "为什么不用普通柱状图？",
+    "回答要点": "柱状图更适合单层精确比较；treemap能在一个画面里保留州→年龄组两层层级关系，这是本图的主要目的。"
+  }
 }

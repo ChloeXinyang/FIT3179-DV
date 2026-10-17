@@ -20,8 +20,9 @@
       "mark": {
         "type": "point",
         "filled": true,
-        "size": 34,
-        "opacity": 0.52
+        "size": 36,
+        "opacity": 0.5,
+        "color": "#6F8175"
       },
       "encoding": {
         "x": {
@@ -36,7 +37,7 @@
           },
           "axis": {
             "labelExpr": "datum.label + '%'",
-            "gridColor": "#edf0f4"
+            "gridColor": "#E4DED4"
           }
         },
         "y": {
@@ -51,41 +52,7 @@
           },
           "axis": {
             "format": "$,.0f",
-            "gridColor": "#edf0f4"
-          }
-        },
-        "color": {
-          "field": "state_abbrev",
-          "type": "nominal",
-          "title": "State / territory",
-          "scale": {
-            "domain": [
-              "NSW",
-              "VIC",
-              "QLD",
-              "SA",
-              "WA",
-              "TAS",
-              "NT",
-              "ACT"
-            ],
-            "range": [
-              "#4E79A7",
-              "#E15759",
-              "#59A14F",
-              "#B07AA1",
-              "#F28E2B",
-              "#76B7B2",
-              "#EDC948",
-              "#9C755F"
-            ]
-          },
-          "legend": {
-            "orient": "bottom",
-            "direction": "horizontal",
-            "columns": 4,
-            "labelFontSize": 11,
-            "symbolSize": 90
+            "gridColor": "#E4DED4"
           }
         },
         "tooltip": [
@@ -118,7 +85,12 @@
             "format": ","
           }
         ]
-      }
+      },
+      "transform": [
+        {
+          "filter": "statePick === 'All' || datum.state_abbrev === statePick"
+        }
+      ]
     },
     {
       "transform": [
@@ -130,9 +102,9 @@
       ],
       "mark": {
         "type": "line",
-        "color": "#222222",
-        "strokeWidth": 2.3,
-        "opacity": 0.85
+        "color": "#3E3B37",
+        "strokeWidth": 2.4,
+        "opacity": 0.9
       },
       "encoding": {
         "x": {
@@ -144,18 +116,130 @@
           "type": "quantitative"
         }
       }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "stroke": "#A89F93",
+        "strokeDash": [
+          5,
+          5
+        ],
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "datum": 21.37
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "stroke": "#A89F93",
+        "strokeDash": [
+          5,
+          5
+        ],
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "y": {
+          "datum": 1755.0
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 4,
+            "y": 4250,
+            "label": "Overall relationship: r ≈ 0.68"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 13,
+        "fontWeight": "bold",
+        "color": "#4D4943"
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
     }
   ],
   "config": {
+    "background": "#FBF7F0",
     "view": {
       "stroke": null
     },
-    "font": "Arial",
+    "font": "Source Sans 3",
     "axis": {
       "labelFontSize": 11,
       "titleFontSize": 13,
-      "domainColor": "#cfd5dd",
-      "tickColor": "#cfd5dd"
+      "domainColor": "#CFC7BC",
+      "tickColor": "#CFC7BC",
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
+    },
+    "legend": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
     }
-  }
+  },
+  "usermeta": {
+    "图表编号": "C08",
+    "图表类型": "Scatterplot with Regression（散点图+趋势线）",
+    "为什么用这个图": "地图回答where；散点图直接回答education和income是否存在整体关系。",
+    "主要Mark和Channel": "Point mark；x=Bachelor+ share，y=median weekly household income；line=overall regression。",
+    "交互": "State/territory下拉筛选只过滤散点，national trend line保留作为统一参照。",
+    "老师可能问": "为什么取消按州上色？",
+    "回答要点": "按州上色会增加8种颜色和图例，分散对主要变量关系的注意；需要时可用下拉筛选单独看州。"
+  },
+  "params": [
+    {
+      "name": "statePick",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "NSW",
+          "VIC",
+          "QLD",
+          "SA",
+          "WA",
+          "TAS",
+          "NT",
+          "ACT"
+        ],
+        "labels": [
+          "All Australia",
+          "NSW",
+          "Victoria",
+          "Queensland",
+          "South Australia",
+          "Western Australia",
+          "Tasmania",
+          "Northern Territory",
+          "ACT"
+        ],
+        "name": "Focus on state / territory: "
+      }
+    }
+  ]
 }

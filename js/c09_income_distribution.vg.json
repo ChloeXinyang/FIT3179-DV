@@ -61,8 +61,8 @@
           "type": "area",
           "interpolate": "monotone",
           "opacity": 0.82,
-          "color": "#5F86B3",
-          "stroke": "#345E8C",
+          "color": "#C07A56",
+          "stroke": "#8D4E36",
           "strokeWidth": 1.1,
           "clip": true
         },
@@ -80,7 +80,7 @@
             "axis": {
               "format": "$,.0f",
               "grid": true,
-              "gridColor": "#eef1f5",
+              "gridColor": "#E6DED3",
               "labelFontSize": 11,
               "titleFontSize": 13
             }
@@ -121,13 +121,30 @@
   },
   "spacing": -6,
   "config": {
-    "background": "white",
-    "font": "Arial",
+    "background": "#FBF7F0",
+    "font": "Source Sans 3",
     "view": {
       "stroke": null
     },
     "facet": {
       "spacing": 0
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
+    },
+    "legend": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
     }
+  },
+  "background": "#FBF7F0",
+  "usermeta": {
+    "图表编号": "C09",
+    "图表类型": "Ridgeline Plot（山脊图）",
+    "为什么用这个图": "不仅比较州之间，还展示每个州内部SA2 median income的分布形状和跨度。",
+    "主要Mark和Channel": "Area/line形状=密度分布；x=SA2 median weekly household income；facet row=state。",
+    "老师可能问": "为什么不能说这是个人收入分布？",
+    "回答要点": "每个observation是一个SA2的median household income，因此它是community medians的分布，不是individual incomes。"
   }
 }

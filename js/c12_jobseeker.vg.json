@@ -57,9 +57,9 @@
       ],
       "mark": {
         "type": "geoshape",
-        "fill": "#f4f5f6",
-        "stroke": "#e3e6e9",
-        "strokeWidth": 1.0
+        "fill": "#EEE9E1",
+        "stroke": "#edf0f2",
+        "strokeWidth": 0.9
       },
       "encoding": {
         "shape": {
@@ -70,7 +70,7 @@
     },
     {
       "data": {
-        "url": "data/c12_state_keys.csv",
+        "url": "data/state_keys.csv",
         "format": {
           "type": "csv",
           "parse": {
@@ -89,7 +89,7 @@
                 "property": "features"
               }
             },
-            "key": "properties.id",
+            "key": "id",
             "fields": [
               "geometry"
             ]
@@ -105,8 +105,8 @@
       "mark": {
         "type": "geoshape",
         "fillOpacity": 0,
-        "stroke": "#aeb5db",
-        "strokeWidth": 1.0
+        "stroke": "#615B55",
+        "strokeWidth": 1.15
       },
       "encoding": {
         "shape": {
@@ -135,7 +135,7 @@
       "mark": {
         "type": "circle",
         "filled": true,
-        "opacity": 0.2,
+        "opacity": 0.38,
         "stroke": "#9f4c48",
         "strokeWidth": 0.25
       },
@@ -159,8 +159,8 @@
               2395
             ],
             "range": [
-              5,
-              300
+              6,
+              420
             ]
           },
           "legend": {
@@ -206,16 +206,69 @@
           }
         ]
       }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "longitude": 135.55,
+            "latitude": -13.1,
+            "label": "East Arnhem  2,395"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "font": "Source Sans 3",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "align": "left",
+        "baseline": "bottom",
+        "dx": 7,
+        "dy": -6,
+        "color": "#7E3F3B"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
     }
   ],
   "config": {
-    "background": "white",
-    "font": "Arial",
+    "background": "#FBF7F0",
+    "font": "Source Sans 3",
     "view": {
       "stroke": null
     },
     "legend": {
-      "padding": 8
+      "padding": 8,
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
     }
+  },
+  "background": "#FBF7F0",
+  "usermeta": {
+    "图表编号": "C12",
+    "图表类型": "Proportional Symbol Map（比例符号地图）",
+    "为什么用这个图": "DSS提供的是SA2 recipient count，因此用circle area表达count，并保留地理位置。",
+    "主要Mark和Channel": "Point/circle mark；位置=SA2 representative point；circle area=size=recipient count。",
+    "注意": "这是count，不是rate；代表点不是recipient实际地址。",
+    "老师可能问": "为什么不用choropleth？",
+    "回答要点": "这里展示absolute count。proportional symbol比用polygon填色更清楚地表达总量，也避免暗示整个区域都有同样强度。",
+    "州界修复": "states_2021_vega.geojson已把properties.id复制到Feature顶层id，因此lookup key=id可以正确匹配州界。"
   }
 }

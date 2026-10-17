@@ -58,7 +58,7 @@
       "mark": {
         "type": "geoshape",
         "fill": "#e8e8e8",
-        "stroke": "#ffffff",
+        "stroke": "#FBF7F0",
         "strokeWidth": 0.15
       },
       "encoding": {
@@ -109,7 +109,7 @@
       ],
       "mark": {
         "type": "geoshape",
-        "stroke": "#ffffff",
+        "stroke": "#FBF7F0",
         "strokeWidth": 0.15
       },
       "encoding": {
@@ -167,24 +167,70 @@
             "title": "Population",
             "format": ","
           }
-        ]
-      }
+        ],
+        "stroke": {
+          "condition": {
+            "param": "hoverSA2",
+            "empty": false,
+            "value": "#3B3935"
+          },
+          "value": "#FBF7F0"
+        },
+        "strokeWidth": {
+          "condition": {
+            "param": "hoverSA2",
+            "empty": false,
+            "value": 1.8
+          },
+          "value": 0.12
+        }
+      },
+      "params": [
+        {
+          "name": "hoverSA2",
+          "select": {
+            "type": "point",
+            "fields": [
+              "sa2_code"
+            ],
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ]
     }
   ],
   "config": {
-    "background": "white",
-    "font": "Arial",
+    "background": "#FBF7F0",
+    "font": "Source Sans 3",
     "view": {
       "stroke": null
     },
     "legend": {
       "titleFontSize": 13,
-      "labelFontSize": 12
+      "labelFontSize": 12,
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
     },
     "style": {
       "cell": {
         "stroke": null
       }
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
     }
+  },
+  "background": "#FBF7F0",
+  "usermeta": {
+    "图表编号": "C02",
+    "图表类型": "Sequential Choropleth Map（顺序色阶分区统计图）",
+    "为什么用这个图": "问题同时包含数值和空间位置：不同SA2社区的median age在哪里高、在哪里低。",
+    "主要Mark和Channel": "Area/geoshape mark；空间位置=SA2；颜色luminance=median age。",
+    "交互": "悬停显示SA2名称、州/领地、median age和population，并加粗当前区域边界。",
+    "老师可能问": "为什么不是proportional symbol map？",
+    "回答要点": "median age是每个区域的属性值，不是事件点或总量；choropleth用固定区域填色更适合比较区域属性。",
+    "交互实现说明": "hoverSA2参数只定义在彩色SA2图层中，避免layered spec产生duplicate signal。"
   }
 }

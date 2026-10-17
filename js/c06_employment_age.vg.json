@@ -131,11 +131,11 @@
               "Unemployed"
             ],
             "range": [
-              "#4E79A7",
-              "#A7AAB2",
-              "#D0D2D8",
-              "#82A5C9",
-              "#D08A3E"
+              "#2B8A7E",
+              "#8B8B88",
+              "#D8D3CA",
+              "#7DBCB2",
+              "#D98A4A"
             ]
           },
           "legend": {
@@ -226,7 +226,11 @@
           "condition": [
             {
               "test": "datum.status_group === 'Other / not stated'",
-              "value": "#4b5563"
+              "value": "#4F4A45"
+            },
+            {
+              "test": "datum.status_group === 'Part-time employed'",
+              "value": "#2F4744"
             }
           ],
           "value": "white"
@@ -240,10 +244,25 @@
     },
     "axis": {
       "domainColor": "#cfd5dd",
-      "tickColor": "#cfd5dd"
+      "tickColor": "#cfd5dd",
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
     },
     "legend": {
-      "padding": 8
-    }
+      "padding": 8,
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
+    },
+    "background": "#FBF7F0",
+    "font": "Source Sans 3"
+  },
+  "background": "#FBF7F0",
+  "usermeta": {
+    "图表编号": "C06",
+    "图表类型": "100% Stacked Bar（100%堆叠条形图）",
+    "为什么用这个图": "比较每个年龄组内部的劳动参与结构，而不是比较各年龄组总人数。",
+    "主要Mark和Channel": "Line/bar mark；长度=share；Hue=labour-force status；y位置=age group。",
+    "老师可能问": "Unemployed和Not in labour force有什么区别？",
+    "回答要点": "Unemployed属于labour force且在寻找工作；Not in labour force不属于劳动力人口。"
   }
 }

@@ -1,165 +1,313 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Age-group share of each state or territory population, 2021 Census.",
-  "width": 700,
-  "height": 360,
-  "data": {
-    "url": "data/c04_state_age.csv",
-    "format": {
-      "type": "csv"
-    }
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Small-multiple radial age profiles for Australian states and territories, 2021 Census.",
+  "width": 760,
+  "height": 445,
+  "padding": {
+    "left": 20,
+    "right": 20,
+    "top": 12,
+    "bottom": 36
   },
-  "layer": [
+  "autosize": {
+    "type": "none",
+    "contains": "padding"
+  },
+  "data": [
     {
-      "mark": {
-        "type": "rect",
-        "cornerRadius": 2,
-        "stroke": "#ffffff",
-        "strokeWidth": 1.5
-      },
-      "encoding": {
-        "x": {
-          "field": "age_group",
-          "type": "ordinal",
-          "sort": [
-            "0-14",
-            "15-24",
-            "25-44",
-            "45-64",
-            "65+"
-          ],
-          "title": "Age group",
-          "axis": {
-            "labelAngle": 0,
-            "labelFontSize": 12,
-            "titleFontSize": 13,
-            "labelPadding": 7
-          }
-        },
-        "y": {
-          "field": "state_abbrev",
-          "type": "nominal",
-          "sort": [
-            "NSW",
-            "VIC",
-            "QLD",
-            "SA",
-            "WA",
-            "TAS",
-            "NT",
-            "ACT"
-          ],
-          "title": null,
-          "axis": {
-            "labelFontSize": 12,
-            "labelPadding": 7,
-            "ticks": false,
-            "domain": false
-          }
-        },
-        "color": {
-          "field": "share_of_state_population",
-          "type": "quantitative",
-          "title": "Share of state population (%)",
-          "scale": {
-            "scheme": "blues",
-            "domain": [
-              8,
-              34
-            ]
-          },
-          "legend": {
-            "orient": "bottom",
-            "direction": "horizontal",
-            "gradientLength": 280,
-            "titleFontSize": 12,
-            "labelFontSize": 11
-          }
-        },
-        "tooltip": [
-          {
-            "field": "state",
-            "type": "nominal",
-            "title": "State / territory"
-          },
-          {
-            "field": "age_group",
-            "type": "ordinal",
-            "title": "Age group"
-          },
-          {
-            "field": "share_of_state_population",
-            "type": "quantitative",
-            "title": "Share",
-            "format": ".1f"
-          },
-          {
-            "field": "count",
-            "type": "quantitative",
-            "title": "Population",
-            "format": ","
-          }
-        ]
+      "name": "profiles",
+      "url": "data/c04_radial_age_profiles.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "count": "number",
+          "share_of_state_population": "number",
+          "cx": "number",
+          "cy": "number",
+          "start_angle": "number",
+          "end_angle": "number",
+          "outer_radius": "number"
+        }
       }
     },
     {
-      "mark": {
-        "type": "text",
-        "fontSize": 12,
-        "fontWeight": 600
-      },
-      "encoding": {
-        "x": {
-          "field": "age_group",
-          "type": "ordinal",
-          "sort": [
-            "0-14",
-            "15-24",
-            "25-44",
-            "45-64",
-            "65+"
-          ]
-        },
-        "y": {
-          "field": "state_abbrev",
-          "type": "nominal",
-          "sort": [
-            "NSW",
-            "VIC",
-            "QLD",
-            "SA",
-            "WA",
-            "TAS",
-            "NT",
-            "ACT"
-          ]
-        },
-        "text": {
-          "field": "share_of_state_population",
-          "type": "quantitative",
-          "format": ".1f"
-        },
-        "color": {
-          "condition": {
-            "test": "datum.share_of_state_population >= 24",
-            "value": "white"
-          },
-          "value": "#263238"
+      "name": "states",
+      "url": "data/c04_radial_state_labels.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "cx": "number",
+          "cy": "number"
+        }
+      }
+    },
+    {
+      "name": "legend",
+      "url": "data/c04_radial_legend.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "x": "number"
         }
       }
     }
   ],
-  "config": {
-    "view": {
-      "stroke": null
+  "marks": [
+    {
+      "type": "arc",
+      "from": {
+        "data": "states"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "field": "cx"
+          },
+          "y": {
+            "field": "cy"
+          },
+          "startAngle": {
+            "value": 0
+          },
+          "endAngle": {
+            "value": 6.283185307179586
+          },
+          "innerRadius": {
+            "value": 34.57142857142857
+          },
+          "outerRadius": {
+            "value": 35.17142857142857
+          },
+          "fill": {
+            "value": "#D8CFC4"
+          },
+          "fillOpacity": {
+            "value": 0.75
+          }
+        }
+      }
     },
-    "axis": {
-      "grid": false,
-      "domainColor": "#d6dbe3",
-      "tickColor": "#d6dbe3"
+    {
+      "type": "arc",
+      "from": {
+        "data": "states"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "field": "cx"
+          },
+          "y": {
+            "field": "cy"
+          },
+          "startAngle": {
+            "value": 0
+          },
+          "endAngle": {
+            "value": 6.283185307179586
+          },
+          "innerRadius": {
+            "value": 51.14285714285714
+          },
+          "outerRadius": {
+            "value": 51.74285714285714
+          },
+          "fill": {
+            "value": "#D8CFC4"
+          },
+          "fillOpacity": {
+            "value": 0.75
+          }
+        }
+      }
     },
-    "legend": {
-      "padding": 8
+    {
+      "type": "arc",
+      "from": {
+        "data": "states"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "field": "cx"
+          },
+          "y": {
+            "field": "cy"
+          },
+          "startAngle": {
+            "value": 0
+          },
+          "endAngle": {
+            "value": 6.283185307179586
+          },
+          "innerRadius": {
+            "value": 67.71428571428571
+          },
+          "outerRadius": {
+            "value": 68.3142857142857
+          },
+          "fill": {
+            "value": "#D8CFC4"
+          },
+          "fillOpacity": {
+            "value": 0.75
+          }
+        }
+      }
+    },
+    {
+      "type": "arc",
+      "from": {
+        "data": "profiles"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "field": "cx"
+          },
+          "y": {
+            "field": "cy"
+          },
+          "startAngle": {
+            "field": "start_angle"
+          },
+          "endAngle": {
+            "field": "end_angle"
+          },
+          "innerRadius": {
+            "value": 18
+          },
+          "outerRadius": {
+            "field": "outer_radius"
+          },
+          "fill": {
+            "field": "color"
+          },
+          "stroke": {
+            "value": "#FBF7F0"
+          },
+          "strokeWidth": {
+            "value": 1.3
+          },
+          "tooltip": {
+            "signal": "{'State / territory': datum.state, 'Age group': datum.age_group, 'Share': format(datum.share_of_state_population, '.1f') + '%', 'Population': format(datum.count, ',')}"
+          }
+        },
+        "hover": {
+          "fillOpacity": {
+            "value": 0.72
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "states"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "field": "cx"
+          },
+          "y": {
+            "signal": "datum.cy - 88"
+          },
+          "text": {
+            "field": "state_abbrev"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "font": {
+            "value": "Source Sans 3"
+          },
+          "fontSize": {
+            "value": 14
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "fill": {
+            "value": "#3E3833"
+          }
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {
+        "data": "legend"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "value": 424
+          },
+          "shape": {
+            "value": "square"
+          },
+          "size": {
+            "value": 95
+          },
+          "fill": {
+            "field": "color"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "legend"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "datum.x + 10"
+          },
+          "y": {
+            "value": 424
+          },
+          "text": {
+            "field": "age_group"
+          },
+          "align": {
+            "value": "left"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "font": {
+            "value": "Source Sans 3"
+          },
+          "fontSize": {
+            "value": 11
+          },
+          "fill": {
+            "value": "#5E564F"
+          }
+        }
+      }
     }
+  ],
+  "background": "#FBF7F0",
+  "config": {
+    "background": "#FBF7F0"
+  },
+  "usermeta": {
+    "图表编号": "C04",
+    "图表类型": "Small-multiple radial profile / polar bars（小倍数径向年龄画像）",
+    "为什么改成这个图": "原C04和C05都是heatmap，形式重复。现在每个州/领地一个相同尺度的radial profile，用“形状”对比年龄结构。",
+    "主要Mark和Channel": "Arc mark；角度位置=age group；radius length=within-state share；Hue=age group；small multiple=state/territory。",
+    "比例控制": "所有8个profile共享0–35%的radius mapping；背景细圆分别代表10%、20%、30%。",
+    "老师可能问": "为什么不是继续用heatmap？",
+    "回答要点": "C05保留heatmap用于qualification×age矩阵；C04用radial small multiples增加advanced idiom variety并突出州年龄profile的形状。"
   }
 }

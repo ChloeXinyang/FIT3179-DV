@@ -82,8 +82,8 @@
               "Female"
             ],
             "range": [
-              "#4477AA",
-              "#CC6677"
+              "#315D82",
+              "#D06B68"
             ]
           },
           "legend": {
@@ -124,6 +124,66 @@
           "datum": 0
         }
       }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "age_group": "30-34",
+            "x": 590000,
+            "label": "Largest age group"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "font": "Source Sans 3",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#6B4B48"
+      },
+      "encoding": {
+        "y": {
+          "field": "age_group",
+          "type": "ordinal",
+          "sort": [
+            "85+",
+            "80-84",
+            "75-79",
+            "70-74",
+            "65-69",
+            "60-64",
+            "55-59",
+            "50-54",
+            "45-49",
+            "40-44",
+            "35-39",
+            "30-34",
+            "25-29",
+            "20-24",
+            "15-19",
+            "10-14",
+            "5-9",
+            "0-4"
+          ]
+        },
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -1000000,
+              1000000
+            ]
+          }
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
     }
   ],
   "config": {
@@ -133,7 +193,25 @@
     "axis": {
       "gridColor": "#eeeeee",
       "domain": false,
-      "tickColor": "#cccccc"
+      "tickColor": "#cccccc",
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
+    },
+    "background": "#FBF7F0",
+    "font": "Source Sans 3",
+    "legend": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3"
     }
+  },
+  "background": "#FBF7F0",
+  "usermeta": {
+    "图表编号": "C03",
+    "图表类型": "Population Pyramid（人口金字塔）",
+    "为什么用这个图": "同时比较年龄结构和男女差异。左右镜像让两个性别在同一年龄组上直接比较。",
+    "主要Mark和Channel": "Line/bar mark；长度=人口数量；位置=年龄组；Hue=sex。",
+    "注意": "Male的负数只是布局用，tooltip仍显示正的人口数量。",
+    "老师可能问": "为什么male要设为负值？",
+    "回答要点": "只为了把male画到左侧形成镜像，不代表人口为负。"
   }
 }
