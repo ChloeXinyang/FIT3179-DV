@@ -201,15 +201,6 @@
       "titleFont": "Source Sans 3"
     }
   },
-  "usermeta": {
-    "图表编号": "C08",
-    "图表类型": "Scatterplot with Regression（散点图+趋势线）",
-    "为什么用这个图": "地图回答where；散点图直接回答education和income是否存在整体关系。",
-    "主要Mark和Channel": "Point mark；x=Bachelor+ share，y=median weekly household income；line=overall regression。",
-    "交互": "State/territory下拉筛选只过滤散点，national trend line保留作为统一参照。",
-    "老师可能问": "为什么取消按州上色？",
-    "回答要点": "按州上色会增加8种颜色和图例，分散对主要变量关系的注意；需要时可用下拉筛选单独看州。"
-  },
   "params": [
     {
       "name": "statePick",

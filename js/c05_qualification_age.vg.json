@@ -265,13 +265,5 @@
     "background": "#FBF7F0",
     "font": "Source Sans 3"
   },
-  "background": "#FBF7F0",
-  "usermeta": {
-    "图表编号": "C05",
-    "图表类型": "Heatmap（资格×年龄热力图）",
-    "为什么用这个图": "同时比较多个年龄组和多个学历类别，颜色让高比例组合快速显现。",
-    "主要Mark和Channel": "Area/rect mark；x=年龄组，y=学历类别，颜色luminance=share。",
-    "老师可能问": "为什么保留Other/not stated？",
-    "回答要点": "在高龄组中该类别比例明显增加，删除会改变年龄组内部构成并隐藏真实数据特征。"
-  }
+  "background": "#FBF7F0"
 }

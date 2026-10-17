@@ -256,13 +256,5 @@
     "background": "#FBF7F0",
     "font": "Source Sans 3"
   },
-  "background": "#FBF7F0",
-  "usermeta": {
-    "图表编号": "C06",
-    "图表类型": "100% Stacked Bar（100%堆叠条形图）",
-    "为什么用这个图": "比较每个年龄组内部的劳动参与结构，而不是比较各年龄组总人数。",
-    "主要Mark和Channel": "Line/bar mark；长度=share；Hue=labour-force status；y位置=age group。",
-    "老师可能问": "Unemployed和Not in labour force有什么区别？",
-    "回答要点": "Unemployed属于labour force且在寻找工作；Not in labour force不属于劳动力人口。"
-  }
+  "background": "#FBF7F0"
 }

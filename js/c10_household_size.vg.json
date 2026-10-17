@@ -252,14 +252,5 @@
   "background": "#FBF7F0",
   "config": {
     "background": "#FBF7F0"
-  },
-  "usermeta": {
-    "图表编号": "C10",
-    "图表类型": "Alluvial / Sankey（桑基/冲积图）",
-    "为什么改成这个图": "原Marimekko右侧5人和6+类别太窄，标签拥挤。Sankey把household size放左侧、household type放右侧，用流带宽度显示household数量，层级更清楚。",
-    "主要Mark和Channel": "Rect node + curved link；source/target position=类别；link thickness=household count；Hue=family/non-family。",
-    "如何读": "从左侧某个household size沿流带看向右侧即可看到其family/non-family去向；流带越宽表示households越多。",
-    "老师可能问": "为什么不再用Marimekko？",
-    "回答要点": "Marimekko同时编码width和height但窄类别标签难读；Sankey仍保留“size→type”关系，而且标签可以放在两侧，视觉层级更清楚。"
   }
 }

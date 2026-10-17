@@ -238,13 +238,5 @@
       "labelFont": "Source Sans 3",
       "titleFont": "Source Sans 3"
     }
-  },
-  "usermeta": {
-    "图表编号": "C11",
-    "图表类型": "Dumbbell Chart（哑铃图）",
-    "为什么用这个图": "每个income band只需要比较family与non-family两个数，连线长度直接突出两者差距。",
-    "主要Mark和Channel": "Point marks=两个household type的share；Line/rule=gap；x position=percentage。",
-    "老师可能问": "为什么比双折线更合适？",
-    "回答要点": "income bands是离散区间，重点是每个区间内两个群体的差异，而不是连续趋势。"
   }
 }
