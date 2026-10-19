@@ -245,3 +245,37 @@ a:hover{color:#2f473f}
   color:#4f463e;
   font-weight:700;
 }
+
+.hero{padding:26px 30px 22px;margin-bottom:12px;border-radius:15px}
+.hero h1{font-size:40px;line-height:1.13;max-width:860px;letter-spacing:-.018em;margin:0 0 7px}
+.hero .subtitle{font-size:18px;margin-bottom:10px;line-height:1.36}
+.hero .intro{font-size:14px;line-height:1.58;max-width:890px}
+.kicker{font-size:10.5px;letter-spacing:.11em;margin-bottom:7px}
+.glossary{margin:0 4px 14px;gap:10px}
+.glossary div{padding:8px 12px;font-size:12px;grid-template-columns:85px 1fr}
+.section{padding:10px 0 3px}
+.section-head{padding:13px 8px 15px;grid-template-columns:120px minmax(0,1fr);gap:17px}
+.section h2{font-size:27px;line-height:1.18;margin-bottom:6px}
+.section-lead{font-size:14px;line-height:1.50;max-width:780px}
+.chart-block{padding:18px 23px 19px;margin-bottom:16px;border-radius:14px}
+.chart-head{margin-bottom:8px}
+.chart-head h3{font-size:20px;line-height:1.26;letter-spacing:-.005em;margin:0}
+.chart-shell{padding-top:0;max-width:100%}
+.chart-description{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;align-items:start;margin:12px 4px 7px}
+.chart-description .reading-copy p{font-size:14px;line-height:1.55;max-width:47ch;margin:0;color:#625950}
+.chart-description strong{font-weight:700;color:#4d3a31}
+.chart-description .takeaway{margin:0;max-width:47ch;padding:9px 11px;font-size:13px;line-height:1.48;align-self:start}
+.chart-description .takeaway strong{font-size:12px;letter-spacing:0;text-transform:none}
+.chart-note{margin-top:9px;font-size:12px;line-height:1.48}
+.interaction-note{margin-top:8px;font-size:12px}
+.source{font-size:11px;margin-top:11px}
+.map-with-key{display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:10px;align-items:center}
+.map-with-key .chart-shell{min-width:0}
+.key-side{align-self:center;display:flex;flex-direction:column;align-items:center;gap:12px;padding:9px 7px;background:#f1e8dc;border:1px solid #d7cbbd;border-radius:9px}
+.key-side .bivariate-key-wrap{margin:0;gap:8px;flex-direction:column}
+.key-side .key-axis{text-align:center;font-size:12px;line-height:1.35}
+.key-side .bivariate-key{grid-template-columns:repeat(3,35px);grid-template-rows:repeat(3,35px)}
+.key-side .key-cell{width:35px;height:35px}
+.key-side .key-x{text-align:center;font-size:11px;line-height:1.3;max-width:140px;margin:0}
+@media(max-width:1100px){.map-with-key{grid-template-columns:minmax(0,1fr)}.key-side{flex-direction:row;justify-content:center}.key-side .bivariate-key-wrap{flex-direction:row}}
+@media(max-width:800px){.hero h1{font-size:33px}.chart-description{grid-template-columns:1fr}.chart-description .reading-copy p,.chart-description .takeaway{max-width:65ch}.chart-block{padding:14px}.section-head{grid-template-columns:1fr}.chart-shell{justify-content:flex-start}.key-side{flex-direction:column}}

@@ -4,7 +4,7 @@
   "width": 900,
   "height": 500,
   "padding": 4,
-  "background": "#FBF7F0",
+  "background": "#FCF8F2",
   "autosize": {
     "type": "fit",
     "contains": "padding"
@@ -85,11 +85,35 @@
         "65+"
       ],
       "range": [
-        "#F1D8A8",
-        "#E6B17D",
-        "#C98269",
-        "#8A6A82",
-        "#50536B"
+        "#F2DDB9",
+        "#E6BC8C",
+        "#CA8A79",
+        "#9E8698",
+        "#607C89"
+      ]
+    },
+    {
+      "name": "stateColor",
+      "type": "ordinal",
+      "domain": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "WA",
+        "SA",
+        "TAS",
+        "ACT",
+        "NT"
+      ],
+      "range": [
+        "#406C96",
+        "#B25B64",
+        "#4B8B78",
+        "#C48B48",
+        "#9172A1",
+        "#5C8697",
+        "#AD7856",
+        "#747861"
       ]
     }
   ],
@@ -188,6 +212,43 @@
       }
     },
     {
+      "type": "rect",
+      "from": {
+        "data": "states"
+      },
+      "encode": {
+        "enter": {
+          "fill": {
+            "scale": "stateColor",
+            "field": "state_abbrev"
+          },
+          "stroke": {
+            "value": "#FBF7F0"
+          },
+          "strokeWidth": {
+            "value": 1.5
+          },
+          "tooltip": {
+            "signal": "{'State / territory': datum.state, 'Share of main eight (%)': format(datum.share_australia, '.1f') + '%'}"
+          }
+        },
+        "update": {
+          "x": {
+            "field": "x0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "y2": {
+            "signal": "min(datum.y1, datum.y0+23)"
+          }
+        }
+      }
+    },
+    {
       "type": "text",
       "from": {
         "data": "states"
@@ -198,7 +259,7 @@
             "signal": "datum.x0 + 7"
           },
           "y": {
-            "signal": "datum.y0 + 5"
+            "signal": "datum.y0 + 4"
           },
           "baseline": {
             "value": "top"
@@ -213,10 +274,10 @@
             "value": "bold"
           },
           "fontSize": {
-            "value": 13
+            "value": 14
           },
           "fill": {
-            "value": "#2E2B27"
+            "value": "#FFFFFF"
           },
           "text": {
             "signal": "datum.state_abbrev + '  ' + format(datum.share_australia, '.1f') + '%'"

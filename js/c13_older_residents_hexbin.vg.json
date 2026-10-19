@@ -1,0 +1,178 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Hexbin map of 2021 Census residents aged 65+ assigned to equal-area bins using SA2 representative points (approximation).",
+  "width": 790,
+  "height": 520,
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [
+      -18,
+      -36
+    ],
+    "rotate": [
+      -132,
+      0,
+      0
+    ],
+    "center": [
+      0,
+      -27
+    ],
+    "scale": 820
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/state_keys.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "state_code": "string"
+          }
+        }
+      },
+      "transform": [
+        {
+          "lookup": "state_code",
+          "from": {
+            "data": {
+              "url": "data/states_2021_vega.geojson",
+              "format": {
+                "type": "json",
+                "property": "features"
+              }
+            },
+            "key": "id",
+            "fields": [
+              "geometry"
+            ]
+          },
+          "as": [
+            "geo"
+          ]
+        },
+        {
+          "filter": "isValid(datum.geo)"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#EEE9E1",
+        "stroke": "#8B8177",
+        "strokeWidth": 0.65
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/c13_hex_population65.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "hex_id": "string",
+            "older_65": "number",
+            "n_sa2": "number",
+            "population": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "lookup": "hex_id",
+          "from": {
+            "data": {
+              "url": "data/c13_hex_cells.geojson",
+              "format": {
+                "type": "json",
+                "property": "features"
+              }
+            },
+            "key": "id",
+            "fields": [
+              "geometry"
+            ]
+          },
+          "as": [
+            "geo"
+          ]
+        },
+        {
+          "filter": "isValid(datum.geo)"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#FAF7F1",
+        "strokeWidth": 0.65
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "older_65",
+          "type": "quantitative",
+          "title": "Residents aged 65+",
+          "scale": {
+            "type": "threshold",
+            "domain": [
+              1000,
+              5000,
+              15000,
+              40000,
+              100000
+            ],
+            "range": [
+              "#F5E0BB",
+              "#EFC185",
+              "#D99C5C",
+              "#B87541",
+              "#865038",
+              "#59372E"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "format": ",.0f",
+            "labelFontSize": 12,
+            "titleFontSize": 12
+          }
+        },
+        "tooltip": [
+          {
+            "field": "older_65",
+            "type": "quantitative",
+            "title": "Residents 65+ (approx.)",
+            "format": ","
+          },
+          {
+            "field": "n_sa2",
+            "type": "quantitative",
+            "title": "SA2 areas grouped",
+            "format": ","
+          },
+          {
+            "field": "population",
+            "type": "quantitative",
+            "title": "All residents assigned",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "#FCF8F2",
+    "font": "Source Sans 3",
+    "view": {
+      "stroke": null
+    }
+  }
+}

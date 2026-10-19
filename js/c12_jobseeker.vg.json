@@ -59,7 +59,7 @@
         "type": "geoshape",
         "fill": "#EEE9E1",
         "stroke": "#edf0f2",
-        "strokeWidth": 0.9
+        "strokeWidth": 0.03
       },
       "encoding": {
         "shape": {
