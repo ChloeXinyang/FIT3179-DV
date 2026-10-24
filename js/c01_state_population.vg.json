@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "Hierarchical treemap: state/territory population subdivided by broad age group, 2021 Census.",
+  "description": "Hierarchical treemap: each state/territory uses one colour, with population subdivided by broad age group, 2021 Census.",
   "width": 900,
   "height": 500,
   "padding": 4,
@@ -75,24 +75,6 @@
   ],
   "scales": [
     {
-      "name": "ageColor",
-      "type": "ordinal",
-      "domain": [
-        "0-14",
-        "15-24",
-        "25-44",
-        "45-64",
-        "65+"
-      ],
-      "range": [
-        "#F2DDB9",
-        "#E6BC8C",
-        "#CA8A79",
-        "#9E8698",
-        "#607C89"
-      ]
-    },
-    {
       "name": "stateColor",
       "type": "ordinal",
       "domain": [
@@ -117,21 +99,7 @@
       ]
     }
   ],
-  "legends": [
-    {
-      "fill": "ageColor",
-      "title": "Age group",
-      "orient": "bottom",
-      "direction": "horizontal",
-      "columns": 5,
-      "symbolType": "square",
-      "symbolSize": 130,
-      "labelFont": "Source Sans 3",
-      "labelFontSize": 11,
-      "titleFont": "Source Sans 3",
-      "titleFontSize": 12
-    }
-  ],
+  "legends": [],
   "marks": [
     {
       "type": "rect",
@@ -141,8 +109,8 @@
       "encode": {
         "enter": {
           "fill": {
-            "scale": "ageColor",
-            "field": "age_group"
+            "scale": "stateColor",
+            "field": "state_abbrev"
           },
           "stroke": {
             "value": "#FBF7F0"
@@ -168,12 +136,12 @@
             "field": "y1"
           },
           "fillOpacity": {
-            "value": 0.95
+            "value": 0.82
           }
         },
         "hover": {
           "fillOpacity": {
-            "value": 1
+            "value": 0.92
           }
         }
       }
@@ -319,7 +287,7 @@
             "value": "bold"
           },
           "fill": {
-            "signal": "datum.age_group === '45-64' || datum.age_group === '65+' ? '#ffffff' : '#302d29'"
+            "value": "#2E2A27"
           },
           "text": {
             "field": "age_group"
